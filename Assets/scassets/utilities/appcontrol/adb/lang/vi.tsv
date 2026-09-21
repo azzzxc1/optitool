@@ -1,0 +1,633 @@
+VERSION=1.8.0
+# Special marks:
+# @Do_Not_Translate_This=Translate only this
+# \n - new line symbol
+# {0} - the variable insert (Now is {0} year => Now is 2020 year)
+# * - developer will marks new or edited string (use CTRL + F for search )
+# {AT} - is @ symbol for email (user{AT}mail.com => user@mail.com)
+# Please try to keep the line length and formatting close to the original!
+# Put your Name and Email to the Translator_Name= and Translator_Email=
+
+@# BEGIN TRANSLATION:
+
+@Language=vi
+@Translation_Version=1.0
+@MyLanguage=Vietnam
+@Translator_Name=letinhclover@gmail.com
+@Translator_Email=letinhclover@gmail.com
+
+
+@Translation_Author=letinhclover@gmail.com
+
+@Txt_Official_Site=program website 
+
+@Txt_Form_Permissions_Search=Tìm kiếm...
+
+@Txt_Form_Permissions_Help=Bạn có thể cấp (chọn) hoặc thu hồi (bỏ chọn) quyền cho ứng dụng.\n
+Quan trọng! Bạn chỉ có thể thu hồi các quyền mà bạn đã cấp theo cách thủ công.
+
+@Txt_Form_AutoPermissions_Help=Danh sách thả xuốg chứa các ứng dụnng đã cài đặt để tiết lộ chức năng yêu cầu các quyền đặc biệt. Chọn một ứng dụng và nhấp vào Đặt quyền.
+
+@ToolTip_Refresh=Làm mới
+@ToolTip_Console_Dark_Mode=Chế độ tối
+@ToolTip_Wide_Console=Mở rộng
+@ToolTip_Press_Enter=Thực thi lệnh
+@ToolTip_Clear_Command_Line=Xóa dòng lệnh
+@ToolTip_Fast_Cmd_Add=Thêm lệnh vào yêu thích
+@ToolTip_Fast_Cmd_Remove=Xóa lệnh khỏi mục yêu thích
+@ToolTip_Cbx_Names_Auto_Update=Cho phép tự động cập nhật các biểu tượng và tên ứng dụng khi thiết bị được kết nối
+
+@About_Program=ADB AppControl
+@About_Author_0=developer:
+@About_LinkTopic=Hướng dẫn sử dụng và hướng dẫn
+@About_Version=phiên bản
+@About_GoodDay=Chúc một ngày tốt lành :)
+
+@Status_Disconnected=Ngắt kết nối
+@Status_Connected=Kết nối
+@Status_Waiting=Đợi tý
+@Status_Error=Lỗi
+@Status_Device_Dont_Respond=(Không phản hồi)
+
+@Device_NeedAuth=Cho phép gỡ lỗi trên thiết bị.
+
+@Menu_Top_Descr_Check_Version=Kiểm tra cập nhật
+@Menu_Top_Descr_Open_Folder=Mở thư mục chương trình
+@Menu_Top_Descr_Help=Trợ giúp
+@Menu_Top_Descr_Donate=Hỗ trợ dự án!
+@Menu_Top_Descr_Donate_King=Cảm ơn bạn!
+@Menu_Top_Descr_Language=Thay đổi ngôn ngữ
+
+@Lbl_Total_Applications=Tổng cộng:
+@Lbl_Fast_Commands=Lệnh nhanh
+@Lbl_Selected_Apps=Hiển thị đã chọn:
+@Lbl_Info_Drag_And_Drop=Kéo và thả APK hoặc sao chép chúng vào thư mục 'cài đặt'
+@Txt_Form_Permissions=Quyền
+@Lbl_Form_AutoPermissions_Select=Chọn ứng dụng
+
+@Lbl_Settings_Feature_1=Chức năng cơ bản của chương trình
+@Lbl_Settings_Feature_2=Cài đặt chương trình nâng cao
+@Lbl_Settings_Feature_3=Tải nhiều tệp lên thiết bị
+@Lbl_Settings_Feature_4=Kéo và thả apk vào danh sách để cài đặt
+@Lbl_Settings_Feature_5=Cảm ơn từ nhà phát triển
+@Lbl_Settings_Feature_6=Sắp xếp các app trong danh sách
+@Lbl_Settings_Feature_7=Truy cập vào TẤT CẢ các cấp của Trình hướng dẫn gỡ rối
+
+@Action_Choose=Lựa chọn:
+@Action_Disable=Vô hiệu hóa
+@Action_Enable=Cho phép
+@Action_Uninstall=Gỡ cài đặt
+@Action_Save=Lưu lại
+
+@Btn_Install=Cài đặt
+@Btn_Apply=Áp dụng
+@Btn_Restore=Khôi phục
+@Btn_No=No
+@Btn_Yes=Yes
+@Btn_Cancel=Hủy
+@Btn_Enable_Debug=Bật gỡ lỗi mạng
+@Btn_Connect=Kết nối
+@Btn_Disconnect=Ngắt kết nối
+@Btn_Update_Names=Cập nhật dữ liệu ứng dụng
+@Btn_Get_Names=Nhận dữ liệu ứng dụng
+@Btn_Preset_Load=Tải cài đặt trước
+@Btn_Preset_Save=Lưu cài đặt trước
+@Btn_LogCat_Start=Bắt đầu\nxem nhật ký
+@Btn_LogCat_Stop=Dừng\nNhật ký
+@Btn_Copy_Log=Copy\nNhật ký điều khiển
+@Btn_Console_Clear=Xóa\nbàn điều khiển
+@Btn_Take_Screenshot=Chụp\nMàn hình
+@Btn_Reboot=Khởi động lại
+@Btn_Upload=Upload file
+@Btn_Set_Permissions=Đặt quyền
+@Btn_Auto_Permissions=tự động\ncấp quyền
+
+@Loading_Loading=Đang tải
+@Loading_Connecting=Đang kết nối
+@Loading_Enable=Cho phép
+@Loading_Disable=Vô hiệu hóa
+@Loading_Saving=Đã lưu
+@Loading_Uninstall=Gỡ cài đặt
+@Loading_Install=Đang cài đặt
+@Loading_Refreshing=Đang tải
+@Loading_Exit=Kết thúc
+@Loading_Build=Đang tải
+@Loading_Rebooting=Khởi động lại
+
+@Loading_Restoring=Phục hồi
+@Loading_Build_Step_0=Cài đặt ACBridge
+@Loading_Build_Step_1=Đang kết nối
+@Loading_Build_Step_2=Bridge launch
+@Loading_Build_Step_3=Tải dữ liệu
+@Loading_Build_Step_4=Ghi dữ liệu
+@Loading_Build_Step_Icons=Tải xuống các icon
+@Loading_Build_Update_Bridge=Cập nhật ACBridge
+
+@Tab_Page_Apps= Các ứng dụng
+@Tab_Page_Console=Bảng điều khiển
+@Tab_Page_About=Thông tin
+
+@Radio_All=Tất cả
+@Radio_System=Hệ thống
+@Radio_User=Người dùng
+@Radio_Disabled=Vô hiệu hóa
+@Radio_Install=Cài đặt
+@Radio_Deleted=gỡ bỏ
+
+@Preset_Title=Lưu cài đặt trước
+@Preset_FileName=Tên đặt trước
+@Preset_Comment=Mô tả đặt trước
+@Preset_Apps=các ứng dụng
+@Preset_Header_1=# Cài đặt trước tạo trong ADB AppControl
+@Preset_Header_2=# Tổng các ứng dụng:
+
+@Cbx_Full_Names=Hiển thị tên ứng dụng đầy đủ
+@Cbx_Show_Icons=Hiển thị các biểu tượng ứng dụng
+@Cbx_Select_All=Chọn tất cả
+@Cbx_Keep_Data=Xóa dữ liệu và bộ nhớ cache
+@Cbx_Names_Auto_Update=Tự động cập nhật dữ liệu
+
+@Menu_Context_Copy_Package=Sao chép tên gói
+@Menu_Context_Copy_AppName=Sao chép tên ứng dụng
+@Menu_Context_Set_Permissions=Đặt quyền
+@Menu_Context_Delete_Apk=Xóa
+
+@Tips_Rb_All=Hiển thị tất cả các ứng dụng đã cài đặt (trừ vô hiệu hóa)
+@Tips_Rb_System=Chỉ hiển thị các ứng dụng hệ thống
+@Tips_Rb_User=Hiển thị các ứng dụng do người dùng cài đặt và bên thứ ba.
+@Tips_Rb_Disabled=Chỉ hiển thị các ứng dụng bị vô hiệu hóa
+@Tips_Rb_Install=Cài đặt ứng dụng. Đặt các tệp apk vào thư mục cài đặt
+@Tips_Rb_Deleted=Hiển thị các ứng dụng hệ thống đã xóa.
+@Tips_1=
+@Tips_2=
+@Tips_3=
+@Tips_4=
+@Tips_5=
+
+@Cbx_EE_Save_IP_History=Lưu lịch sử kết nối
+@Cbx_EE_Dark_Theme=Chủ đề tối
+@Cbx_EE_Save_Cache=Lưu bộ nhớ cache của icon
+@Btn_EE_Clear_IP_History=Xóa lịch sử
+@Btn_EE_Save_Settings=Lưu cài đặt
+@Lbl_EE_Opacity=Độ mờ
+@Lbl_EE_Icons_Size=Kích cỡ icon
+@Lbl_EE_Font_Size=Cỡ chữ
+@Tab_EE_Super_Settings=Cài đặt
+@Lbl_EE_Only_Extended=Chỉ Phiên bản mở rộng
+@Btn_EE_Become_Extended=Mua?
+
+@Note_Install_ACBridge=Cài đặt ACBridge\n
+Ứng dụng dịch vụ ACBridge sẽ được cài đặt trên thiết bị của bạn.\n
+Nó sẽ cho phép bạn xem các biểu tượng ứng dụng trong danh sách và tên ứng dụng phổ biến thay vì tên gói.\n\n
+Chú ý: Trên một số thiết bị, bạn cần bật tùy chọn Cài đặt qua ADB trong menu Nhà phát triển. Ngoài ra, hãy đảm bảo rằng thiết bị của bạn không ở chế độ ngủ (mở khóa màn hình)!\n\n
+Bạn có đồng ý cài đặt ứng dụng ACBridge trên thiết bị của mình không?
+
+@Note_Version_New_Found=Đã tìm thấy phiên bản mới của chương trình- {0} \n Nhấn Yes để cập nhật.
+
+@Note_Restore_Deleted=Đã xóa\n
+Danh sách này chứa các ứng dụng hệ thống đã xóa. \n\n
+Chọn những cái bạn cần và nhấp vào Khôi phục. Nếu khôi phục thành công, ứng dụng sẽ xuất hiện trong danh sách chính. \n\n
+QUAN TRỌNG! Phiên bản Android 6 trở xuống không hỗ trợ khôi phục.
+
+@Note_Please_Donate=Bạn có thích ADB AppControl không?\n
+Bạn có muốn nhiều tính năng hơn nữa không? Trở thành nhà tài trợ dự án và có quyền truy cập vào Phiên bản mở rộng của chương trình với các chức năng mới thú vị và hữu ích.
+Sự hỗ trợ của bạn là cách tốt nhất để nói "cảm ơn" và truyền cảm hứng cho những ý tưởng mới. Chỉ một tách cà phê có thể làm cho ADB AppControl tốt hơn! \n\n
+Bạn muốn biết thêm
+
+@Note_Changelog=New in {0}\n{1}
+
+@Note_Driver_Install=Sự cố kết nối? \n
+Nếu bạn cố gắng kết nối thiết bị qua usb nhưng không có gì xảy ra, có lẽ bạn cần cài đặt trình điều khiển ADB. \n\n
+Tải xuống và cài đặt trình điều khiển ngay bây giờ?
+
+@#REGION:MSG
+
+@Msg_Preset_Owerwrite=Một tệp như vậy đã tồn tại. Ghi đè?
+@Msg_MoreThanOneDevice_0=Các thiết bị được kết nối:
+@Msg_MoreThanOneDevice_1=Chương trình không nhằm mục đích hoạt động với nhiều thiết bị.
+@Msg_SearchStop_0=Lọc kết quả tìm thấy!
+@Msg_SearchStop_Title=Tìm kiếm
+@Msg_PresetSaved=Giá trị đặt trước đã được lưu vào
+@Msg_PresetSavedTitle=Đã lưu cài đặt trước
+@Msg_PresetLoaded_Title=Đã tải cài đặt trước
+@Msg_PresetLoaded_0=Selected
+@Msg_PresetLoaded_1=ứng dụng từ cài đặt trước
+@Msg_ActionComplete_Disabled=Các ứng dụng bị vô hiệu hóa
+@Msg_ActionComplete_Enabled=Các ứng dụng đã bật
+@Msg_ActionComplete_Saved=Ứng dụng đã lưu
+@Msg_ActionComplete_Uninstalled=Ứng dụng đã xóa
+@Msg_ActionComplete_Installed=Các ứng dụng đã được cài đặt
+@Msg_ActionComplete_Title=Nhiệm vụ hoàn thành
+@Msg_ActionComplete_Restored=Các ứng dụng đã được khôi phục
+
+@Msg_DoYouWantBackup_Title=Sao lưu
+
+@Msg_DoYouWantBackup_0=lưu các tệp apk trước khi gỡ cài đặt (khuyến nghị)?
+
+@Msg_Warning_Title=Chú ý!
+
+@Msg_DisableOrUninstallConfirm=Việc xóa hoặc tắt các ứng dụng HỆ THỐNG có thể dẫn đến việc thiết bị bị lỗi và được đặt lại về cài đặt gốc (có xóa sạch dữ liệu). Bạn có tiếp tục không?
+
+@Msg_Connect_To_IP_Error_Title=Kết nối lỗi
+
+@Msg_Connect_To_IP_Error_10013=Không có quyền truy cập mạng (10013).\n
+Hãy thử những điều sau đây:\n\n
+- Kiểm tra kết nối mạng của PC của bạn.\n
+- Nếu bạn sử dụng tường lửa, hãy cấp quyền cho adb.exe để truy cập mạng.\n
+
+@Msg_Connect_To_IP_Error_10060=Kết nối thất bại (10060).\n
+Hãy thử những điều sau đây:\n\n
+- Kiểm tra xem địa chỉ IP có đúng không.\n
+- Kiểm tra xem thiết bị không ở chế độ ngủ.\n
+- Đảm bảo rằng PC và thiết bị của bạn được kết nối với cùng một mạng LAN.\n
+@Msg_Connect_To_IP_Error_10061=Bật gỡ lỗi mạng (10061).\n
+Hãy thử những điều sau đây:\n\n
+- Kết nối thiết bị của bạn qua USB và bật gỡ lỗi mạng trong AppControl.\n
+- HOẶC trong cài đặt dành cho nhà phát triển thiết bị của bạn, hãy bật tính năng Gỡ lỗi qua mạng (nếu có).\n
+
+@Msg_Connect_To_IP_Error_Not_Respond=Thiết bị không phản hồi trong một thời gian dài và hoạt động bị gián đoạn.\n
+Đảm bảo thiết bị không ở chế độ ngủ (mở khóa màn hình).
+
+@Msg_Debug_Question=Bạn có chắc chắn muốn bật gỡ lỗi trên thiết bị này không?
+
+@Msg_Debug_Enabled=Bây giờ bạn có thể kết nối với thiết bị của mình qua mạng (khởi động lại thiết bị sẻ mất kết nối ).\n\n
+IP: {0}     Port: {1}\n\n
+Để kết nối ngay bây giờ, hãy ngắt kết nối cáp USB và nhấn OK.
+
+
+@Msg_Connect_Invalid_IP=Định dạng địa chỉ IP không hợp lệ..
+@Msg_Action_Choose=Chọn một hành động từ danh sách!
+@Msg_FastCmd_Add_Qestion=Thêm lệnh vào mục yêu thích?
+@Msg_FastCmd_Add_Help=Để thêm lệnh vào mục yêu thích của bạn, hãy viết lệnh đó vào bảng điều khiển và nhấp vào +
+@Msg_FastCmd_Remove_Qestion=Xóa lệnh khỏi danh sách nhanh?
+
+@Msg_Version_Check_Failed=Không thể kết nối với máy chủ cập nhật
+@Msg_Version_Dont_Need=Bạn đang sử dụng phiên bản mới nhất của chương trình!
+
+@Msg_Welcome_to_EE=Xin chúc mừng, bạn hiện có Phiên bản mở rộng của chương trình. Cảm ơn sự hỗ trợ của bạn!
+
+@Msg_Base_Cannot_Create=Không thể tạo cơ sở dữ liệu - ACBridge không thể lấy danh sách các ứng dụng từ thiết bị.\n
+You may need to grant write storage permission for ACBridge on your device.
+
+@Msg_Corrupted_Programm=Chương trình đã bị hỏng hoặc bị sửa đổi và không thể khởi động được.\n
+Thử quét máy tính của bạn bằng phần mềm chống vi-rút và tải xuống lại chương trình từ một nguồn chính thức. Xem thêm trên {0}
+
+@Msg_Program_Already_Running=Ứng dụng đã chạy!\n
+Bạn có thể dừng nó bằng Windows Task Manager:\n
+Nhấn ctrl + shift + esc và dừng quá trình {0}.exe
+
+@Msg_Program_Old_Framework=Chương trình yêu cầu .NET Framework phiên bản 4.6 trở lên để chạy.\n
+Bây giờ bạn đã cài đặt: {0}.\n\n
+Muốn tải xuống và cài đặt phiên bản mới nhất từ Microsoft?
+
+@Msg_ACBridge_Need_Permissions=ACBridge đã được cài đặt, nhưng không thể truyền dữ liệu.\n
+1) Thiết bị của bạn có thể đang ở chế độ ngủ. Mở khóa và thử lại.\n\n
+2) Kiểm tra và cấp các quyền cần thiết cho ứng dụng ACBridge trên thiết bị của bạn:\n\n
+Settings - Applications - ACBridge - Permissions\n
+
+@Msg_ACBridge_Update_Failed=Phiên bản ACBridge đã cài đặt trên thiết bị của bạn đã lỗi thời và không thể tự động cập nhật. Để nâng cấp, hãy gỡ cài đặt com.cybercat.acbridge.apk và thử cài đặt thủ công.
+
+@Msg_ACBridge_Lower_Android_Version=Thiết bị của bạn không hỗ trợ hiển thị các biểu tượng ứng dụng và tên đầy đủ.\n
+Yêu cầu phiên bản Android 6 trở lên.
+
+@Msg_ACBridge_Cannot_Install=Không cài đặt được ứng dụng ACBridge trên thiết bị của bạn.\n\n
+Hãy thử sao chép tệp com.cybercat.acbridge.apk (từ thư mục ADB) vào thiết bị của bạn và cài đặt nó. Sau đó, trong cài đặt thiết bị, hãy cấp quyền ghi bộ nhớ cho ứng dụng AcBridge và khởi động lại chương trình. \n\n
+Bạn muốn mở hướng dẫn sử dụng?
+
+@Msg_ACBridge_Remove_And_Install=Ứng dụng ACBridge được cài đặt trên thiết bị của bạn cần được cập nhật. Để tiếp tục, chương trình cần cài đặt lại ứng dụng.\n\n Bạn làm ngay bây giờ?
+
+@Msg_ACBridge_Device_Sleep=Thiết bị không phản hồi trong một thời gian dài và có thể ở chế độ ngủ.\n\n
+Mở khóa màn hình thiết bị của bạn và nhấp vào OK.
+
+@Msg_ACBridge_Download_Failed=Ứng dụng ACBridge được cài đặt trên thiết bị của bạn cần được cập nhật. Để tiếp tục, chương trình cần cài đặt lại ứng dụng. \n\nBạn làm ngay bây giờ?
+
+@Msg_Cbx_Save_Cache=Việc lưu bộ nhớ cache của các biểu tượng có thể làm tăng hiệu suất của chương trình, nhưng các biểu tượng có thể có kiểu khác và không khớp với những gì được hiển thị trên thiết bị của bạn. \n Bạn nên tắt tùy chọn này.
+
+@Msg_ACBridge_Adb_Not_Working_Correctly=ADB không hoạt động chính xác trên thiết bị của bạn và một số chức năng của chương trình sẽ không khả dụng. Thử kết nối lại thiết bị của bạn.
+
+@Msg_EE_No_Internet=Cần có truy cập Internet để kích hoạt.
+
+@Msg_EE_Restart_Program=Khởi động lại chương trình để các thay đổi có hiệu lực
+
+@Msg_Console_Reboot=Khởi động lại thiết bị ở chế độ {0}?
+
+@Msg_Clear_Ip_History=Xóa tất cả địa chỉ IP khỏi lịch sử?
+
+@Msg_Files_Upload={0} tệp đã được tải lên thư mục thiết bị 'tải xuống'.
+
+@Msg_Files_Not_Upload=Không phải tất cả các tệp ({0}) đều đã được tải lên thiết bị.\n
+Để biết chi tiết, hãy xem nhật ký Bảng điều khiển.
+
+@Msg_Do_You_Want_Install_Apk=Cài đặt {0} trên thiết bị của bạn?
+@Msg_Apk_Installed=Ứng dụng đã được cài đặt thành công!
+@Msg_Apk_Install_Error=Lỗi. Không cài đặt được ứng dụng.
+
+@Msg_Extended_Function_Only=Chức năng này chỉ khả dụng trong Phiên bản mở rộng của chương trình. \n\ nBạn muốn biết thêm?
+
+@Msg_Under_Construction=Các tính năng mới đang được phát triển và sẽ sớm ra mắt.\n\n
+Bạn có muốn hỗ trợ và tăng tốc độ phát triển của dự án?
+
+@Msg_You_Win=Bạn thật may mắn!\n
+Cơ hội nhìn thấy bức ảnh này là dưới 10% và ở vị trí của nó, nó có thể là một quảng cáo khó chịu (ví dụ: thuốc chữa nấm). \n\n
+Nhưng thay vì quảng cáo thay cho bức tranh này, các tính năng thú vị mới sẽ sớm ra mắt. \n
+Bạn có thích điều đó không?
+
+@Msg_Upload_Files_To_Device=Tải tệp {0} lên thiết bị của bạn?
+
+@Msg_License_Agreement=Điều khoản sử dụng và thỏa thuận cấp phép:\n\n
+ADB AppControl (phần mềm này) được cung cấp «nguyên trạng» mà không có bất kỳ đảm bảo nào dưới bất kỳ hình thức nào. Trong mọi trường hợp, tác giả của phần mềm này sẽ không chịu trách nhiệm pháp lý về bất kỳ thiệt hại nào do sử dụng phần mềm này.\n\n
+Phần mềm này miễn phí cho mục đích sử dụng cá nhân và giáo dục. Bất kỳ mục đích sử dụng thương mại nào đều cần có sự cho phép cá nhân của tác giả và giấy phép thương mại.\n\n
+ADB AppControl không được dịch ngược, tháo rời, thiết kế ngược hoặc sửa đổi theo cách khác.\n\n
+Tất cả các quyền đối với phần mềm này chỉ thuộc về tác giả của nó.\n\n
+Việc bạn tiếp tục sử dụng phần mềm này có nghĩa là bạn chấp nhận các điều khoản của giấy phép này và bạn đồng ý với việc thu thập và xử lý số liệu thống kê ẩn danh về việc sử dụng phần mềm này.\n\n
+Toàn văn của Thỏa thuận có sẵn tại đây:\n
+https://appcontrol.neocities.org/pages/terms_of_use.html
+
+@Msg_License_Agreement_Additional=CHÚ Ý!\n
+Vui lòng chỉ tải xuống chương trình từ trang web chính thức adbappcontrol.com.\n Tệp từ các nguồn khác có thể bị nhiễm và là mối đe dọa nghiêm trọng đối với bảo mật của thiết bị của bạn.\n\n
+
+@Msg_Operation_Timeout=Thao tác mất hơn {0} giây.\n
+Một số lệnh có thể mất nhiều thời gian để hoàn thành.\n\n
+Chờ cho hoạt động hiện tại hoàn thành? Bấm NO để dừng.
+
+@Msg_Permission_Granted_Success=Tất cả các quyền đã được thiết lập thành công.
+@Msg_Permission_Granted_Failed=Lỗi! Cấp hoặc thu hồi quyền này không thành công:
+
+@#REGION:BẮT ĐẦU NHANH
+
+@Quick_Start_Header=Bắt đầu nhanh
+@Quick_Start_Step=Bước
+@Quick_Start_Additional=Thêm vào:
+@Quick_Start_Language=Chọn ngôn ngữ của bạn
+@Quick_Start_Help=Đọc hướng dẫn sử dụng
+
+*@Quick_Start_Step_1=Bật gỡ lỗi Usb trên thiết bị của bạn. Nó đơn giản!\n\n
+Settings - About Device - Software - Click (7 times) On the ASSEMBLY NUMBER until you become a Developer!\n\n
+Settings - For Developers - USB Debugging - Enable - Done!
+
+*@Quick_Start_Step_2=Kết nối thiết bị của bạn với máy tính bằng cáp USB (không cần kết nối TV qua usb!.\n\n
+ADB AppControl sẽ phát hiện thiết bị của bạn và bạn sẽ thấy trạng thái CHỜ.\n\n
+Cho phép gỡ lỗi trên màn hình thiết bị của bạn. Đừng quên kiểm tra tùy chọn "Luôn cho phép".
+
+*@Quick_Start_Step_3=Nếu bạn được kết nối qua usb, hãy nhấp vào nút "Bật gỡ lỗi mạng" trong ADB AppControl (trên cùng bên phải)\n\n
+Tìm hiểu IP của thiết bị của bạn: Cài đặt - Giới thiệu về thiết bị - Trạng thái - Địa chỉ IP\n\n
+Ngắt kết nối cáp usb và nhắc IP trong trường chương trình (trên cùng bên phải). Bấm kết nối.
+
+
+@Quick_Start_Btn_GotIt=Tôi hiểu rồi!
+
+@Quick_Start_Cbx_DontShow=Không hiển thị lại hướng dẫn
+
+@Msg_Delete_Apk_Confirm=Xóa các tệp đã chọn khỏi đĩa?
+@Cbx_EE_Silent_Mode=Chế độ im lặng (không có xác nhận)
+@Msg_Halloween_Cat=Halloween đến rồi!\nĐây là một lý do tuyệt vời để hỗ trợ nhà phát triển và nhận được +100 cho nghiệp và bảo vệ khỏi xác sống, phải không? ;-)
+@Msg_New_Year=Giáng sinh vui vẻ và năm mới hạnh phúc!\nCầu mong năm mới mang đến cho bạn bình an, niềm vui và hạnh phúc.\nXin chào, CyberCat.
+
+@Txt_App_Name=Application Name
+@Txt_Package=Package
+@Txt_Size=Size
+@Msg_Auto_Permissions_No_App_Found=Không tìm thấy ứng dụng đã cài đặt nào từ danh sách.
+@Action_Clear_App_Data=Xóa dữ liệu ứng dụng
+@Msg_Clear_App_Data=Tất cả dữ liệu ứng dụng, bao gồm cả cài đặt, sẽ bị xóa. Tiếp tục?
+@Msg_Clear_App_Data_Failed=Không xóa được dữ liệu ứng dụng.
+@Msg_Clear_App_Data_Success=Dữ liệu ứng dụng đã được xóa thành công.
+
+@Msg_Wizard_Denied=Quyền truy cập vào máy chủ đã bị từ chối. Vui lòng liên hệ với nhà phát triển để giải quyết vấn đề.
+@Msg_Wizard_Not_Found=Thiết bị của bạn không được hỗ trợ. Có lẽ hỗ trợ cho nó sẽ được bổ sung trong các bản cập nhật trong tương lai.
+@Msg_Wizard_Loaded=Tìm thấy ứng dụng không mong muốn: {0}
+@Msg_Wizard_Clear=Không tìm thấy ứng dụng không mong muốn nào trên thiết bị của bạn.\n
+Hãy thử thay đổi mức Làm sạch thành mức cao hơn.
+@Txt_Wizard_Title=Debloat Wizard
+@Txt_Wizard_Basic=căn bản
+@Txt_Wizard_Descr_Basic=Tắt các ứng dụng không mong muốn hàng đầu cho thiết bị của bạn.
+@Txt_Wizard_Safe=An toàn
+@Txt_Wizard_Descr_Safe=Được đề xuất cho hầu hết người dùng.
+@Txt_Wizard_Medium=Vừa phải
+@Txt_Wizard_Descr_Medium=Mức độ làm sạch sâu hơn dành cho người dùng nâng cao.
+@Txt_Wizard_Max=Cực đại
+@Txt_Wizard_Descr_Max=Chỉ sử dụng sau khi điều chỉnh danh sách theo cách thủ công.
+@Txt_Wizard_Select_Level=Mức độ làm sạch:
+
+@Txt_Wizard_Welcome=Một tính năng mới và hiệu quả sẽ cho phép bạn loại bỏ hầu hết các ứng dụng không mong muốn. 
+Tùy thuộc vào cấp độ bạn đã chọn, một danh sách các ứng dụng sẽ được tải được khuyến nghị nên tắt trên thiết bị của bạn.
+Xem xét và sửa đổi danh sách cẩn thận trước khi vô hiệu hóa.
+
+@Txt_Extended_Only=Chỉ trong phiên bản mở rộng!
+@Btn_Wizard_Load=APPLY
+@Lbl_Wizard_Descr=Kiểm tra thiết bị của bạn để tìm các ứng dụng và bloatware không mong muốn.
+@Btn_Wizard=Tìm và tắt Bloatware trên thiết bị của bạn
+@Msg_Cannot_Connect_To_Server=Không thể kết nối đến máy chủ.
+@Txt_Want_Know_More=Tìm hiểu thêm
+@Menu_App_Info=Giới thiệu về ứng dụng
+@Menu_Copy_Text=Copy
+@Btn_Auto_Permissions_List=Ứng dụng được hỗ trợ
+@Msg_Version_Outdated=Phiên bản chương trình của bạn đã lỗi thời và không còn được hỗ trợ.
+*@Txt_Wizard_New_Update=Đã cập nhật cơ sở dữ liệu Debloat!
+@Msg_Key_Check_Failed=Kích hoạt không thành.\n
+Vui lòng khởi động lại chương trình và kích hoạt lại nó bằng chìa khóa của bạn trên thiết bị này.
+@Btn_Close=Đóng
+@Btn_Dont_Show_Again=Không hiển thị lại thông báo này
+@Msg_Function_Under_Dev=Tính năng này đang được phát triển và sẽ có trong các bản cập nhật tiếp theo.
+@Msg_Version_Need_Update=Phiên bản mới nhất của chương trình là bắt buộc. Vui lòng cài đặt bản cập nhật.
+@Txt_Act_Limit=Đã vượt quá giới hạn kích hoạt hàng ngày cho khóa này. Vui lòng thử lại sau.
+@Txt_Act_Banned=Khóa này đã bị chặn. Vui lòng liên hệ với nhà phát triển.
+@Msg_Wizard_Recieve_Date_Error=Lỗi!\Không thể nhận dữ liệu. Vui lòng thử lại sau.
+@Msg_Wizard_Privacy=Thông tin về quyền riêng tư.\n\n
+Mỗi khi bạn sử dụng chức năng Debloat Wizard (trừ cấp độ Cơ bản), danh sách các ứng dụng đã cài đặt từ thiết bị Android sẽ được gửi đến máy chủ từ xa để xử lý. Dữ liệu này KHÔNG được lưu trữ và KHÔNG được ghi nhật ký và KHÔNG thể xác định được tính cách của bạn.\n\n
+Bạn có đồng ý và muốn tiếp tục không?
+@Menu_Copy=Copy
+@Menu_Cut=Cut
+@Menu_Paste=Paste
+@Msg_Uninstall_Clear_Data=Xóa dữ liệu ứng dụng và bộ nhớ cache trong khi gỡ cài đặt?
+
+@### NEW IN 1.6.0 ###
+
+@EE_Cbx_Use_System_Adb=Sử dụng adb hệ thống (từ %PATH%)
+@EE_Cbx_Kill_Adb_When_Exit=Dừng adb khi thoát
+@Msg_Driver_Install_Complete=Trình điều khiển đã được cài đặt thành công trên máy tính của bạn.
+@Msg_Driver_Install_Failed=Không thể cài đặt trình điều khiển hoặc một trình điều khiển khác đã được cài đặt trên hệ thống.\n\n
+Bạn có muốn mở Hướng dẫn sử dụng với các giải pháp khả thi không?
+@Msg_Error_Write_Disk=Lỗi. Chương trình không thể ghi quyền truy cập vào đĩa và sẽ bị đóng.
+Để tiếp tục, hãy di chuyển thư mục chương trình đến một vị trí khác (ví dụ: sang ổ đĩa D).
+@Menu_Top_Descr_Tm=Kênh Telegram của chúng tôi
+@Cbx_LogCat_Save_Log=Lưu nhật ký vào tệp
+@Btn_EE_Default=Mặc định
+@Msg_Ee_Default=Bạn có muốn đặt lại tất cả cài đặt về trạng thái mặc định của chúng không?
+@Lbl_EE_You_Are_Extended=Bạn có phiên bản mở rộng
+@Lbl_EE_Activate=Sao chép khóa của bạn ở đây và nhấp vào OK
+@Btn_EE_Activate=Kích hoạt
+
+@Cbx_EE_Adb_Key_Protection=Bảo vệ khóa ADB
+@Lbl_AdbKey_LogIn=Mở khóa các khóa ADB bằng mật khẩu của bạn
+@Btn_AdbKey_LogIn_Unlock=Mở khóa
+@Btn_AdbKey_LogIn_Skip=Bỏ qua
+@Msg_AdbKey_Protect_Incorrect_Password=Mật khẩu không đúng.
+
+@Lbl_AdbKey_Protect=Bảo vệ khóa ADB của bạn bằng mật khẩu để kích hoạt gỡ lỗi cho thiết bị của bạn một cách an toàn.
+Bạn sẽ cần nhập mật khẩu này mỗi khi khởi động chương trình.
+@Btn_AdbKey_Protect=Bảo vệ
+@Btn_AdbKey_Protect_Load_Key=Tôi đã có một chìa khóa
+@Lbl_AdbKey_Protect_NewPassword=Mật khẩu mới
+@Lbl_AdbKey_Protect_ConfirmPassword=Xác nhận mật khẩu
+
+@Msg_AdbKey_Protect_Reset=Bạn có muốn khôi phục các khóa đã lưu của mình trước khi tắt tính năng bảo vệ không?
+@Msg_AdbKey_Protect_Success=Bảo vệ khóa ADB được bật.
+@Msg_AdbKey_Protect_Passwords_Not_Equal=Mất khẩu không hợp lệ!
+@Msg_AdbKey_Protect_Disable=Sau khi khóa, một khóa ngẫu nhiên không được bảo vệ sẽ được sử dụng cho tất cả các thiết bị.\n
+Khóa bảo mật của bạn sẽ được lưu và bạn có thể sử dụng lại sau khi nhập mật khẩu của mình.\n\n
+Bạn có chắc chắn muốn chặn các khóa ADB không?
+@Tips_Protect_Unprotected=Bạn đang sử dụng một khóa không an toàn ngẫu nhiên. Bấm để mở khóa.
+@Tips_Protect_Protected=Bạn đang sử dụng khóa an toàn. Bấm để chặn.\n
+Sau khi khóa, ADB sẽ sử dụng khóa được tạo ngẫu nhiên để làm việc với các thiết bị.
+@Msg_AdbKey_Protect_Key_Not_Found=Không tìm thấy tệp khóa ADB!
+@Txt_AdbKey_Protect_Description=
+Các tệp khóa adb chính được sử dụng để gỡ lỗi có thể được chuyển sang một máy tính khác hoặc bị đánh cắp.\n
+Nếu để thuận tiện, bạn sử dụng tùy chọn <Luôn cho phép> khi gỡ lỗi, thì với một phím như vậy, kẻ tấn công\n
+có thể truy cập không giới hạn vào thiết bị Android của bạn ngay cả khi nó được bảo vệ bằng mật khẩu hoặc sinh trắc học.\n
+Khả năng chuyển phím cũng có thể hữu ích - ví dụ: để kết nối với thiết bị có màn hình bị hỏng.\n\n
+ADB AppControl giúp bạn mã hóa khóa ADB một cách an toàn và bảo vệ dữ liệu của bạn.
+
+@Btn_Ee_Deactivation=Hủy kích hoạt
+@Msg_Ee_Deactivation=Xóa khóa kích hoạt và hủy kích hoạt chương trình? (chương trình sẽ đóng lại)
+
+@Tips_Ee_Save_Ip=Lưu IP của các thiết bị của bạn vào mục yêu thích để kết nối nhanh chóng
+@Tips_Ee_Dark_Theme=Sẽ thay đổi bảng màu của giao diện và giảm mỏi mắt vào buổi tối
+@Tips_Ee_Show_Icons=Ẩn các biểu tượng sẽ đơn giản hóa giao diện và tăng tốc đáng kể cập nhật dữ liệu của ứng dụng
+@Tips_Ee_Silent_Mode=Tắt các yêu cầu xác nhận gây phiền nhiễu
+@Tips_Ee_System_Adb=Bật cài đặt này nếu bạn đã cài đặt ADB trên hệ thống của mình và muốn sử dụng\n
+nó hoạt động với chương trình.
+@Tips_Ee_Save_Cache=Các biểu tượng ứng dụng từ các thiết bị Android được kết nối sẽ được lưu vào bộ nhớ đệm trên PC.\n
+Chỉ những biểu tượng chưa có trong bộ nhớ cache mới được tải từ thiết bị.\n
+Bật tùy chọn này sẽ tăng tốc độ cập nhật dữ liệu ứng dụng.
+
+@Tips_Apps_Update_Data=Cập nhật tên và biểu tượng ứng dụng
+@Tips_Apps_Load_Preset=Tải một cài đặt trước đã lưu trước đó và kiểm tra tất cả các ứng dụng từ nó
+@Tips_Apps_Save_Preset=Lưu danh sách các ứng dụng đã chọn vào tệp văn bản
+@Tips_Apps_Auto_Permissions=Nhanh chóng cấp tất cả các quyền cần thiết cho các ứng dụng phổ biến
+@Tips_Apps_Install_Apk=Cài đặt nhanh file apk từ máy tính sang thiết bị
+@Tips_Apps_Upload_File=Chọn các tệp trên đĩa để tải chúng vào thư mục Tải xuống của thiết bị của bạn
+@Tips_Console_Screenshot=Chụp ảnh màn hình thiết bị android và tải về máy tính của bạn
+@Lbl_Continue=Kết nối thiết bị Android của bạn
+
+@Tips_Apps_History=Danh sách các thiết bị mà bạn đã kết nối qua mạng
+@Msg_Device_Disconnected_Aborted=Thiết bị không phản hồi. Hoạt động đã bị hủy bỏ.
+@Txt_Act_Incorrect_Key=Khóa kích hoạt không chính xác!
+
+@Captcha_Head=xác minh
+@Captcha_Title=Xin chào, đó chỉ là một hình ảnh xác thực nhỏ :)
+@Captcha_Description=Nhập văn bản từ hình ảnh:
+@Captcha_Btn_Enter=Kiểm tra nó!
+@Captcha_Msg_Validation_Failed=Bạn đã nhập sai văn bản, hãy thử lại.\nLưu ý! Số lần thử có giới hạn.
+@Captcha_Msg_Validation_Banned=Bạn không xác minh được và địa chỉ IP của bạn tạm thời bị chặn trên máy chủ. Hãy thử xác minh sau.
+@Captcha_Btn_Refresh=Làm mới hình ảnh nếu bạn không thể đọc văn bản.
+@Captcha_Title_Extended=Người dùng Phiên bản mở rộng không cần xác minh.
+@Msg_Emergency_Stop=Chú ý! Không nên làm gián đoạn công việc của chương trình mà không cần nhiều.\n\n
+Bạn có chắc chắn muốn làm gián đoạn công việc của chương trình không?
+
+@Tips_Ee_Accurate_Sizes=Cho phép để có được kích thước ứng dụng chính xác thông qua acbridge khi cập nhật dữ liệu.\n
+Tăng một chút thời gian cập nhật. Yêu cầu Android 8.0 trở lên.
+@Cbx_Ee_Accurate_Sizes=Kích thước ứng dụng chính xác
+@Btn_Connection_Port_Auto=Port:
+
+@Msg_Accurate_Sizes_Need_Permission=Tùy chọn kích thước ứng dụng chính xác được bật.\n
+Bạn cần cấp quyền <PACKAGE_USAGE_STATS> cho ACBdridge để hiển thị kích thước ứng dụng chính xác. Cấp quyền hoặc tắt tùy chọn kích thước ứng dụng chính xác trong cài đặt để ẩn thông báo này.\n
+Đọc thêm Hướng dẫn sử dụng.
+
+@ ### NEW IN VERSION 1.6.4
+@Msg_Default_Browser_Not_Found=Lỗi. Không tìm thấy trình duyệt mặc định.
+@Menu_Search_In=Search In...
+@Menu_App_Advanced=Nâng cao...
+@Menu_App_Start=Launch
+@Menu_App_Stop=Stop
+@Menu_App_Report=Báo cáo về ứng dụng
+
+@Frm_Report_Check_Type=Chọn loại ứng dụng:
+@Frm_Report_Bloatware=Ứng dụng Bloatware
+@Frm_Report_Bloatware_Desk=Ứng dụng này không mong muốn và nên bị vô hiệu hóa
+@Frm_Report_Critical=Ứng dụng hệ thống quan trọng
+@Frm_Report_Critical_Desk=Việc tắt ứng dụng này sẽ khiến thiết bị hoạt động sai
+@Frm_Report_Button=Send
+
+@Frm_Report_Comment=Nhận xét (optionaly)
+@Frm_Report_Msg_Thanks=Một thông báo đã được gửi đến nhà phát triển. Cảm ơn bạn đã phản hồi!
+@Frm_Report_Desk=Cho nhà phát triển biết về một ứng dụng không mong muốn hoặc có vấn đề. Điều này sẽ giúp làm cho ADB AppContol tốt hơn nữa.
+@Frm_Report_Already_Sent=Bạn đã báo cáo về ứng dụng này.
+
+@Msg_Install_Multiple=Nhiều cài đặt\n
+Nhiều cài đặt cho phép bạn cài đặt nhiều ứng dụng trên thiết bị của mình cùng một lúc. 
+Chỉ cần kéo và thả các tệp .apk hoặc .apks của bạn vào cửa sổ chương trình để làm cho chúng xuất hiện trong danh sách này.\n\n
+Các tệp sẽ được sao chép vào thư mục "Cài đặt" và sẽ có sẵn để cài đặt trên bất kỳ thiết bị được kết nối nào. Bạn cũng có thể tạo một thư mục riêng trong Cài đặt và đặt một số tệp apk vào đó. Sau đó, thư mục sẽ xuất hiện trong danh sách và tất cả các gói ứng dụng chứa nó sẽ được cài đặt khi bạn cài đặt nó.\n\n
+Các ứng dụng DEMO sẽ bị ẩn khi bạn thêm tệp của mình.
+@Menu_Context_Rename_Apk=Đổi tên
+@Btn_Install_ApkFolder=Cài đặt thư mục
+@Btn_Device_ApkFolder={0} Thư mục
+@Lbl_Select_Folder=Chọn thư mục tệp:
+@Msg_No_Internet_Connection=Yêu cầu kết nối mạng
+
+@Msg_Debug_Recomendation=Bạn nên chọn "Luôn cho phép" khi được nhắc cấp quyền gỡ lỗi.
+Nó sẽ hữu ích nếu bạn gặp sự cố với thiết bị. Chỉ bật tùy chọn này trên các máy tính đáng tin cậy! Đọc thêm về {0}
+@Lbl_Settings_Feature_8=Kéo và thả tệp .apk và cài đặt trước vào cửa sổ chương trình
+@Lbl_Settings_Feature_9=Cài đặt nhiều ứng dụng (Cài đặt hàng loạt)
+*@Btn_Select_And_Install=Cài đặt nhanh
+
+@# UPDATE 1.6.6
+
+@Msg_Scrcpy_Not_Installed=Để điều khiển thiết bị Android từ xa, bạn phải cài đặt ứng dụng SCRCPY. Đây là một ứng dụng mã nguồn mở miễn phí được phát triển bởi Genymobile (https://github.com/Genymobile).\n\n
+Để cài đặt Scrcpy, hãy tải xuống tệp lưu trữ scrcpy-win {0} .zip với chương trình và chọn nó trong hộp thoại chọn tệp. Bạn chỉ cần thực hiện một lần. \n\n
+Nhấp vào CÓ để mở liên kết tải xuống Scrcpy trên Github hoặc KHÔNG để đi đến cài đặt.
+
+@Msg_Scrcpy_Successfully_Installed=Scrcpy đã được cài đặt thành công.\n\n
+Quan trọng! Scrcpy là một phần mềm mã nguồn mở của bên thứ ba được phát triển bởi Genymobile. ADB AppControl và nhà phát triển của nó không liên quan gì đến phần mềm này. Đảm bảo đọc và chấp nhận thỏa thuận cấp phép Scrcpy trước khi sử dụng.
+
+@Msg_Scrcpy_Fail_Installed=Cài đặt Scrcpy thất bại.
+@Msg_Scrcpy_Txt_Installed=Đã cài đặt Scrcpy.
+@Btn_Scrcpy_Start=Kiểm soát màn hình thiết bị của bạn
+@Btn_Tools_Resolution=Độ phân giải màn hình
+@Btn_Tools_StatusBar=icon thanh trạng thái
+@Btn_Tools_Capture_Video=Quay video
+@Txt_Tools_Density=Mật độ điểm ảnh
+@Tab_Tools=công cụ
+@Btn_Tools_StatusBar_Hide=Ẩn
+@Txt_Tools_StatusBar_Desk=Chọn icon thanh trạng thái muốn ẩn
+@Txt_Ram_Total=Tất cả
+@Txt_Ram_Free=Chưa sử dụng
+@Txt_Ram_Used=Đã sử dụng
+
+
+@# UPDATE 1.7.2
+@Msg_Settings_Changed=Bạn có muốn lưu cài đặt không?
+@Btn_Add_Apk=Thêm apk
+@Btn_Remove_Apk=Xóa apk
+@Btn_Back=trở về
+@Txt_Install_Only_Free_Version=Trong phiên bản miễn phí của ADB AppControl, bạn không thể cài đặt nhiều ứng dụng cùng một lúc. Tải phiên bản Mở rộng để loại bỏ hạn chế này và tận hưởng các lợi ích khác.\n\n
+Bạn muốn biết thêm?
+@Txt_License_Key=Hiển thị khóa cấp phép sản phẩm
+@Msg_Bridge_No_Permissions=Chương trình không thể kiểm tra các quyền cho ứng dụng ACBridge và có thể không hoạt động bình thường.\n\n
+Đảm bảo rằng ứng dụng ACBridge (com.cybercat.acbridge) có quyền truy cập vào bộ nhớ trên thiết bị Android của bạn. Bạn có thể tìm hiểu thêm trên trang web chính thức trong phần Tài liệu - Khắc phục sự cố.
+Bạn có muốn tiếp tục không?
+@Msg_Files_Not_Found=Không thể khởi động chương trình vì thiếu các tệp bắt buộc.\n\nPossible solutions:\n
+- Đảm bảo rằng chương trình chống vi-rút của bạn không chặn các tệp chương trình.\n
+- Không chạy chương trình từ một kho lưu trữ chưa giải nén.\n
+- Tải lại chương trình từ trang web chính thức.
+@Txt_Resolution_Warning=Đặt giá trị quá cao hoặc quá thấp có thể gây ra sự cố thiết bị!
+@Txt_Tools_Resolution=Resolution:
+
+@# UPDATE 1.7.4
+*@Txt_Console_Search_Not_Found=không có kết quả nào
+*@Txt_Console_Search_Results_Found=Tìm thấy
+
+@# UPDATE 1.7.5
+*@Radio_Enabled=Đã bật
+*@About_LastUpdate=Cập nhật cuối cùng
+
+@# UPDATE 1.7.6
+@Msg_Scrcpy_Update_Available=Có phiên bản mới {0}\n\nBạn có muốn mở trang tải xuống Scrcpy không?
+@Msg_Scrcpy_Uninstall_Success=Scrcpy đã được gỡ cài đặt!
+@Msg_Scrcpy_Uninstall_Failed=Không gỡ cài đặt được!
+
+@# UPDATE 1.7.8
+@Msg_Restore_Not_Supported=CẢNH BÁO! Thiết bị của bạn không hỗ trợ khôi phục ứng dụng.\n\n
+không thể khôi phục các ứng dụng hệ thống đã gỡ cài đặt cho đến khi khôi phục cài đặt gốc.\n\n
+Bạn có muốn tiếp tục?
+@Btn_Record_Screen_Video=Quay video màn hình
+@Msg_Video_Recorded=Video màn hình được lưu vào tệp:\n{0}.

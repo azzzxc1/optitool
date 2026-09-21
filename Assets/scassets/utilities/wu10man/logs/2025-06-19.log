@@ -1,0 +1,89 @@
+2025-06-19 23:51:23.6840 INFO Application starting
+2025-06-19 23:51:23.9862 ERROR System.IO.FileNotFoundException: No se pudo encontrar el archivo 'D:\OptiTool Versions\Windows\Officials\ES\OptiTool v4.2 ES\OptiTool v4.2\Assets\app.settings.json'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   en System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   en WereDev.Utils.Wu10Man.App.RegisterDependencies()
+   en WereDev.Utils.Wu10Man.App..ctor()
+2025-06-19 23:52:09.6599 INFO Application starting
+2025-06-19 23:52:10.0420 INFO Application version: v4.4.0.0
+2025-06-19 23:52:10.0578 INFO Windows 10 Enterprise LTSC 2024 Version 2009 Build 26100.1
+2025-06-19 23:52:10.0758 INFO .Net Framework: 533320 / 4.8 or later
+2025-06-19 23:52:10.2901 INFO Main window initializing.
+2025-06-19 23:52:11.8601 INFO Main window initialized.
+2025-06-19 23:52:13.3775 INFO Wu10Man initializing.
+2025-06-19 23:52:13.5837 INFO Windows Services rendered.
+2025-06-19 23:52:14.4195 INFO Application started
+2025-06-19 23:52:18.7910 INFO Wu10Man initializing.
+2025-06-19 23:52:18.9659 INFO Pause and Defer rendered.
+2025-06-19 23:52:20.4352 INFO Wu10Man initializing.
+2025-06-19 23:52:23.5678 ERROR System.Management.Automation.CmdletInvocationException: Se produjo una excepción en el inicializador de tipo de '<Module>'.
+   en System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   en System.Management.Automation.PowerShell.Worker.ConstructPipelineAndDoWork(Runspace rs, Boolean performSyncInvoke)
+   en System.Management.Automation.PowerShell.Worker.CreateRunspaceIfNeededAndDoWork(Runspace rsToUse, Boolean isSync)
+   en System.Management.Automation.PowerShell.CoreInvokeHelper[TInput,TOutput](PSDataCollection`1 input, PSDataCollection`1 output, PSInvocationSettings settings)
+   en System.Management.Automation.PowerShell.CoreInvoke[TInput,TOutput](PSDataCollection`1 input, PSDataCollection`1 output, PSInvocationSettings settings)
+   en System.Management.Automation.PowerShell.Invoke(IEnumerable input, PSInvocationSettings settings)
+   en WereDev.Utils.Wu10Man.Providers.PowerShellProvider.ListInstalledPackages()
+   en WereDev.Utils.Wu10Man.UserControls.DeclutterControl.SetRuntimeOptions()
+   en WereDev.Utils.Wu10Man.UserControls.UserControlBase`1.SetRuntimeOptionsWrapper()
+2025-06-19 23:52:23.5805 ERROR System.TypeInitializationException: Se produjo una excepción en el inicializador de tipo de '<Module>'.
+   en System.Runtime.CompilerServices.RuntimeHelpers._CompileMethod(IRuntimeMethodInfo method)
+   en System.Reflection.Emit.DynamicMethod.CreateDelegate(Type delegateType, Object target)
+   en System.Linq.Expressions.Compiler.LambdaCompiler.Compile(LambdaExpression lambda, DebugInfoGenerator debugInfoGenerator)
+   en System.Management.Automation.CommandProcessor.<>c.<ConstructInstance>b__20_0(Type t)
+   en System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   en System.Management.Automation.CommandProcessor.ConstructInstance(Type type)
+   en System.Management.Automation.CommandProcessor.Init(CmdletInfo cmdletInformation)
+2025-06-19 23:52:23.6141 ERROR System.TypeInitializationException: Se produjo una excepción en el inicializador de tipo de 'WinRT.Projections'.
+   en WinRT.Projections.RegisterAbiDelegate(Type[] delegateSignature, Type delegateType)
+   en WinRT.AbiDelegatesInitializer.InitalizeAbiDelegates()
+   en .cctor()
+2025-06-19 23:52:23.6291 ERROR System.IO.FileNotFoundException: No se puede cargar el archivo o ensamblado 'System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' ni una de sus dependencias. El sistema no puede encontrar el archivo especificado.
+   en WinRT.Projections..cctor()
+2025-06-19 23:52:24.9974 INFO Declutter rendered.
+2025-06-19 23:52:28.3713 INFO Wu10Man initializing.
+2025-06-19 23:52:28.5563 INFO Windows Scheduled Tasks rendered.
+2025-06-19 23:52:34.7673 INFO Application ended
+2025-06-19 23:52:37.0552 INFO Application starting
+2025-06-19 23:52:37.4029 INFO Application version: v4.4.0.0
+2025-06-19 23:52:37.4245 INFO Windows 10 Enterprise LTSC 2024 Version 2009 Build 26100.1
+2025-06-19 23:52:37.4245 INFO .Net Framework: 533320 / 4.8 or later
+2025-06-19 23:52:37.6083 INFO Main window initializing.
+2025-06-19 23:52:38.7653 INFO Main window initialized.
+2025-06-19 23:52:39.9585 INFO Wu10Man initializing.
+2025-06-19 23:52:40.1169 INFO Windows Services rendered.
+2025-06-19 23:52:40.7819 INFO Application started
+2025-06-19 23:52:41.8688 INFO Wu10Man initializing.
+2025-06-19 23:52:44.5752 ERROR System.Management.Automation.CmdletInvocationException: Se produjo una excepción en el inicializador de tipo de '<Module>'.
+   en System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   en System.Management.Automation.PowerShell.Worker.ConstructPipelineAndDoWork(Runspace rs, Boolean performSyncInvoke)
+   en System.Management.Automation.PowerShell.Worker.CreateRunspaceIfNeededAndDoWork(Runspace rsToUse, Boolean isSync)
+   en System.Management.Automation.PowerShell.CoreInvokeHelper[TInput,TOutput](PSDataCollection`1 input, PSDataCollection`1 output, PSInvocationSettings settings)
+   en System.Management.Automation.PowerShell.CoreInvoke[TInput,TOutput](PSDataCollection`1 input, PSDataCollection`1 output, PSInvocationSettings settings)
+   en System.Management.Automation.PowerShell.Invoke(IEnumerable input, PSInvocationSettings settings)
+   en WereDev.Utils.Wu10Man.Providers.PowerShellProvider.ListInstalledPackages()
+   en WereDev.Utils.Wu10Man.UserControls.DeclutterControl.SetRuntimeOptions()
+   en WereDev.Utils.Wu10Man.UserControls.UserControlBase`1.SetRuntimeOptionsWrapper()
+2025-06-19 23:52:44.5910 ERROR System.TypeInitializationException: Se produjo una excepción en el inicializador de tipo de '<Module>'.
+   en System.Runtime.CompilerServices.RuntimeHelpers._CompileMethod(IRuntimeMethodInfo method)
+   en System.Reflection.Emit.DynamicMethod.CreateDelegate(Type delegateType, Object target)
+   en System.Linq.Expressions.Compiler.LambdaCompiler.Compile(LambdaExpression lambda, DebugInfoGenerator debugInfoGenerator)
+   en System.Management.Automation.CommandProcessor.<>c.<ConstructInstance>b__20_0(Type t)
+   en System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   en System.Management.Automation.CommandProcessor.ConstructInstance(Type type)
+   en System.Management.Automation.CommandProcessor.Init(CmdletInfo cmdletInformation)
+2025-06-19 23:52:44.6187 ERROR System.TypeInitializationException: Se produjo una excepción en el inicializador de tipo de 'WinRT.Projections'.
+   en WinRT.Projections.RegisterAbiDelegate(Type[] delegateSignature, Type delegateType)
+   en WinRT.AbiDelegatesInitializer.InitalizeAbiDelegates()
+   en .cctor()
+2025-06-19 23:52:44.6343 ERROR System.IO.FileNotFoundException: No se puede cargar el archivo o ensamblado 'System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' ni una de sus dependencias. El sistema no puede encontrar el archivo especificado.
+   en WinRT.Projections..cctor()
+2025-06-19 23:52:46.4421 INFO Declutter rendered.
+2025-06-19 23:52:54.1766 INFO Wu10Man initializing.
+2025-06-19 23:52:54.2351 INFO Windows Scheduled Tasks rendered.
+2025-06-19 23:52:59.5469 INFO Wu10Man initializing.
+2025-06-19 23:52:59.6892 INFO Pause and Defer rendered.
+2025-06-19 23:53:00.8227 INFO Application ended

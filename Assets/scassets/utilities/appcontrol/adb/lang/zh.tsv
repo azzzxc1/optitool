@@ -1,0 +1,610 @@
+VERSION=1.8.0
+# Special marks:
+# @Do_Not_Translate_This=只翻译这个
+# \n - new line symbol
+# {0} - the variable insert (Now is {0} year => Now is 2022 year)
+# * - developer will marks new or edited string (use CTRL + F for search *)
+# {AT} - is @ symbol for email (user{AT}mail.com => user@mail.com)
+# Please try to keep the line length and formatting close to the original!
+# Put your Name and Email to the Translator_Name= and Translator_Email=
+
+@# BEGIN TRANSLATION:
+
+@Language=zh
+@Translation_Version=1.0
+@MyLanguage=Chinese
+@Translator_Name=Tesla
+@Translator_Email=eMail
+
+
+@Translation_Author=翻者：
+
+@Txt_Official_Site=
+
+@Txt_Form_Permissions_Search=表单权限搜索...
+
+@Txt_Form_Permissions_Help=您可以授予（选中）或撤销（取消选中）应用的权限。\n
+重要提示： 您只能撤销手动授予的权限。
+
+*@Txt_Form_AutoPermissions_Help=下拉列表包含显示功能需要特殊权限的已安装应用程序。 选择一个应用程序，然后单击设置权限。
+
+@ToolTip_Refresh=刷新
+@ToolTip_Console_Dark_Mode=灰色模式
+@ToolTip_Wide_Console=展开菜单
+@ToolTip_Press_Enter=运行命令
+@ToolTip_Clear_Command_Line=清除命令行
+@ToolTip_Fast_Cmd_Add=将命令添加到收藏夹
+@ToolTip_Fast_Cmd_Remove=从收藏夹中删除命令
+@ToolTip_Cbx_Names_Auto_Update=允许在连接设备时自动更新图标和应用程序名称
+
+@About_Program=ADB AppControl
+@About_Author_0=开发商:
+@About_LinkTopic=说明
+@About_Version=版本
+@About_GoodDay=
+
+@Status_Disconnected=断开连接
+@Status_Connected=已经连接
+@Status_Waiting=等待
+@Status_Error=错误
+@Status_Device_Dont_Respond=(没有响应)
+
+@Device_NeedAuth=允许在您的设备上打开调试模式。
+
+@Menu_Top_Descr_Check_Version=检查更新
+@Menu_Top_Descr_Open_Folder=打开程序文件夹
+@Menu_Top_Descr_Help=获取帮助
+@Menu_Top_Descr_Donate=捐赠项目！
+@Menu_Top_Descr_Donate_King=感谢您的捐赠！
+@Menu_Top_Descr_Language=更改语言
+
+@Lbl_Total_Applications=应用总数：
+@Lbl_Fast_Commands=快速命令
+@Lbl_Selected_Apps=已选中：
+@Lbl_Info_Drag_And_Drop=拖放 APK 或将它们复制到“安装”文件夹
+@Txt_Form_Permissions=权限
+@Lbl_Form_AutoPermissions_Select=选择应用程序
+
+@Lbl_Settings_Feature_1=程序的基本功能
+@Lbl_Settings_Feature_2=高级程序设置
+@Lbl_Settings_Feature_3=将多个文件下载到设备
+@Lbl_Settings_Feature_4=将APK拖放到列表中进行安装
+@Lbl_Settings_Feature_5=感谢开发者
+@Lbl_Settings_Feature_6=对列表中的应用程序进行排序
+*@Lbl_Settings_Feature_7=激活所有的高级功能
+
+@Action_Choose=选择：
+@Action_Disable=禁用
+@Action_Enable=启用
+@Action_Uninstall=卸载
+@Action_Save=保存
+
+@Btn_Install=安装
+@Btn_Apply=套用
+@Btn_Restore=恢复
+@Btn_No=否
+@Btn_Yes=确定
+@Btn_Cancel=取消
+@Btn_Enable_Debug=启用网络调试
+@Btn_Connect=连接
+@Btn_Disconnect=断开
+@Btn_Update_Names=更新应用数据
+@Btn_Get_Names=获取应用数据
+@Btn_Preset_Load=加载预设
+@Btn_Preset_Save=保存预设
+@Btn_LogCat_Start=开始\n日志文件
+@Btn_LogCat_Stop=停止\n日志文件
+@Btn_Copy_Log=复制\n控制台
+@Btn_Console_Clear=清除\n控制台
+@Btn_Take_Screenshot=截屏\n
+@Btn_Reboot=重启
+@Btn_Upload=下载文件
+@Btn_Set_Permissions=设置权限
+@Btn_Auto_Permissions=自动\n自动化
+
+@Loading_Loading=正在加载...
+@Loading_Connecting=连接
+@Loading_Enable=启用
+@Loading_Disable=禁用
+@Loading_Saving=保存
+@Loading_Uninstall=卸载
+@Loading_Install=安装
+@Loading_Refreshing=刷新
+@Loading_Exit=退出
+@Loading_Build=建立
+@Loading_Rebooting=重新启动
+
+@Loading_Restoring=恢复
+@Loading_Build_Step_0=安装 ACBridge
+@Loading_Build_Step_1=连接
+@Loading_Build_Step_2=启动 ACBridge
+@Loading_Build_Step_3=加载数据
+@Loading_Build_Step_4=数据写入
+@Loading_Build_Step_Icons=构建步骤图标
+@Loading_Build_Update_Bridge=通信桥更新
+
+@Tab_Page_Apps= 应用
+@Tab_Page_Console=控制台
+@Tab_Page_About=关于
+
+@Radio_All=全部
+@Radio_System=系统
+@Radio_User=用户
+@Radio_Disabled=禁用
+@Radio_Install=安装
+@Radio_Deleted=删除
+
+@Preset_Title=保存预设
+@Preset_FileName=预设名称
+@Preset_Comment=预设说明
+@Preset_Apps=应用
+@Preset_Header_1=# 预设是在 ADB AppControl 中创建的
+@Preset_Header_2=# 应用程序总数：
+
+@Cbx_Full_Names=显示完整的应用名称
+@Cbx_Show_Icons=显示应用程序图标
+@Cbx_Select_All=全选
+*@Cbx_Keep_Data=删除数据和缓存
+@Cbx_Names_Auto_Update=自动数据更新
+
+@Menu_Context_Copy_Package=从包名称复制名称
+@Menu_Context_Copy_AppName=复制应用名称
+@Menu_Context_Set_Permissions=设置权限
+@Menu_Context_Delete_Apk=删除APK文件
+
+@Tips_Rb_All=显示所有已安装的应用程序（禁用的除外）
+@Tips_Rb_System=仅显示系统应用
+@Tips_Rb_User=查看用户安装的应用程序和第三方应用程序。
+@Tips_Rb_Disabled=仅显示禁用的应用程序
+@Tips_Rb_Install=将APK文件放在安装文件夹中，安装应用程序。 
+@Tips_Rb_Deleted=查看已删除的系统应用。
+@Tips_1=
+@Tips_2=
+@Tips_3=
+@Tips_4=
+@Tips_5=
+
+@Cbx_EE_Save_IP_History=保存连接历史
+@Cbx_EE_Dark_Theme=深色主题
+@Cbx_EE_Save_Cache=保存图标缓存
+@Btn_EE_Clear_IP_History=清除历史记录
+@Btn_EE_Save_Settings=保存设置
+@Lbl_EE_Opacity=不透明度
+@Lbl_EE_Icons_Size=图标大小
+@Lbl_EE_Font_Size=字体大小
+@Tab_EE_Super_Settings=设置
+*@Lbl_EE_Only_Extended=仅适用于高级用户 
+@Btn_EE_Become_Extended=成为高级用户
+
+@Note_Install_ACBridge=安装ACBridge\n
+将 ACBridge 应用程序将安装在您的设备上。\n
+它将允许您在列表中查看应用程序图标和常见的应用程序名称，而不是包名称。\n\n
+警告：在某些设备上，您需要在开发者菜单中启用通过 ADB 安装选项。 另外，请确保您的设备未处于睡眠状态（解锁屏幕）！\n\n
+您同意在您的设备上安装 ACBridge 应用程序吗？
+
+@Note_Version_New_Found=已找到该程序的新版本 - {0}.\n单击确定进行更新。
+
+@Note_@Note_Restore_Deleted=删除\n
+此列表包含已删除的系统应用程序。\n\n
+选择您需要的，然后单击恢复。 如果恢复成功，应用程序将出现在主列表中。\n\n
+重要提示！ Android 版本 6 及更早版本不支持恢复。
+
+@Note_Please_Donate=你喜欢 ADB AppControl 吗？\n
+想要更多功能？ 成为项目赞助商并获得具有新的有趣和有用功能的程序的高级版本。
+一杯咖啡就能提升ADB AppControl！您的支持是激发新想法的最佳方式。 \n\n
+想知道更多？
+
+@Note_Changelog=消息 {0}\n{1}
+
+@@Note_Driver_Install=连接问题？\n
+如果您通过 USB 端口连接设备但没有任何反应，则可能需要安装 ADB 驱动程序。\n\n
+立即下载并安装驱动程序？
+
+@#REGION:MSG
+
+@Msg_Preset_Owerwrite=文件已经存在，确定覆盖？
+@Msg_MoreThanOneDevice_0=连接的设备：
+@Msg_MoreThanOneDevice_1=该程序不适合与多个设备一起使用。
+@Msg_SearchStop_0=没有找到结果！
+@Msg_SearchStop_Title=查找
+@Msg_PresetSaved=预设已保存
+@Msg_PresetSavedTitle=预设保存的标题
+@Msg_PresetLoaded_Title=预设已加载
+@Msg_PresetLoaded_0=选择器
+@Msg_PresetLoaded_1=预设生成
+@Msg_ActionComplete_Disabled=已禁用的应用
+@Msg_ActionComplete_Enabled=已启用的应用
+@Msg_ActionComplete_Saved=应用程序备份
+@Msg_ActionComplete_Uninstalled=卸载应用程序
+@Msg_ActionComplete_Installed=已安装的应用
+@Msg_ActionComplete_Title=任务完成
+@Msg_ActionComplete_Restored=已恢复的应用
+@Msg_DoYouWantBackup_Title=备份
+
+@Msg_DoYouWantBackup_0=卸载前备份APK文件（推荐）？
+																						
+
+
+@Msg_Warning_Title=注意！
+
+@Msg_DisableOrUninstallConfirm=删除或禁用 SYSTEM 应用程序可能会导致设备故障和恢复出厂设置（数据丢失）。 你确定你要继续吗？
+
+@Msg_Connect_To_IP_Error_Title=连接错误
+
+@Msg_Connect_To_IP_Error_10013=无网络访问权限 (10013)。\n
+尝试以下操作：\n\n
+- 检查您的 PC 的网络连接。\n
+- 如果您使用防火墙，请允许 adb.exe 访问网络。\n
+
+@Msg_Connect_To_IP_Error_10060=登录失败 (10060)。\n
+尝试以下操作：\n\n
+- 检查IP地址是否正确。\n
+- 检查设备是否未处于睡眠模式。\n
+- 确保您的 PC 和设备连接到同一个本地网络。\n
+
+@Msg_Connect_To_IP_Error_10061=启用网络调试 (10061)。\n
+尝试以下操作：\n\n
+- 通过 USB 连接您的设备并在 AppControl 中启用网络调试。\n
+- 或者在您设备的开发者设置中，启用网络调试（如果适用）。\n
+
+@Msg_Connect_To_IP_Error_Not_Respond=设备长时间没有响应，操作已中断。\n
+确保设备未处于睡眠模式（解锁屏幕）。
+
+@Msg_Debug_Question=您确定要在此设备上启用调试吗？
+
+*@Msg_Debug_Enabled=您现在可以通过网络连接到您的设备（将在重新启动设备之前工作）。\n\n
+IP: {0}     端口: {1}\n\n
+要立即连接，请断开 USB 电缆并按确定。
+
+
+@Msg_Connect_Invalid_IP=IP 地址格式无效。
+@Msg_Action_Choose=从列表中选择一个动作！
+@Msg_FastCmd_Add_Qestion=将命令添加到收藏夹？
+@Msg_FastCmd_Add_Help=要将命令添加到快速列表，请将其写入控制台并单击；
+@Msg_FastCmd_Remove_Qestion=从快速列表中删除命令？
+
+@Msg_Version_Check_Failed=无法连接到更新服务器
+@Msg_Version_Dont_Need=您正在使用最新版本的程序！
+
+@Msg_Welcome_to_EE=恭喜，您现在拥有该程序的高级版本。 谢谢您的支持！
+																	   
+
+@Msg_Base_Cannot_Create=无法创建数据库 - ACBridge 无法从设备获取应用程序列表。\n
+您可能需要在您的设备上授予 ACBridge 的写入存储权限。
+
+@Msg_Corrupted_Programm=程序已损坏或修改，无法启动。\n
+尝试使用防病毒软件扫描您的计算机，然后从官方来源下载该程序。 查看更多 {0}
+
+@Msg_Program_Already_Running=该应用程序已经在运行！\n
+您可以使用 Windows 任务管理器停止它：\n
+按 ctrl + shift + esc 并停止进程 {0}.exe
+
+@Msg_Program_Old_Framework=该程序需要 . NET Framework 4.6 或更高版本才能工作。\n
+现在你已经安装了： {0}.\n\n
+想要从 Microsoft 下载并安装最新版本？
+
+@Msg_ACBridge_Need_Permissions=ACBridge 已安装，但无法传输数据。\n
+1) 您的设备可能处于睡眠模式， 解锁并重试。\n\n
+2) 检查并授予您设备上的 ACBridge 应用程序所需的权限：\n\n
+设置 - 应用程序 - ACBridge - 权限\n
+
+@Msg_ACBridge_Update_Failed=您设备上安装的 ACBridge 版本已过时，无法自动更新。 要升级，请卸载 com.cybercat.acbridge.apk 并尝试手动安装。
+
+@Msg_ACBridge_Lower_Android_Version=您的设备不支持显示应用程序图标和完整的应用程序名称。\n
+需要 Android 版本 6 或更高版本。
+
+@Msg_ACBridge_Cannot_Install=未能在您的设备上安装 ACBridge 应用程序。\n\n
+尝试将 com.cybercat.acbridge.apk 文件（从 ADB 文件夹）复制到您的设备并安装它。 之后，在设备设置中，授予为 AcBridge 应用程序写入存储的权限并重新启动程序。
+想要打开用户手册？
+
+@Msg_ACBridge_Remove_And_Install=您设备上安装的 ACBridge 应用程序需要更新。 要继续，程序必须重新安装应用程序。\n\n现在进行吗？
+
+@Msg_ACBridge_Device_Sleep=设备长时间无响应，可能处于睡眠模式。\n\n
+解锁您的设备屏幕，然后单击确定。
+
+@Msg_ACBridge_Download_Failed=数据加载错误， 再试一次。
+
+@Msg_Cbx_Save_Cache=保存图标缓存可能会提高程序性能，但图标可能有不同的样式，并且可能与您设备上显示的内容不匹配。\n建议禁用此选项。
+
+@Msg_ACBridge_Adb_Not_Working_Correctly=ADB 在设备上无法正常工作，应用程序无法继续；尝试重新连接您的设备或关闭自动数据更新。
+
+@Msg_EE_No_Internet=激活需要互联网访问。
+
+@Msg_EE_Restart_Program=重新启动程序以使更改生效
+
+@Msg_Console_Reboot=在 {0} 模式下重新启动设备？
+
+@Msg_Clear_Ip_History=从历史记录中删除所有 IP 地址？
+
+@Msg_Files_Upload={0} 文件已下载到设备的“下载”文件夹。
+
+@Msg_Files_Not_Upload=并非所有文件 ({0}) 都已下载到设备。\n
+有关更多详细信息，请参阅控制台日志
+
+@Msg_Do_You_Want_Install_Apk=在您的设备上安装 {0} ？
+@Msg_Apk_Installed=该应用程序已成功安装！
+@Msg_Apk_Install_Error=错误，无法安装应用程序。
+
+@Msg_Extended_Function_Only=此功能仅在程序的高级版本中可用。\n\n想知道更多
+
+@Msg_Under_Construction=新功能正在开发中，很快就会推出。\n\n
+您想支持和加快项目的发展吗？
+
+@Msg_You_Win=你很幸运！\n
+看到这张图片的机会不到 10%，取而代之的是一个无聊的广告（例如，治疗阳痿的药物）。\n\n
+但很快就会有很酷的新功能，而不是广告。\n
+你喜欢它？
+
+@Msg_Upload_Files_To_Device=将 {0} 个文件下载到您的设备？？
+
+@Msg_License_Agreement=使用条款和许可协议：\n\n
+ADB AppControl（本软件）按“原样”提供，不提供任何形式的保证。 在任何情况下，本软件的作者均不对因使用本软件而造成的任何损失负责。\n\n
+该软件可免费用于个人和教育用途，任何商业用途都需要作者的个人许可和商业许可。\n\n
+不得对 ADB AppControl 进行反编译、反汇编、反向工程或以其他方式修改。\n\n
+本软件的所有权利仅归其作者所有。\n\n
+您继续使用本软件即表示您接受本许可条款并同意收集和处理有关本软件使用情况的匿名统计数据。\n\n
+协议全文可在此处获取：\n
+https://appcontrol.neocities.org/pages/terms_of_use.html
+
+@Msg_Operation_Timeout=该操作花费的时间超过 {0} 秒。\n
+有些命令可能需要很长时间。\n\n
+等待当前操作完成？ 单击“否”停止。
+
+@Msg_Permission_Granted_Success=已成功设置所有权限。
+@Msg_Permission_Granted_Failed=并非所有权限都已设置，有关更多详细信息，请参阅控制台。
+
+@#REGION:QUICK START
+
+@Quick_Start_Header=快速开始
+@Quick_Start_Step=步骤
+@Quick_Start_Additional=附加：
+@Quick_Start_Language=选择语言
+@Quick_Start_Help=阅读用户手册
+ 
+@Quick_Start_Step_1=在您的设备上启用 USB 调试，这很简单！\n\n
+设置 - 关于手机 - 点击（7 次）Build NUMBER，直到您成为开发者！\n\n
+设置 - 系统 - 开发者选项 - USB调试 - 启用 - 完成！
+
+@Quick_Start_Step_2=使用 USB 电缆将您的设备连接到计算机。\n\n
+ABD AppControl 将检测您的设备，您将看到 PENDING 状态。\n\n
+允许在您的设备屏幕上进行调试。 记得选择 REMEMBER 选项
+
+@Quick_Start_Step_3=要通过 Wi-Fi 连接到设备，请单击启用网络调试按钮（右上角）\n\n
+查看设备的IP地址：设置 - 关于设备 - 状态 - IP地址\n\n
+断开 USB 电缆并在程序字段（右上角）中请求 IP 地址，单击连接。
+
+
+@Quick_Start_Btn_GotIt=我明白了！
+
+@Quick_Start_Cbx_DontShow=不再显示教程
+
+*@Msg_Delete_Apk_Confirm=从磁盘中删除APK文件？
+*@Cbx_EE_Silent_Mode=静音模式（无需确认）
+*@Msg_Halloween_Cat=万圣节到了！\n支持开发者并获得不死生物的保护不是很好的理由吗？
+*@Msg_New_Year=新年快乐，圣诞快乐！\n愿新年带给你平安、快乐和幸福。\n此致，Cyber​​Cat。
+
+@Txt_App_Name=应用名称
+*@Txt_Package=应用包名
+*@Txt_Size=大小排序
+*@Msg_Auto_Permissions_No_App_Found=在列表中找不到已安装的应用程序。
+*@Action_Clear_App_Data=清除应用数据
+*@Msg_Clear_App_Data=包括设置在内的所有应用数据都将被删除，确定继续吗？
+*@Msg_Clear_App_Data_Failed=无法清除应用程序数据。
+*@Msg_Clear_App_Data_Success=生成数据已成功清除。
+
+@Msg_Wizard_Denied=对服务器的访问被拒绝，请联系开发商解决问题。
+@Msg_Wizard_Not_Found=您的设备不兼容，也许它的支持将在未来的更新中添加。
+@Msg_Wizard_Loaded=发现不需要的应用程序：{0}
+@Msg_Wizard_Clear=在您的设备上未找到不需要的应用程序。\N
+尝试将清洁级别更改为更高级别。
+@Txt_Wizard_Title=清洁助手
+@Txt_Wizard_Basic=基本的
+@Txt_Wizard_Descr_Basic=为您的设备禁用 TOP 不需要的应用程序。
+@Txt_Wizard_Safe=安全的
+@Txt_Wizard_Descr_Safe=推荐给大多数用户。
+@Txt_Wizard_Medium=中等的
+@Txt_Wizard_Descr_Medium=为高级用户提供更深层次的清洁。
+@Txt_Wizard_Max=最大的
+@Txt_Wizard_Descr_Max=仅在手动调整列表后使用。
+@Txt_Wizard_Select_Level=清洁等级：
+
+@Txt_Wizard_Welcome=一项新功能可让您摆脱大多数不需要的应用程序。
+根据您选择的级别，将加载建议在您的设备上禁用的应用程序列表。
+在禁用它之前仔细检查和编辑列表。
+
+@Txt_Extended_Only=仅限高级版！
+@Btn_Wizard_Load=加载向导
+@Lbl_Wizard_Descr=检查您的设备是否有不需要的应用程序和过时软件。
+@Btn_Wizard=检查并取消阻止
+@Msg_Cannot_Connect_To_Server=无法连接到服务器。
+@Txt_Want_Know_More=学到更多
+@Menu_App_Info=了解更多信息
+@Menu_Copy_Text=复制文本
+@Btn_Auto_Permissions_List=支持的应用
+@Msg_Version_Outdated=您的程序版本已过时，不再受支持。
+@Txt_Wizard_New_Update=更新可用！
+@Msg_Key_Check_Failed=激活失败。\n
+请重新启动程序并使用此设备上的密钥重新激活它。
+@Btn_Close=关闭
+@Btn_Dont_Show_Again=不要再显示此消息
+@Msg_Function_Under_Dev=该功能正在开发中，将在未来的更新中提供。
+@Msg_Version_Need_Update=需要最新版本的程序，请安装更新。
+@Txt_Act_Limit=已超出此密钥的每日激活限制，请你以后试试。
+@Txt_Act_Banned=此密钥已被阻止，请联系开发商。
+@Msg_Wizard_Recieve_Date_Error=错误！\n接收数据失败，请你以后试试。
+@Msg_Wizard_Privacy=隐私信息。\n\n
+每当您使用 Debloat Wizard 功能（基本级别除外）时，从 Android 设备安装的应用程序列表都会发送到远程服务器进行处理。 这些数据不会被存储也不会被保存，也无法通过您的个性来识别。\n\n
+您同意并想继续吗？
+@Menu_Copy=复制
+@Menu_Cut=剪切
+@Menu_Paste=粘贴
+@Msg_Uninstall_Clear_Data=卸载时清除应用数据和缓存？
+
+@### NEW IN 1.6.0 ###
+
+@EE_Cbx_Use_System_Adb=使用系统 ADB（来自 %PATH%）
+@EE_Cbx_Kill_Adb_When_Exit=退出时停止 ABD
+@Msg_Driver_Install_Complete=驱动程序已成功安装在您的计算机上。
+@Msg_Driver_Install_Failed=无法安装驱动程序或系统上已安装其他驱动程序。\n\n
+您想打开包含可能解决方案的用户指南吗？
+@Msg_Error_Write_Disk=错误！ 程序无法写入磁盘，将被关闭。
+若要继续，请将程序文件夹移动到另一个位置（例如，移动到 D 盘）。
+@Menu_Top_Descr_Tm=我们的电报频道
+@Cbx_LogCat_Save_Log=将日志保存到文件
+@Btn_EE_Default=默认
+@Msg_Ee_Default=是否要将所有设置重置为默认状态？
+@Lbl_EE_You_Are_Extended=您是高级版本
+@Lbl_EE_Activate=在此处复制您的密钥，然后单击确定
+@Btn_EE_Activate=激活
+
+@Cbx_EE_Adb_Key_Protection=ADB 密码保护
+@Lbl_AdbKey_LogIn=使用您的密码解锁 ADB 密钥
+@Btn_AdbKey_LogIn_Unlock=解锁
+@Btn_AdbKey_LogIn_Skip=跳过
+@Msg_AdbKey_Protect_Incorrect_Password=密码错误。
+
+@Lbl_AdbKey_Protect=使用密码保护您的 ADB 密钥，以安全地启用设备调试。
+每次启动程序时都需要输入此密码。
+@Btn_AdbKey_Protect=保护
+@Btn_AdbKey_Protect_Load_Key=浏览密钥文件...
+@Lbl_AdbKey_Protect_NewPassword=新密码
+@Lbl_AdbKey_Protect_ConfirmPassword=确认新密码
+
+@Msg_AdbKey_Protect_Reset=您想在禁用保护之前恢复您保存的密钥吗？
+@Msg_AdbKey_Protect_Success=ADB 密钥保护已启用。
+@Msg_AdbKey_Protect_Passwords_Not_Equal=密码不匹配！
+@Msg_AdbKey_Protect_Disable=一旦锁定，一个不受保护的随机密钥将用于所有设备。\n
+您的安全密钥将被保存，您可以在输入密码后再次使用它。\n\n
+您确定要阻止 ADB 密钥吗？
+@Tips_Protect_Unprotected=您正在使用不安全的随机密钥，点击解锁。
+@Tips_Protect_Protected=您正在使用安全密钥，单击以阻止。\n
+一旦锁定，ADB 将使用随机生成的密钥来处理设备。
+@Msg_AdbKey_Protect_Key_Not_Found=未找到 ADB 密钥文件！
+@Txt_AdbKey_Protect_Description=
+用于防止调试的 adb 密钥文件转移到另一台计算机或被盗。\n
+如果您为了方便，在调试时使用 <总是允许> 选项，那么攻击者可以跳过密钥保护。\n
+即使它受密码或生物识别保护，攻击者也可以无限制地访问您的 Android 设备。 \n
+传输密钥的保护也很有用 - 例如，它可以方便登录屏幕损坏的设备。\n\n
+ADB AppControl 可帮助您安全地加密 ADB 密钥并保护您的数据。
+
+@Btn_Ee_Deactivation=取消激活
+@Msg_Ee_Deactivation=删除激活密钥并停用程序？ （程序将被关闭）
+
+@Tips_Ee_Save_Ip=将您的设备 IP 地址保存到收藏夹以便快速连接
+@Tips_Ee_Dark_Theme=会改变界面的配色方案，减少晚上的眼睛疲劳
+@Tips_Ee_Show_Icons=隐藏图标将简化界面并显著加快应用数据更新效率
+@Tips_Ee_Silent_Mode=禁用烦人的确认提示
+@Tips_Ee_System_Adb=如果您的系统上已经安装了 ADB 并且您想使用该设置，请启用此设置\n
+让它与程序一起工作。
+@Tips_Ee_Save_Cache=连接的 Android 设备的应用程序图标将保存在 PC 的缓存中。\n
+只有尚未缓存的图标才会从设备中加载。\n
+启用此选项将加快应用数据更新。
+
+@Tips_Apps_Update_Data=更新应用名称和图标
+@Tips_Apps_Load_Preset=加载以前保存的预设并检查其中的所有应用程序
+@Tips_Apps_Save_Preset=将检查的应用程序列表保存到文本文件
+@Tips_Apps_Auto_Permissions=将检查的应用程序列表保存到文本文件
+@Tips_Apps_Install_Apk=从计算机到设备的快速安装 APK  文件
+@Tips_Apps_Upload_File=选择磁盘上的文件，将它们上传到您设备的下载文件夹
+@Tips_Console_Screenshot=截取 Android 设备屏幕截图并将其上传到您的计算机
+@Lbl_Continue=连接你的安卓设备
+
+@Tips_Apps_History=您已通过网络连接的设备列表
+@Msg_Device_Disconnected_Aborted=设备没有响应，操作被中止。
+@Txt_Act_Incorrect_Key=激活码错误！
+
+@Captcha_Head=确认
+@Captcha_Title=嗨，这只是一个小验证码
+@Captcha_Description=输入图片中的文字：
+@Captcha_Btn_Enter=看看这个！
+@Captcha_Msg_Validation_Failed=您输入的文本不正确，请重试。\n警告！ 尝试的次数是有限的。
+@Captcha_Msg_Validation_Banned=您的验证失败，并且您的 IP 地址已在服务器上暂时被阻止，稍后尝试检查。
+@Captcha_Btn_Refresh=如果您无法阅读文本，请刷新图像。
+@Captcha_Title_Extended=高级版用户无需验证。
+@Msg_Emergency_Stop=注意！ 不建议在没有很大需要的情况下中断程序的工作。\n\n
+您确定要中断程序的工作吗？
+
+@Tips_Ee_Accurate_Sizes=允许您在更新数据时获得准确的应用程序大小。\n
+略微增加更新时间，需要 Android 8.0 或更高版本。
+@Cbx_Ee_Accurate_Sizes=精确的应用大小
+@Btn_Connection_Port_Auto=端口：
+
+*@Msg_Accurate_Sizes_Need_Permission=精确的应用程序大小选项已启用。\n
+您必须向 ACBdridge 授予 <包使用统计> 权限才能显示准确的应用程序大小。 授予权限或禁用设置中的“精确应用程序大小”选项以隐藏此消息。
+阅读用户手册的其余部分。
+@ ### NEW IN VERSION 1.6.4
+*@Msg_Default_Browser_Not_Found=错误，未找到默认浏览器。
+*@Menu_Search_In=正在搜索...
+*@Menu_App_Advanced=高级...
+*@Menu_App_Start=开始
+*@Menu_App_Stop=停止
+*@Menu_App_Report=生成报告
+
+*@Frm_Report_Check_Type=选择应用类型：
+*@Frm_Report_Bloatware=应用程序bloatware
+*@Frm_Report_Bloatware_Desk=这个应用程序是不需要的，应该被禁用
+*@Frm_Report_Critical=关键系统应用
+*@Frm_Report_Critical_Desk=禁用此应用程序会导致设备出现故障
+*@Frm_Report_Button=发送
+
+*@Frm_Report_Comment=反馈（可选）
+*@Frm_Report_Msg_Thanks=已向开发者发送了一条消息，感谢您的反馈意见！
+*@Frm_Report_Desk=通知开发人员不需要或有问题的应用程序，这将有助于进一步改进 ADB AppContol。
+*@Frm_Report_Already_Sent=您已经报告了这个应用程序。
+
+*@Msg_Install_Multiple=安装多个\n
+多重安装允许您一次在设备上安装多个应用程序。
+只需将 .apk 或 .apks 文件拖放到程序窗口中，即可使它们出现在此列表中。\n\n
+这些文件将被复制到“安装”文件夹，可用于安装在任何连接的设备上。您还可以在 Installer 中创建一个单独的文件夹并将 apk 文件放在那里。 之后，该文件夹将出现在列表中，并且在安装时将安装其中的所有apk。\n\n
+添加文件时，演示应用程序将被隐藏。
+*@Menu_Context_Rename_Apk=重命名
+*@Btn_Install_ApkFolder=安装文件夹
+*@Btn_Device_ApkFolder={0} 文件夹
+*@Lbl_Select_Folder=选择包含文件的文件夹：
+*@Msg_No_Internet_Connection=需要网络连接
+
+*@Msg_Debug_Recomendation=建议在提示调试权限时选择“始终允许”。
+如果您对设备有任何问题，这将为您提供帮助。 仅在受信任的计算机上启用此选项！ 阅读更多 {0}
+*@Lbl_Settings_Feature_8=将 .apk 文件和预设拖放到程序窗口中
+*@Lbl_Settings_Feature_9=安装多个应用程序（批量安装）
+*@Btn_Select_And_Install=选择并安装
+
+@# UPDATE 1.6.6
+
+@Msg_Scrcpy_Not_Installed=要远程控制您的 Android 设备，您需要安装 SCCCPY 应用程序。 这是由 Genymobile (https://github.com/Genymobile) 开发的免费开源应用程序。\n\n
+要安装 Scrcpy，请下载带有该程序的 scrcpy-win{0}.zip 存档并在文件选择对话框中选择它。 您只需执行一次。\n\n
+单击“是”以打开从 Github 下载 Scrcpy 的链接，或单击“否”以访问安装。
+
+@Msg_Scrcpy_Successfully_Installed=Scrcpy 已成功安装。\n\n
+重要！ Scrcpy 是 Genymobile 开发的第三方开源软件。 ADB AppControl 及其开发者与该软件无关，使用前请务必阅读并接受 Scrcpy 许可协议。
+
+@Msg_Scrcpy_Fail_Installed=安装 Scrcpy 失败。
+@Msg_Scrcpy_Txt_Installed=已安装 Scrcpy。
+@Btn_Scrcpy_Start=控制您的设备屏幕
+@Btn_Tools_Resolution=屏幕分辨率
+@Btn_Tools_StatusBar=状态栏图标
+@Btn_Tools_Capture_Video=视频录制
+@Txt_Tools_Density=像素密度
+@Tab_Tools=工具
+@Btn_Tools_StatusBar_Hide=隐藏
+@Txt_Tools_StatusBar_Desk=选择要隐藏的状态栏图标
+@Txt_Ram_Total=全部
+@Txt_Ram_Free=免费
+@Txt_Ram_Used=使用
+@# UPDATE 1.7.2
+@Msg_Settings_Changed=是否要保存设置？
+@Btn_Add_Apk=添加 APK
+@Btn_Remove_Apk=删除 APK
+@Btn_Back=返回
+@Txt_Install_Only_Free_Version=在 ADB AppControl 的免费版本中，您一次不能安装多个应用程序。 获取高级版本以消除此限制并享受其他好处。\n\n
+想知道更多？
+@Txt_License_Key=查看产品许可证密钥
+@Msg_Bridge_No_Permissions=程序无法验证 ACBridge 应用程序的权限，可能无法正常工作。\n\n
+确保 ACBridge 应用程序 (com.cybercat.acbridge) 有权访问您的 Android 设备上的存储。 您可以在官方网站的文档 - 故障排除部分阅读更多信息。
+你要继续吗？
+@Msg_Files_Not_Found=由于缺少所需文件，程序无法启动。\n\n可能的解决方案：\n
+- 确保您的防病毒软件没有阻止程序文件。\n
+- 不要从解压缩的存档中运行程序。\n
+- 不要从解压缩的存档中运行程序。
+@Txt_Resolution_Warning=数值过高或过低都会导致设备出现故障！
+@Txt_Tools_Resolution=解析度：			   

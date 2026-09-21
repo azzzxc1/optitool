@@ -1,0 +1,662 @@
+VERSION=1.8.3                          
+# Special marks:
+# @Do_Not_Translate_This=Translate only this
+# \n - new line symbol
+# {0} - the variable insert (Now is {0} year => Now is 2020 year)
+# * - developer will marks new or edited string (use CTRL + F for search )
+# {AT} - is @ symbol for email (user{AT}mail.com => user@mail.com)
+# Please try to keep the line length and formatting close to the original!
+# Put your Name and Email to the Translator_Name= and Translator_Email=
+
+@# BEGIN TRANSLATION:
+
+@Language=cz
+@Translation_Version=1.0
+@MyLanguage=Czech
+@Translator_Name=Michal Zbořil (www.mzboril.cz)
+@Translator_Email=m.zboril{AT}seznam.cz
+
+
+@Translation_Author=Autor překladu:
+
+@Txt_Official_Site=web programu 
+
+@Txt_Form_Permissions_Search=Vyhledat...
+
+@Txt_Form_Permissions_Help=Můžeš povolit (zatržítko) nebo zrušit (zrušit zatržítko) oprávnění pro aplikaci.\n
+Upozornění! Můžeš zrušit pouze oprávnění která jsi manuálně povolil.
+
+@Txt_Form_AutoPermissions_Help=Rozbalovací seznam obsahuje nainstalované aplikace, u kterých je pro odhalení funkcí vyžadováno zvláštní oprávnění. Vyberte aplikaci a klikněte na tlačítko Nastavit oprávnění.
+
+@ToolTip_Refresh=Obnovit
+@ToolTip_Console_Dark_Mode=Tmavý režim pro konzolu
+@ToolTip_Wide_Console=Rozšířit konzolu
+@ToolTip_Press_Enter=Spustit příkaz
+@ToolTip_Clear_Command_Line=Vyčistit příkazovou řádku
+@ToolTip_Fast_Cmd_Add=Přidat příkaz do oblíbených
+@ToolTip_Fast_Cmd_Remove=Odstranit příkaz z oblíbených
+@ToolTip_Cbx_Names_Auto_Update=Povolí při připojení zařízení auto-update ikon a jmen aplikací
+
+@About_Program=ADB AppControl
+@About_Author_0=vývojář:
+@About_LinkTopic=Uživatelský návod a instrukce
+@About_Version=verze
+@About_GoodDay=Mějte hezký den :)
+
+@Status_Disconnected=Odpojeno
+@Status_Connected=Spojeno
+@Status_Waiting=Čeká
+@Status_Error=Chyba
+@Status_Device_Dont_Respond=(nereaguje)
+
+@Device_NeedAuth=Povolte ladění na vašem zařízení.
+
+@Menu_Top_Descr_Check_Version=Kontrola aktualizací
+@Menu_Top_Descr_Open_Folder=Otevřít složku programů
+@Menu_Top_Descr_Help=Nápověda
+@Menu_Top_Descr_Donate=Podpořte projekt!
+@Menu_Top_Descr_Donate_King=Díky za podporu!
+@Menu_Top_Descr_Language=Změna jazyka
+
+@Lbl_Total_Applications=Celkem:
+@Lbl_Fast_Commands=Rychlé příkazy
+@Lbl_Selected_Apps=Zobrazit vybrané:
+@Lbl_Info_Drag_And_Drop=Přetažení nebo kopírování souboru APK do složky 'install'
+@Txt_Form_Permissions=Oprávnění
+@Lbl_Form_AutoPermissions_Select=Výběr aplikace
+
+@Lbl_Settings_Feature_1=Základní funkcionality programu
+@Lbl_Settings_Feature_2=Rozšířená nastavení programu
+@Lbl_Settings_Feature_3=Nahrát víc souborů do zařízení
+@Lbl_Settings_Feature_4=Pro instalaci přetáhnout apk na seznam
+@Lbl_Settings_Feature_5=Poděkování od vývojáře
+@Lbl_Settings_Feature_6=Setřídit aplikace v seznamu
+@Lbl_Settings_Feature_7=Přístup do VŠECH úrovní průvodce deblokací
+
+@Action_Choose=Výběr:
+@Action_Disable=Vypnout
+@Action_Enable=Zapnout
+@Action_Uninstall=Odinstalovat
+@Action_Save=Uložit
+
+@Btn_Install=Instalace
+@Btn_Apply=Použít
+@Btn_Restore=Obnovit
+@Btn_No=Ne
+@Btn_Yes=Ano
+@Btn_Cancel=Zrušit
+@Btn_Enable_Debug=Povolit síťové ladění
+@Btn_Connect=Spojit
+@Btn_Disconnect=Odpojit
+@Btn_Update_Names=Aktualizovat data aplikací
+@Btn_Get_Names=Získat data aplikací
+@Btn_Preset_Load=Nahrát předvolbu
+@Btn_Preset_Save=Uložit předvolbu
+@Btn_LogCat_Start=Spustit\nlogcat
+@Btn_LogCat_Stop=Zastavit\nlogcat
+@Btn_Copy_Log=Kopírovat\nlog konzole
+@Btn_Console_Clear=Vyčistit\nkonzolu
+@Btn_Take_Screenshot=Udělat\nkopii disp.
+@Btn_Reboot=Restart
+@Btn_Upload=Nahrát soubory
+@Btn_Set_Permissions=Nastavit oprávnění
+@Btn_Auto_Permissions=Auto\noprávnění
+
+@Loading_Loading=Nahrávám
+@Loading_Connecting=Spojuji
+@Loading_Enable=Povoluji
+@Loading_Disable=Vypínám
+@Loading_Saving=Ukládám
+@Loading_Uninstall=Odinstalovávám
+@Loading_Install=Instaluji
+@Loading_Refreshing=Nahrávám
+@Loading_Exit=Dokončuji
+@Loading_Build=Nahrávám
+@Loading_Rebooting=Restartuji
+
+@Loading_Restoring=Obnovuji
+@Loading_Build_Step_0=Instalace ACBridge
+@Loading_Build_Step_1=Spojuji
+@Loading_Build_Step_2=Spouštění Bridge
+@Loading_Build_Step_3=Nahrávání dat
+@Loading_Build_Step_4=Zápis dat
+@Loading_Build_Step_Icons=Stahuji ikony
+@Loading_Build_Update_Bridge=Aktualizace ACBridge
+
+@Tab_Page_Apps= Aplikace
+@Tab_Page_Console=Konzola
+@Tab_Page_About=O aplikaci
+
+@Radio_All=Vše
+@Radio_System=Systém
+@Radio_User=Uživatel
+@Radio_Disabled=Vypnuto
+@Radio_Install=Instalováno
+@Radio_Deleted=Smazáno
+
+@Preset_Title=Uložit předvolbu
+@Preset_FileName=Jméno předvolby
+@Preset_Comment=Popis předvolby
+@Preset_Apps=aplikace
+@Preset_Header_1=# Předvolba vytvořená v ADB AppControl
+@Preset_Header_2=# Celkem aplikací:
+
+@Cbx_Full_Names=Zobrazit plná jména aplikací
+@Cbx_Show_Icons=Zobrazit ikony aplikací
+@Cbx_Select_All=Vybrat vše
+@Cbx_Keep_Data=Smazat data a mezipaměť
+@Cbx_Names_Auto_Update=Auto aktualizovat data
+
+@Menu_Context_Copy_Package=Kopírovat jméno balíčku
+@Menu_Context_Copy_AppName=Kopírovat jméno aplikace
+@Menu_Context_Set_Permissions=Nastavení oprávnění
+@Menu_Context_Delete_Apk=Smazat
+
+@Tips_Rb_All=Zobrazit všechny instalované aplikace (Vyjma vypnutých)
+@Tips_Rb_System=Zobrazit pouze systémové aplikace
+@Tips_Rb_User=Zobrazit aplikace instalované uživatelem nebo aplikace třetích stran.
+@Tips_Rb_Disabled=Zobrazit pouze vypnuté aplikace
+@Tips_Rb_Install=Instalace aplikací. Vložit apk soubor(y) do složky install
+@Tips_Rb_Deleted=Zobrazit smazané systémové aplikace. 
+@Tips_1=
+@Tips_2=
+@Tips_3=
+@Tips_4=
+@Tips_5=
+
+@Cbx_EE_Save_IP_History=Uložit historii spojení
+@Cbx_EE_Dark_Theme=Tmavý režim
+@Cbx_EE_Save_Cache=Uložit mezipaměť ikon
+@Btn_EE_Clear_IP_History=Smazat historii
+@Btn_EE_Save_Settings=Uložit nastavení
+@Lbl_EE_Opacity=Neprůhlednost
+@Lbl_EE_Icons_Size=Velikost ikon
+@Lbl_EE_Font_Size=Velikost písma
+@Tab_EE_Super_Settings=Nastavení
+@Lbl_EE_Only_Extended=Dostupné pouze pro podporovatele v rozšířené verzi 
+@Btn_EE_Become_Extended=Jak ji získat?
+
+@Note_Install_ACBridge=Instalace ACBridge\n
+Na vaše zařízení bude nainstalována služba aplikace ACBridge.\n
+Ta zajistí že v seznamu aplikací bude vidět ikony aplikací a celá jména aplikací místo jmen balíčků.\n\n
+Upozornění: Na některých zařízeních je potřeba povolit instalaci přes nastavení ADB v Vývojářský režim. Ujistěte se že zařízení není uspáno (odemknout obrazovku)!\n\n
+Chcete povolit instalaci aplikace ACBridge na vaše zařízení?
+
+@Note_Version_New_Found=Nalezena nová verze programu - {0}.\nKliknout na Ano pro aktualizaci.
+
+@Note_Restore_Deleted=Smazáno\n
+Tento seznam obsahuje smazané systémové aplikace.\n\n
+Vyberte ty které chcete a klikněte na Obnovit. Jestliže je obnova úspěšná, aplikace se objeví v hlavním seznamu.\n\n
+DŮLEŽITÉ! Android verze 6 a nižší nepodporuje obnovení.
+
+@Note_Please_Donate=Líbí se vám ADB AppControl?\n
+Chcete více vlastností? Staňte se sponzorem projektu a získejte přístup do rozšířené verze programu se spoustou nových užitečných funkcí. 
+Vaše podpora je nejlepší cesta jak říct "díky" a inspirovat nové nápady. Už jeden šálek kafe může vylepšit ADB AppControl!\n\n
+Chcete znát víc?
+
+@Note_Changelog=Nové v {0}\n{1}
+
+@Note_Driver_Install=Problémy se spojením?\n
+Jestliže se pokoušíte připojit zařízení pomocí usb a nic se neděje, možná bude potřeba nainstalovat ovladač ADB.\n\n
+Stáhnout a nainstalovat ovladač hned?
+
+@#REGION:MSG
+
+@Msg_Preset_Owerwrite=Takový soubor už existuje. Přepsat?
+@Msg_MoreThanOneDevice_0=Připojená zařízení: 
+@Msg_MoreThanOneDevice_1=Tento program není určený pro práci s více jak jedním zařízením.
+@Msg_SearchStop_0=Nenalezena shoda!
+@Msg_SearchStop_Title=Vyhledat
+@Msg_PresetSaved=Předvolba byla uložena do
+@Msg_PresetSavedTitle=Předvolba uložena
+@Msg_PresetLoaded_Title=Předvolba nahrána
+@Msg_PresetLoaded_0=Vybrané
+@Msg_PresetLoaded_1=aplikace z předvolby
+@Msg_ActionComplete_Disabled=Vypnuté aplikace
+@Msg_ActionComplete_Enabled=Povolené aplikace
+@Msg_ActionComplete_Saved=Uložené aplikace
+@Msg_ActionComplete_Uninstalled=Odstraněné aplikace
+@Msg_ActionComplete_Installed=Nainstalované aplikace
+@Msg_ActionComplete_Title=Úloha dokončena
+@Msg_ActionComplete_Restored=Aplikace obnoveny
+
+@Msg_DoYouWantBackup_Title=Záloha
+
+@Msg_DoYouWantBackup_0=Chcete zazálohovat apk soubory před odinstalací (doporučeno)?
+
+@Msg_Warning_Title=Výstraha!
+
+@Msg_DisableOrUninstallConfirm=Odstranění nebo vypnutí SYSTÉMOVÝCH aplikací může mít za následek selhání zařízení a tovární nastavení (včetně smazání dat). Opravdu chcete pokračovat?
+
+@Msg_Connect_To_IP_Error_Title=Chyba spojení
+
+@Msg_Connect_To_IP_Error_10013=Není přístup k síti (10013).\n
+Zkuste následující:\n\n
+- Kontrola síťového připojení PC.\n
+- Jestliže používáte firewall udělit adb.exe oprávnění pro přístup do sítě.\n
+
+@Msg_Connect_To_IP_Error_10060=Selhání spojení (10060).\n
+Zkuste následující:\n\n
+- Kontrola správnosti IP adresy.\n
+- Kontrola jestli není zařízení v režimu spánku.\n
+- Ujistěte se že vaše PC a zařízení jsou připojeny do stejné LAN.\n
+@Msg_Connect_To_IP_Error_10061=Povolit síťové ladění (10061).\n
+Zkuste následující:\n\n
+- Připojit zařízení pomocí USB a povolit ladění po síťi v programu AppControl.\n
+- NEBO v nastavení pro vývojáře v zařízení povolit ladění přes síť (pokud je).\n
+
+@Msg_Connect_To_IP_Error_Not_Respond=Zařízení dlouhou dobu neodpovídá a operace byla přerušena.\n
+Ujistěte se že se zařízení neuspalo (odemknout obrazovku).
+
+@Msg_Debug_Question=Jste si jisti že chcete povolit ladění na tomto zařízení?
+
+@Msg_Debug_Enabled=Nyní je možné se připojit na zařízení přes síť (bude fungovat do restartu zařízení).\n\n
+IP: {0}     Port: {1}\n\n
+Pro okamžité připojení odpojit USB kabel a kliknout na OK.
+
+
+@Msg_Connect_Invalid_IP=Nesprávný formát IP adresy.
+@Msg_Action_Choose=Výběr akce ze seznamu!
+@Msg_FastCmd_Add_Qestion=Přidat příkaz do oblíbených?
+@Msg_FastCmd_Add_Help=Pro přidání příkazu do oblíbených ho zapište do konzole a klikněte na +
+@Msg_FastCmd_Remove_Qestion=Odstranit příkaz ze seznamu rychlých?
+
+@Msg_Version_Check_Failed=Nelze se připojit k aktualizačnímu serveru
+@Msg_Version_Dont_Need=Používáte nejnovější verzi programu!
+
+@Msg_Welcome_to_EE=Gratulace, nyní používáte rozšířenou verzi programu. Díky za podporu!
+
+@Msg_Base_Cannot_Create=Selhalo vytvoření databáze - ACBridge nemůže získat seznam aplikací ze zařízení.\n
+Bude potřeba udělit ACBridge oprávnění zápisu do úložiště v zařízení.
+
+@Msg_Corrupted_Programm=Program byl poškozen nebo změněn a nelze spustit.\n
+Zkusit skenovat počítač antivirem a stáhnout program znovu z oficiálního zdroje. Více zde {0}
+
+@Msg_Program_Already_Running=Aplikace už běží!\n
+Lze ji zastavit pomocí Správce úloh:\n
+Stisknout ctrl + shift + esc a zastavit proces {0}.exe
+
+@Msg_Program_Old_Framework=Program pro svůj běh vyžaduje .NET Framework verze 4.6 nebo novější.\n
+Nyní je nainstalován: {0}.\n\n
+Chcete stáhnout a nainstalovat nejnovější verzi z Microsoftu?
+
+@Msg_ACBridge_Need_Permissions=ACBridge je nainstalován, ale nemůže přenášet data.\n
+1) Zařízení je uspáno. Odemknout a zkusit znovu.\n\n
+2) Zkontrolovat a povolit potřebná oprávnění pro aplikaci ACBridge v zařízení:\n\n
+Nastavení - Aplikace - ACBridge - Oprávnění\n
+
+@Msg_ACBridge_Update_Failed=Instalovaná verze ACBridge není aktuáůní a nemůže být aktualizována automaticky. Pro aktualizaci je potřeba odinstalovat com.cybercat.acbridge.apk a zkusit instalaci manuálně.
+
+@Msg_ACBridge_Lower_Android_Version=Toto zařízení nepodporuje zobrazení ikon aplikací a plných jmen.\n
+Je vyžadován android verze 6 nebo vyšší.
+
+@Msg_ACBridge_Cannot_Install=Selhala instalace aplikace ACBridge do zařízení.\n\n
+Zkusit nakopírovat soubor com.cybercat.acbridge.apk (ze složky ADB) do zařízení a spustit instalaci. Potom v nastavení zařízení udělit oprávnění pro zápis do paměti pro aplikaci AcBridge a restartovat program.\n\n
+Chcete otevřít uživatelskou příručku?
+
+@Msg_ACBridge_Remove_And_Install=Aplikace ACBridge instalovaná v zařízení potřebuje aktualizovat. Pro pokračování potřebuje program přeinstalovat aplikaci.\n\nProvést hned?
+
+@Msg_ACBridge_Device_Sleep=Zařízení dlouhou dobu neodpovídá a je nejspíš uspáno.\n\n
+Odemknout zařízení a kliknout na OK.
+
+@Msg_ACBridge_Download_Failed=Chyba nahrávání dat. Prosím zkuste znovu.
+
+@Msg_Cbx_Save_Cache=Ukládání mezipaměti ikon může znamenat zvýšení zatížení programu, ikony mohou mít různý styl a nemusí souhlasit s tím co se zobrazí na zařízení.\nJe doporučeno vypnout tuto volbu.
+
+@Msg_ACBridge_Adb_Not_Working_Correctly=ADB na tomto zařízení nepracuje správně a některé funkce nebudou dostupné. Zkuste odpojit a znovu zapojit zařízení.
+
+@Msg_EE_No_Internet=Pro aktivaci je nutný přístup k internetu.
+
+@Msg_EE_Restart_Program=Pro uplatnění změn je potřeba restartovat program
+
+@Msg_Console_Reboot=Restartovat zařízení v {0} módu?
+
+@Msg_Clear_Ip_History=Odstranit všechny IP adresy z historie?
+
+@Msg_Files_Upload={0} soubor(ů) byl(o) nahrán(o) do složky 'download' v zařízení.
+
+@Msg_Files_Not_Upload=Ne všechny soubory ({0}) byly nahrány do zařízení.\n
+Pro podrobnosti prohlédnout log Konzole.
+
+@Msg_Do_You_Want_Install_Apk=Instalovat {0} do zařízení?
+@Msg_Apk_Installed=Aplikace byla úspěšně nainstalována!
+@Msg_Apk_Install_Error=Chyba. Selhala instalace aplikace.
+
+@Msg_Extended_Function_Only=Tato funkce je dostupná pouze v rozšířené verzi programu.\n\nChcete vědět víc?
+
+@Msg_Under_Construction=Nové možnosti jsou ve vývoji a budou dostupné brzy.\n\n
+Chcete podpořit a urychlit tak vývoj projektu?
+
+@Msg_You_Win=Šťastlivče!\n
+Šance že uvidíš tento obrázek je menší než 10% a na jeho místě by mohla být otravná reklama (například, pomoc proti plísni).\n\n
+Ale namísto reklamy, v místě tohoto obrázku, bude brzy spousta skvělých nových vlastností.\n
+Líbí se ti to?
+
+@Msg_Upload_Files_To_Device=Nahrát {0} soubory do zařízení?
+
+@Msg_License_Agreement=Podmínky použití a licenční ujednání:\n\n
+ADB AppControl (tento program) je poskytován «jak je» bez jakékoliv garance. V žádném případě neodpovídá autor tohoto programu za jakékoliv poškození způsobené používáním tohoto programu.\n\n
+Tento program je free pro osobní a školní použití. Jakékoliv komerční využití vyžaduje osobní povolení autora tohoto programu a komerční licenci.\n\n
+ADB AppControl nesmí být dekompilován, disassembled, podroben reverznímu inženýrství, nebo jinak modifikován.\n\n
+Všechna práva k tomuto programu náleží výhradně jeho autorovi.\n\n
+Pokračujícím užíváním tohoto programu přijímáte smluvní podmínky této licence a souhlasíte se sběrem a zpracováním anonymních statistik o používání tohoto program.\n\n
+Celý text licenčního ujednání je k dispozici zde:\n
+https://appcontrol.neocities.org/pages/terms_of_use.html
+
+@Msg_License_Agreement_Additional=POZOR!\n
+Prosím stahujte program pouze z oficiální web stránky programu adbappcontrol.com.\nSoubory z jiných zdrojů mohou být infikovány a mohou znamenat kritickou zranitelnost pro zařízení.\n\n
+
+@Msg_Operation_Timeout=Operace trvá víc jak {0} sekund.\n
+Dokončení některých příkazů může trvat delší dobu.\n\n
+Čekat na dokončení aktuální operace? Kliknout na NE pro zastavení.
+
+@Msg_Permission_Granted_Success=Všechna oprávnění jsou úspěšně nastavena.
+@Msg_Permission_Granted_Failed=Chyba! Nastavení nebo odvolání těchto oprávnění selhala:
+
+@#REGION:QUICK START
+
+@Quick_Start_Header=Rychlé spuštění
+@Quick_Start_Step=Krok
+@Quick_Start_Additional=Dplňky:
+@Quick_Start_Language=Výběr jazyka
+@Quick_Start_Help=Číst uživatelskou příručku
+
+*@Quick_Start_Step_1=Povolení Ladění přes USB na zařízení. Jednoduše!\n\n
+Nastavení - O telefonu - Informace o softwaru - Kliknout (7 krát) na položku Číslo sestavení dokud se nezobrazí Vývojářské možnosti!\n\n
+Nastavení - Vývojářské možnosti - Ladění přes USB - povolit - hotovo!
+
+*@Quick_Start_Step_2=Připojit zařízení k počítači pomocí USB kabelu (není třeba připojovat TV přes USB!).\n\n
+ADB AppControl detekuje zařízení a uvidíte status ČEKÁM.\n\n
+Povolit ladění na obrazovce zařízení. Nezapomenout zatrhnout možnost "vždy povolit".
+
+*@Quick_Start_Step_3=Jestliže jste připojeni pomocí usb, klikněte na tlačítko "Povolit ladění po síti" v ADB AppControl (vpravo nahoře)\n\n
+Najít IP adresu zařízení: Nastavení - O telefonu - Stavové informace - Adresa IP\n\n
+Odpojit usb kabel a vepsat IP do políčka programu (vpravo nahoře). Kliknout na spojit.
+
+
+@Quick_Start_Btn_GotIt=Mám to!
+
+@Quick_Start_Cbx_DontShow=Již průvodce nezobrazovat
+
+@Msg_Delete_Apk_Confirm=Smazat vybrané soubory z disku?
+@Cbx_EE_Silent_Mode=Tichý mód (bez potvrzování)
+@Msg_Halloween_Cat=Halloween je tady!\nTo je skvělá příležitost podpořit vývojáře a získat +100 karmy a ochrany před smrtí, no né? ;-)
+@Msg_New_Year=Veselé vánoce a šťastný nový rok!\nAť nový rok přinese mír a štěstí.\nPřátelský pozdrav, CyberCat.
+
+@Txt_App_Name=Jméno aplikace
+@Txt_Package=Balíček
+@Txt_Size=Velikost
+@Msg_Auto_Permissions_No_App_Found=Nenalezeny instalované aplikace ze seznamu.
+@Action_Clear_App_Data=Smazat data aplikace
+@Msg_Clear_App_Data=Všechna data aplikace, včetně nastavení, budou smazána. Provést?
+@Msg_Clear_App_Data_Failed=Selhalo mazání dat aplikace.
+@Msg_Clear_App_Data_Success=Data aplikace smazána úspěšně.
+
+@Msg_Wizard_Denied=Přístup na server byl zablokován. Prosím kontaktujte vývojáře pro vyřešení tohoto problému.
+@Msg_Wizard_Not_Found=Toto zařízení není podporováno. Možná bude podpora přidána v budoucích aktualizacích.
+@Msg_Wizard_Loaded=Nalezeny nežádoucí aplikace: {0}
+@Msg_Wizard_Clear=Žádné nežádoucí aplikace na tomto zařízení.\n
+Zkuste zvýšit úroveň čištění a jeden stupeň.
+@Txt_Wizard_Title=Průvodce deblokací
+@Txt_Wizard_Basic=Základní
+@Txt_Wizard_Descr_Basic=Vypnout TOP nežádoucí aplikace na zařízení.
+@Txt_Wizard_Safe=Bezpečné
+@Txt_Wizard_Descr_Safe=Doporučeno pro většinu uživatelů.
+@Txt_Wizard_Medium=Střední
+@Txt_Wizard_Descr_Medium=Vyšší úroveň čištění pro zkušenější uživatele.
+@Txt_Wizard_Max=Maximální
+@Txt_Wizard_Descr_Max=Použít pouze po manuálním nastavení seznamu.
+@Txt_Wizard_Select_Level=Úroveň čištění:
+
+@Txt_Wizard_Welcome=Nová a účinná funkce vám umožní zbavit se většiny nechtěných aplikací. 
+V závislosti na zvolené úrovni se načte seznam aplikací, které je doporučeno v zařízení zakázat. 
+Před zakázáním seznam pečlivě zkontrolujte a upravte.
+
+@Txt_Extended_Only=Pouze v rozšířené verzi!
+@Btn_Wizard_Load=POUŽÍT
+@Lbl_Wizard_Descr=Kontrola zařízení na nežádoucí aplikace a bloatware.
+@Btn_Wizard=Najít a vypnout Bloatware na zařízení
+@Msg_Cannot_Connect_To_Server=Nelze se připojit na server.
+@Txt_Want_Know_More=Naučit se víc
+@Menu_App_Info=O aplikaci
+@Menu_Copy_Text=Kopírovat
+@Btn_Auto_Permissions_List=Podporované aplikace
+@Msg_Version_Outdated=Tato verze programu je zastaralá a dále není podporovaná.
+*@Txt_Wizard_New_Update=Deblokační databáze aktualizovaná!
+@Msg_Key_Check_Failed=Aktivace selhala.\n
+Prosím restartujte program a znovu ho na tomto zařízení aktivujte vaším klíčem.
+@Btn_Close=Zavřít
+@Btn_Dont_Show_Again=Nezobrazovat tuto zprávu znovu
+@Msg_Function_Under_Dev=Na této funkci se pracuje a bude k dispozici v příštích aktualizacích.
+@Msg_Version_Need_Update=Je vyžadována nejnovější verze programu. Nainstalujte si prosím aktualizaci.
+@Txt_Act_Limit=Denní limit aktivace tohoto klíče byl překročen. Zkuste to prosím později.
+@Txt_Act_Banned=Tento klíč byl zablokován. Kontaktujte prosím vývojáře.
+@Msg_Wizard_Recieve_Date_Error=Chyba!\nNelze přijmout data. Zkuste to později.
+@Msg_Wizard_Privacy=Informace o ochraně soukromý.\n\n
+Pokaždé, když použijete funkci Průvodce deblokací (kromě základní úrovně), bude na vzdálený server odeslán seznam nainstalovaných aplikací ze zařízení Android ke zpracování. Tato data se NEukládají a NEzaznamenávají a NELZE je ztotožnit s vaší osobou.\n\n
+Souhlasíte a chete pokračovat?
+@Menu_Copy=Kopírovat
+@Menu_Cut=Vyjmout
+@Menu_Paste=Vložit
+@Msg_Uninstall_Clear_Data=Vymazat data aplikací a mezipaměť při odinstalaci?
+
+@### NEW IN 1.6.0 ###
+
+@EE_Cbx_Use_System_Adb=Použít systém adb (z %PATH%)
+@EE_Cbx_Kill_Adb_When_Exit=Zastavit adb při ukončení
+@Msg_Driver_Install_Complete=Ovladač byl úspěšně nainstalován do počítače.
+@Msg_Driver_Install_Failed=Ovladač se nepodařilo nainstalovat nebo je v systému již nainstalován jiný ovladač.\n\n
+Chcete otevřít uživatelskou příručku s možnými řešeními?
+@Msg_Error_Write_Disk=Chyba. Program nemá přístup k zápisu na disk a bude ukončen. 
+Chcete-li pokračovat, přesuňte složku programu do jiného umístění (například na jednotku D).
+@Menu_Top_Descr_Tm=Náš kanál na Telegramu
+@Cbx_LogCat_Save_Log=Uložit log do souboru
+@Btn_EE_Default=Základní
+@Msg_Ee_Default=Chcete obnovit všechna nastavení do výchozího stavu?
+@Lbl_EE_You_Are_Extended=Máte rozšířenou verzi
+@Lbl_EE_Activate=Nakopírujte svůj klíč sem a klikněte na OK
+@Btn_EE_Activate=Aktivovat
+
+@Cbx_EE_Adb_Key_Protection=Ochrana ADB klíčem
+@Lbl_AdbKey_LogIn=Odemknout ADB Klíče vaším heslem
+@Btn_AdbKey_LogIn_Unlock=Odemknout
+@Btn_AdbKey_LogIn_Skip=Přeskočit
+@Msg_AdbKey_Protect_Incorrect_Password=Neplatné heslo.
+
+@Lbl_AdbKey_Protect=Chraňte ADB klíče heslem pro bezpečnější povolení ladění na zařízení. 
+Toto heslo budete muset zadat při každém spuštění programu.
+@Btn_AdbKey_Protect=Chránit
+@Btn_AdbKey_Protect_Load_Key=Již mám klíč
+@Lbl_AdbKey_Protect_NewPassword=Nové heslo
+@Lbl_AdbKey_Protect_ConfirmPassword=Potvrdit heslo
+
+@Msg_AdbKey_Protect_Reset=Chcete obnovit uložené klíče před vypnutím ochrany?
+@Msg_AdbKey_Protect_Success=Ochrana klíče ADB je povolena.
+@Msg_AdbKey_Protect_Passwords_Not_Equal=Hesla nesouhlasí!
+@Msg_AdbKey_Protect_Disable=Po uzamčení se pro všechna zařízení použije náhodný nechráněný klíč.\n
+Váš zabezpečený klíč se uloží a po zadání hesla jej můžete znovu použít.\n\n
+Jste si jisti, že chcete blokovat klíče ADB?
+@Tips_Protect_Unprotected=Používáte náhodný nezabezpečený klíč. Kliknutím odemknete.
+@Tips_Protect_Protected=Používáte zabezpečený klíč. Kliknutím zablokujete.\n
+Po uzamčení bude ADB pro práci se zařízeními používat náhodně vygenerovaný klíč.
+@Msg_AdbKey_Protect_Key_Not_Found=Soubor ADB klíče nenalezen!
+@Txt_AdbKey_Protect_Description=
+Soubory s klíči adb, které se používají k ladění, lze přenést do jiného počítače nebo odcizit.\n
+Pokud při ladění z pohodlných důvodů používáte možnost <Vždy povolit>, pak s takovým klíčem útočník\n
+může získat neomezený přístup k zařízení se systémem Android, i když je chráněno heslem nebo biometrickými údaji.\n
+Užitečná může být také možnost přenosu kláves - například pro připojení k zařízení s rozbitou obrazovkou.\n\n
+ADB AppControl vám pomůže bezpečně šifrovat klíče ADB a chránit vaše data.
+
+@Btn_Ee_Deactivation=Deaktivovat
+@Msg_Ee_Deactivation=Smazat aktivační klíč a deaktivovat program? (program bude ukončen)
+
+@Tips_Ee_Save_Ip=Uložit IP adresy zařízení do oblíbených položek pro rychlé připojení
+@Tips_Ee_Dark_Theme=Změní barevné schéma rozhraní a sníží únavu očí ve večerních hodinách.
+@Tips_Ee_Show_Icons=Skrytí ikon zjednoduší rozhraní a výrazně urychlí aktualizace dat aplikace.
+@Tips_Ee_Silent_Mode=Zakázat otravné žádosti o potvrzení
+@Tips_Ee_System_Adb=Toto nastavení povolte, pokud již máte v systému nainstalované rozhraní ADB a chcete ho\n
+používat při práci s programem.
+@Tips_Ee_Save_Cache=Ikony aplikací z připojených zařízení se systémem Android se uloží do mezipaměti v počítači.\n
+Ze zařízení se načtou pouze ty ikony, které ještě nejsou v mezipaměti.\n
+Povolením této možnosti se urychlí aktualizace dat aplikace.
+
+@Tips_Apps_Update_Data=Aktualizovat jména aplikací a ikony
+@Tips_Apps_Load_Preset=Načtení dříve uložené předvolby a kontrola všech aplikací z ní.
+@Tips_Apps_Save_Preset=Uložení seznamu zkontrolovaných aplikací do textového souboru
+@Tips_Apps_Auto_Permissions=Rychlé udělení všech potřebných oprávnění pro oblíbené aplikace
+@Tips_Apps_Install_Apk=Rychlá instalace souboru apk z počítače do zařízení
+@Tips_Apps_Upload_File=Výběr souborů na disku pro stažení do složky Download v zařízení.
+@Tips_Console_Screenshot=Poříďit snímek obrazovky zařízení se systémem Android a stažení do počítače.
+@Lbl_Continue=Připojit Android zařízení
+
+@Tips_Apps_History=Seznam zařízení, ke kterým jste se již připojili prostřednictvím sítě.
+@Msg_Device_Disconnected_Aborted=Zařízení nereaguje. Operace byla přerušena.
+@Txt_Act_Incorrect_Key=Neplatný aktivační klíč!
+
+@Captcha_Head=Ověřování
+@Captcha_Title=Ahoj, je to jen malá captcha :)
+@Captcha_Description=Vložit text z obrázku:
+@Captcha_Btn_Enter=Zkontrolovat!
+@Captcha_Msg_Validation_Failed=Špatně jste zadali text, zkuste to znovu.\nPozor! Počet pokusů je limitován.
+@Captcha_Msg_Validation_Banned=Neuspěli jste při ověřování a vaše IP adresa byla na serveru dočasně zablokována. Zkuste ověření provést později.
+@Captcha_Btn_Refresh=Obnovte obrázek, pokud nemůžete přečíst text.
+@Captcha_Title_Extended=Uživatelé rozšířené verze nepotřebují ověřování.
+@Msg_Emergency_Stop=Pozor! Nedoporučuje se přerušovat práci programu bez závažného důvodu.\n\n
+Jste si jisti, že chcete přerušit práci programu?
+
+@Tips_Ee_Accurate_Sizes=Umožňuje získat přesné velikosti aplikací prostřednictvím acbridge při aktualizaci dat.\n
+Mírně prodlouží dobu aktualizace. Požadován Android 8.0 nebo novější.
+@Cbx_Ee_Accurate_Sizes=Přesné velikosti aplikací
+@Btn_Connection_Port_Auto=Port:
+
+@Msg_Accurate_Sizes_Need_Permission=Možnost Přesné velikosti aplikací je povolena.\n
+Aby ACBdridge zobrazoval přesné velikosti aplikací, je třeba udělit oprávnění <PACKAGE_USAGE_STATS>. Chcete-li tuto zprávu skrýt, udělte oprávnění nebo vypněte možnost přesné velikosti aplikací v nastavení.\n
+Přečtěte si více v uživatelské příručce.
+
+@ ### NEW IN VERSION 1.6.4
+@Msg_Default_Browser_Not_Found=Chyba. Výchozí prohlížeč nebyl nalezen.
+@Menu_Search_In=Vyhledat v...
+@Menu_App_Advanced=Pokročilé...
+@Menu_App_Start=Spustit
+@Menu_App_Stop=Stop
+@Menu_App_Report=Zpráva o aplikaci
+
+@Frm_Report_Check_Type=Zvolte typ aplikace:
+@Frm_Report_Bloatware=Aplikace Bloatware
+@Frm_Report_Bloatware_Desk=Tato aplikace je nežádoucí a měla by být zakázána.
+@Frm_Report_Critical=Kritické systémové aplikace
+@Frm_Report_Critical_Desk=Zakázání této aplikace způsobí poruchu zařízení.
+@Frm_Report_Button=Odeslat
+
+@Frm_Report_Comment=Komentář (volitelně)
+@Frm_Report_Msg_Thanks=Zpráva byla odeslána vývojáři. Děkujeme za zpětnou vazbu!
+@Frm_Report_Desk=Informujte vývojáře o nežádoucí nebo problematické aplikaci. Pomůže to ještě více vylepšit ADB AppContol.
+@Frm_Report_Already_Sent=Tato aplikace je již nahlášena.
+
+@Msg_Install_Multiple=Vícečetná instalace\n
+Vícečetná instalace umožňuje instalovat do zařízení více aplikací najednou. 
+Soubory .apk nebo .apks jednoduše přetáhněte do okna programu, aby se objevily v tomto seznamu.\n\n
+Soubory se zkopírují do složky "Install" a budou k dispozici pro instalaci do jakéhokoli připojeného zařízení. Můžete si také vytvořit samostatnou složku ve složce Install a umístit do ní některé soubory apk. Poté se složka objeví v seznamu a při instalaci se nainstalují všechny apk, které obsahuje.\n\n
+Aplikace DEMO se po přidání souborů skryjí.
+@Menu_Context_Rename_Apk=Přejmenovat
+@Btn_Install_ApkFolder=Instalační složka
+@Btn_Device_ApkFolder={0} složka
+@Lbl_Select_Folder=Výběr složky souborů:
+@Msg_No_Internet_Connection=Je požadováno připojení k síti
+
+@Msg_Debug_Recomendation=Při požadavku na povolení ladění doporučujeme zvolit možnost "Vždy povolit". 
+Pomůže vám, pokud se s přístrojem vyskytnou problémy. Tuto možnost povolte pouze na důvěryhodných počítačích! Více čtěte na {0}
+@Lbl_Settings_Feature_8=Přetažení souborů .apk a předvoleb do okna programu
+@Lbl_Settings_Feature_9=Instalace více aplikací (dávková instalace)
+*@Btn_Select_And_Install=Rychlá instalace
+
+@# UPDATE 1.6.6
+
+@Msg_Scrcpy_Not_Installed=Pro vzdálené ovládání zařízení se systémem Android je nutné nainstalovat aplikaci SCRCPY. Jedná se o bezplatnou open source aplikaci vyvinutou společností Genymobile. (https://github.com/Genymobile).\n\n
+Chcete-li nainstalovat program Scrcpy, stáhněte si archiv scrcpy-win{0}.zip s programem a vyberte jej v dialogovém okně pro výběr souboru. Toto je třeba provést pouze jednou.\n\n
+Kliknutím na ANO otevřete odkaz ke stažení Scrcpy na Githubu nebo kliknutím na NE přejdete k instalaci.
+
+@Msg_Scrcpy_Successfully_Installed=Scrcpy byl úspěšně nainstalován.\n\n
+Důležité! Scrcpy je open source software třetí strany vyvinutý společností Genymobile. ADB AppControl ani jeho vývojář nemají s tímto softwarem nic společného. Před použitím se ujistěte, že jste si přečetli a přijali licenční smlouvu Scrcpy.
+
+@Msg_Scrcpy_Fail_Installed=Instalace Scrcpy selhala.
+@Msg_Scrcpy_Txt_Installed=Scrcpy nainstalováno.
+@Btn_Scrcpy_Start=Zkontrolujte obrazovku zařízení
+@Btn_Tools_Resolution=Rozlišení obrazovky
+@Btn_Tools_StatusBar=Ikony stav. řádku
+@Btn_Tools_Capture_Video=Záznam videa
+@Txt_Tools_Density=Hustota pixelů
+@Tab_Tools=Nástroje
+@Btn_Tools_StatusBar_Hide=Skrýt
+@Txt_Tools_StatusBar_Desk=Vyberte ikony stavového řádku, které chcete skrýt.
+@Txt_Ram_Total=Celkem
+@Txt_Ram_Free=Volné
+@Txt_Ram_Used=Použito
+
+
+@# UPDATE 1.7.2
+@Msg_Settings_Changed=Chcete uložit nastavení?
+@Btn_Add_Apk=Přidat apk
+@Btn_Remove_Apk=Smazat apk
+@Btn_Back=Zpět
+@Txt_Install_Only_Free_Version=V bezplatné verzi aplikace ADB AppControl nelze nainstalovat více než jednu aplikaci najednou. Pořiďte si rozšířenou verzi, která toto omezení odstraní a přinese další výhody.\n\n
+Chcete vědět víc?
+@Txt_License_Key=Zobrazit licenční klíč produktu
+@Msg_Bridge_No_Permissions=Program nemohl zkontrolovat oprávnění aplikace ACBridge a nemusí pracovat správně.\n\n
+Ujistěte se, že aplikace ACBridge (com.cybercat.acbridge) má oprávnění k přístupu do úložiště v zařízení se systémem Android. Více informací se dozvíte na oficiálních webových stránkách v části Dokumentace - Řešení problémů.
+Přejete si pokračovat?
+@Msg_Files_Not_Found=Program nelze spustit, protože chybí požadované soubory.\n\nMožná řešení:\n
+- Ujistěte se, že antivirový program neblokuje soubory programu.\n
+- Nespouštějte program z rozbaleného archivu.\n
+- Stáhněte si program znovu z oficiálních webových stránek.
+@Txt_Resolution_Warning=Nastavení příliš vysokých nebo příliš nízkých hodnot může způsobit poruchu přístroje!
+@Txt_Tools_Resolution=Rozlišení:
+
+@# UPDATE 1.7.4
+*@Txt_Console_Search_Not_Found=Nenalezeny žádné výsledky
+*@Txt_Console_Search_Results_Found=Nalezeno
+
+@# UPDATE 1.7.5
+*@Radio_Enabled=Povoleno
+*@About_LastUpdate=Poslední aktualizace
+
+@# UPDATE 1.7.6
+@Msg_Scrcpy_Update_Available=Nalezena nová verze {0}\n\nOtevřít stránku Scrcpy odkud se dá stáhnout?
+@Msg_Scrcpy_Uninstall_Success=Scrcpy byl odinstalován!
+@Msg_Scrcpy_Uninstall_Failed=Odinstalování selhalo!
+
+@# UPDATE 1.7.8
+@Msg_Restore_Not_Supported=POZOR! Vaše zařízení nepodporuje obnovení aplikace.\n\n
+Odinstalované systémové aplikace bude možné obnovit až po obnovení továrního nastavení zařízení.\n\n
+Chcete pokračovat?
+@Btn_Record_Screen_Video=Nahrát video z obrazovky
+@Msg_Video_Recorded=Video z obrazovky uloženo do souboru:\n{0}.
+
+@# UPDATE 1.8.0
+@Txt_Process_Manager=Správce procesů
+@Txt_Running_Processes=Běžící procesy
+@Txt_Search=Vyhledat
+@Txt_Find_In_AppList=Najít v seznamu aplikací
+@Tip_Process_Manager=Správce procesů vám ukáže spuštěné aplikace a množství paměti RAM, které spotřebovávají.
+@Txt_Process_Manager_Extended_Only=Správce procesů vám ukáže spuštěné aplikace a množství paměti RAM, které spotřebovávají.
+ Slouží k vyhledávání a zakazování aplikací, které aktivně spotřebovávají prostředky zařízení.
+
+@InfoMsg_AdbTv_Title=ADB TV pro Android TV!
+@InfoMsg_AdbTv_Text=Vyzkoušejte mého zbrusu nového správce aplikací pro Android TV! Spravujte aplikace na svých televizorech a TV-boxech bez počítače pouze pomocí dálkového ovládání. K dispozici ke stažení.
+
+
+
+
+@# UPDATE 1.8.3
+@Txt_Pairing=Párování
+@Txt_Ip=IP
+@Txt_Port=Port
+@Txt_Code=Kód
+@Txt_Pair_Desc=Otevřete nastavení zařízení - Možnosti pro vývojáře - Ladění pomocí bezdrátového spojení (Wi-Fi). Klikněte pro párování s kódem.
+@Btn_Pair=Párovat
+@Btn_Need_Help=Potřebujete pomoct?
+@Msg_Pair_Success_Text=Úspěšně spárováno! Od této chvíle můžete své zařízení připojit pomocí bezdrátového ladícího portu. Zařízení už není potřeba znovu párovat.
+@Msg_Pair_Failed_Text=Párování se nezdařilo! Vaše Android zařízení a PC musí být připojeny ke stejné síti Wi-Fi. Také se ujistěte, že nepoužíváte síť VPN.
+@Tip_Pairing=Párování umožní připojení zařízení přes Wi-Fi bez kabelu USB. Je vyžadován systém Android 11 nebo novější.
+@Pairing_Tips=Kontrolní seznam:\nPouze pro Android 11 a novější.\nZařízení ve stejné síti Wi-Fi.\nVPN by měla být vypnuta.\nPárování a port připojení jsou odlišné!
+

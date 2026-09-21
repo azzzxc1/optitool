@@ -1,0 +1,622 @@
+VERSION=1.8.0
+# Bijzondere kenmerken:
+# @Do_Not_Translate_This=Vertaal dit NIET
+# \n - nieuw lijnsymbool
+# {0} - de variabele invoeging (nu is {0} jaar => nu is jaar 2020)
+# * - ontwikkelaar markeert nieuwe of bewerkte string (gebruik CTRL + F om te zoeken)
+# {AT} - is @-symbool voor e-mail (gebruiker{AT}mail.com => gebruiker@mail.com)
+# Probeer de regellengte en opmaak zo dicht mogelijk bij het origineel te houden!
+# Voer uw naam en e-mailadres in bij Translator_Name= en Translator_Email=
+
+@# BEGIN MET VERTALING:
+
+@Language=nl
+@Translation_Version=1.0
+@MyLanguage=Nederlands
+@Translator_Name=Alex Kooijman
+@Translator_Email=kooijman.alex{AT}gmail.com
+
+
+@Translation_Author=Vertaling auteur:
+
+@Txt_Official_Site=Officiële programma website
+
+@Txt_Form_Permissions_Search=Zoeken...
+
+@Txt_Form_Permissions_Help=U kunt machtigingen voor de toepassing verlenen (aanvinken) of intrekken (uitvinken).\n
+Belangrijk! U kunt alleen machtigingen intrekken die u handmatig hebt verleend.
+
+@Txt_Form_AutoPermissions_Help=De vervolgkeuzelijst bevat geïnstalleerde toepassingen waarvoor speciale machtigingen vereist zijn om de functionaliteit te onthullen. Selecteer een applicatie en klik op Machtigingen instellen.
+
+@ToolTip_Refresh=Vernieuwen
+@ToolTip_Console_Dark_Mode=Console donkere modus
+@ToolTip_Wide_Console=Console uitvouwen
+@ToolTip_Press_Enter=Opdracht uitvoeren
+@ToolTip_Clear_Command_Line=Opdrachtregel wissen
+@ToolTip_Fast_Cmd_Add=Opdracht toevoegen aan favorieten
+@ToolTip_Fast_Cmd_Remove=Opdracht verwijderen uit favorieten
+@ToolTip_Cbx_Names_Auto_Update=Hiermee wordt het automatisch bijwerken van pictogrammen en app-namen ingeschakeld wanneer het apparaat is aangesloten
+
+@About_Program=ADB AppControl
+@About_Author_0=ontwikkelaar:
+@About_LinkTopic=Gebruikershandleiding en instructie
+@About_Version=versie
+@About_GoodDay=Fijne dag verder :)
+@Status_Disconnected=Verbroken
+@Status_Connected=Verbonden
+@Status_Waiting=Wachten
+@Status_Error=Fout
+@Status_Device_Dont_Respond=(reageert niet)
+
+@Device_NeedAuth=Sta foutopsporing toe op uw apparaat.
+
+@Menu_Top_Descr_Check_Version=Controleer op updates
+@Menu_Top_Descr_Open_Folder=Open programmamap
+@Menu_Top_Descr_Help=Vraag hulp
+@Menu_Top_Descr_Donate=Steun het project!
+@Menu_Top_Descr_Donate_King=Bedankt voor uw steun!
+@Menu_Top_Descr_Language=Wijzig taal
+
+@Lbl_Total_Applications=Totaal:
+@Lbl_Fast_Commands=Snelle opdrachten
+@Lbl_Selected_Apps=Toon geselecteerde:
+@Lbl_Info_Drag_And_Drop=Sleep APK's en zet ze neer of kopieer ze naar de installatiemap
+@Txt_Form_Permissions=Rechten
+@Lbl_Form_AutoPermissions_Select=Selecteer applicatie
+
+@Lbl_Settings_Feature_1=Basisfunctionaliteit van het programma
+@Lbl_Settings_Feature_2=Geavanceerde programma-instellingen
+@Lbl_Settings_Feature_3=Meerdere bestanden uploaden naar apparaat
+@Lbl_Settings_Feature_4=Sleep apk naar lijst voor installatie
+@Lbl_Settings_Feature_5=Dankbaarheid van ontwikkelaar
+@Lbl_Settings_Feature_6=Sorteer apps in de lijst
+@Lbl_Settings_Feature_7=Toegang tot ALLE niveaus van de Debloat Wizard
+
+@Action_Choose=Selecteer:
+@Action_Disable=Uitschakelen
+@Action_Enable=Inschakelen
+@Action_Uninstall=Verwijderen
+@Action_Save=Opslaan
+
+@Btn_Install=Installeren
+@Btn_Apply=Toepassen
+@Btn_Restore=Herstellen
+@Btn_No=Nee
+@Btn_Yes=Ja
+@Btn_Cancel=Annuleren
+@Btn_Enable_Debug=Netwerkfoutopsporing inschakelen
+@Btn_Connect=Verbinden
+@Btn_Disconnect=Verbinding verbreken
+@Btn_Update_Names=Toepassingsgegevens bijwerken
+@Btn_Get_Names=Toepassingsgegevens ophalen
+@Btn_Preset_Load=Voorinstelling laden
+@Btn_Preset_Save=Voorinstelling opslaan
+@Btn_LogCat_Start=Start\nlogcat
+@Btn_LogCat_Stop=Stop\nlogcat
+@Btn_Copy_Log=Kopieer\nconsolelogboek
+@Btn_Console_Clear=Clear\nconsole
+@Btn_Take_Screenshot=Maak\nscreenshot
+@Btn_Reboot=Opnieuw opstarten
+@Btn_Upload=Bestanden uploaden
+@Btn_Set_Permissions=Machtigingen instellen
+@Btn_Auto_Permissions=Auto\nPermissies
+
+@Loading_Loading=Bezig met laden
+@Loading_Connecting=Verbinden
+@Loading_Enable=Inschakelen
+@Loading_Disable=Uitschakelen
+@Loading_Saving=Opslaan
+@Loading_Uninstall=Bezig met verwijderen
+@Loading_Install=Installeren
+@Loading_Refreshing=Bezig met laden
+@Loading_Exit=Bezig met voltooien
+@Loading_Build=Bezig met laden
+@Loading_Rebooting=Opnieuw opstarten
+
+@Loading_Restoring=Herstellen
+@Loading_Build_Step_0=ACBridge installeren
+@Loading_Build_Step_1=Verbinden
+@Loading_Build_Step_2=Brug starten
+@Loading_Build_Step_3=Gegevens laden
+@Loading_Build_Step_4=Gegevens schrijven
+@Loading_Build_Step_Icons=Pictogrammen downloaden
+@Loading_Build_Update_Bridge=ACBridge-update
+
+@Tab_Page_Apps= Toepassingen
+@Tab_Page_Console=Console
+@Tab_Page_About=Over
+
+@Radio_All=Alles
+@Radio_System=Systemen
+@Radio_User=Gebruikers
+@Radio_Disabled=Uitgeschakeld
+@Radio_Install=Installeren
+@Radio_Deleted=Verwijderd
+
+@Preset_Title=Voorinstelling opslaan
+@Preset_FileName=Vooraf ingestelde naam
+@Preset_Comment=Vooraf ingestelde beschrijving
+@Preset_Apps=toepassingen
+@Preset_Header_1=# Voorinstelling gemaakt in ADB AppControl
+@Preset_Header_2=# Totaal aantal aanvragen:
+
+@Cbx_Full_Names=Toon volledige applicatienamen
+@Cbx_Show_Icons=Toon toepassingspictogrammen
+@Cbx_Select_All=Alles selecteren
+@Cbx_Keep_Data=Verwijder gegevens en cache
+@Cbx_Names_Auto_Update=Gegevens automatisch bijwerken
+
+@Menu_Context_Copy_Package=Pakketnaam kopiëren
+@Menu_Context_Copy_AppName=App-naam kopiëren
+@Menu_Context_Set_Permissions=Machtigingen instellen
+@Menu_Context_Delete_Apk=Verwijderen
+
+@Tips_Rb_All=Toon alle geïnstalleerde applicaties (behalve uitgeschakeld)
+@Tips_Rb_System=Toon alleen systeemapplicaties
+@Tips_Rb_User=Toon door de gebruiker geïnstalleerde toepassingen en toepassingen van derden.
+@Tips_Rb_Disabled=Toon alleen uitgeschakelde applicaties
+@Tips_Rb_Install=Toepassingen installeren. Plaats de apk-bestanden in de installatiemap
+@Tips_Rb_Deleted=Toon verwijderde systeemapplicaties.
+@Tips_1=
+@Tips_2=
+@Tips_3=
+@Tips_4=
+@Tips_5=
+
+@Cbx_EE_Save_IP_History=Verbindingsgeschiedenis opslaan
+@Cbx_EE_Dark_Theme=Donker thema
+@Cbx_EE_Save_Cache=Pictogramcache opslaan
+@Btn_EE_Clear_IP_History=Wis geschiedenis
+@Btn_EE_Save_Settings=Instellingen opslaan
+@Lbl_EE_Opacity=Dekking
+@Lbl_EE_Icons_Size=Pictogramgrootte
+@Lbl_EE_Font_Size=Lettergrootte
+@Tab_EE_Super_Settings=Instellingen
+@Lbl_EE_Only_Extended=Alleen beschikbaar voor projectondersteuners in de uitgebreide versie
+@Btn_EE_Become_Extended=Hoe te krijgen?
+Note_Install_ACBridge=Installeer ACBridge\n
+De ACBridge-servicetoepassing wordt op uw apparaat geïnstalleerd.\n
+Hiermee kunt u toepassingspictogrammen in de lijst zien, en algemene toepassingsnamen in plaats van pakketnamen.\n\n
+Let op: op sommige apparaten moet u de optie Installeren via ADB in het ontwikkelaarsmenu inschakelen. Zorg er ook voor dat je apparaat niet in de slaapstand staat (ontgrendel het scherm)!\n\n
+Gaat u akkoord met het installeren van de ACBridge-app op uw apparaat?
+
+@Note_Version_New_Found=Nieuwe versie van het programma gevonden - {0}.\nDruk op Ja om bij te werken.
+
+@Note_Restore_Deleted=Verwijderd\n
+Deze lijst bevat verwijderde systeemapplicaties.\n\n
+Selecteer degene die je nodig hebt en klik op Herstellen. Als het herstel is gelukt, verschijnt de applicatie in de hoofdlijst.\n\n
+BELANGRIJK! Android versie 6 en lager bieden geen ondersteuning voor herstel.
+
+@Note_Please_Donate=Vind je ADB AppControl leuk?\n
+Wil je nog meer functies? Word projectsponsor en krijg toegang tot de uitgebreide versie van het programma met nieuwe coole en handige functies.
+Uw steun is de beste manier om "dank u" te zeggen en nieuwe ideeën te inspireren. Slechts één kopje koffie kan ADB AppControl beter maken!\n\n
+Wil meer weten?
+
+@Note_Changelog=Nieuw in {0}\n{1}
+
+@Note_Driver_Install=Verbindingsproblemen?\n
+Als u een apparaat via usb probeert aan te sluiten maar er gebeurt niets, moet u misschien het ADB-stuurprogramma installeren.\n\n
+De driver nu downloaden en installeren?
+
+@#REGIO:MSG
+
+@Msg_Preset_Owerwrite=Zo'n bestand bestaat al. Overschrijven?
+@Msg_MoreThanOneDevice_0=Verbonden apparaten:
+@Msg_MoreThanOneDevice_1=Het programma is niet bedoeld om met meer dan één apparaat te werken.
+@Msg_SearchStop_0=Geen overeenkomsten gevonden!
+@Msg_SearchStop_Title=Zoeken
+@Msg_PresetSaved=Preset is opgeslagen in
+@Msg_PresetSavedTitle=Voorinstelling opgeslagen
+@Msg_PresetLoaded_Title=Voorinstelling geladen
+@Msg_PresetLoaded_0=Geselecteerd
+@Msg_PresetLoaded_1=apps van preset
+@Msg_ActionComplete_Disabled=Uitgeschakelde applicaties
+@Msg_ActionComplete_Enabled=Ingeschakelde applicaties
+@Msg_ActionComplete_Saved=Opgeslagen applicaties
+@Msg_ActionComplete_Uninstalled=Verwijderde applicaties
+@Msg_ActionComplete_Installed=Toepassingen geïnstalleerd
+@Msg_ActionComplete_Title=Taak voltooid
+@Msg_ActionComplete_Restored=Toepassingen hersteld
+@Msg_DoYouWantBackup_Title=Back-up
+
+@Msg_DoYouWantBackup_0=Wilt u een back-up van apk-bestanden maken voordat u de installatie ongedaan maakt (aanbevolen)?
+
+@Msg_Warning_Title=Let op!
+
+@Msg_DisableOrUninstallConfirm=Het verwijderen of uitschakelen van SYSTEM-toepassingen kan leiden tot een storing van het apparaat en resetten naar de fabrieksinstellingen (met gegevens wissen). Weet je zeker dat je door wilt gaan?
+
+@Msg_Connect_To_IP_Error_Title=Verbindingsfout
+
+@Msg_Connect_To_IP_Error_10013=Geen netwerktoegang (10013).\n
+Probeer het volgende:\n\n
+- Controleer de netwerkverbinding van uw pc.\n
+- Als u een firewall gebruikt, geeft u adb.exe toestemming om toegang te krijgen tot het netwerk.\n
+
+@Msg_Connect_To_IP_Error_10060=Kan geen verbinding maken (10060).\n
+Probeer het volgende:\n\n
+- Controleer of het IP-adres correct is.\n
+- Controleer of het apparaat niet in de slaapstand staat.\n
+- Zorg ervoor dat uw pc en apparaat zijn verbonden met hetzelfde LAN.\n
+@Msg_Connect_To_IP_Error_10061=Netwerkfoutopsporing inschakelen (10061).\n
+Probeer het volgende:\n\n
+- Sluit uw apparaat aan via USB en schakel netwerkfoutopsporing in de AppControl in.\n
+- OF schakel in de instellingen voor de ontwikkelaars van uw apparaat de foutopsporing via het netwerk in (indien aanwezig).\n
+
+@Msg_Connect_To_IP_Error_Not_Respond=Het apparaat heeft lange tijd niet gereageerd en de bewerking is onderbroken.\n
+Zorg ervoor dat het apparaat niet in de slaapstand staat (scherm ontgrendelen).
+
+@Msg_Debug_Question=Weet u zeker dat u foutopsporing op dit apparaat wilt inschakelen?
+
+@Msg_Debug_Enabled=U kunt nu verbinding maken met uw apparaat via het netwerk (werkt voordat u het apparaat opnieuw opstart).\n\n
+IP: {0} Poort: {1}\n\n
+Om nu verbinding te maken, koppelt u de USB-kabel los en drukt u op OK.
+
+
+@Msg_Connect_Invalid_IP=Ongeldig formaat IP-adres.
+@Msg_Action_Choose=Selecteer een actie uit de lijst!
+@Msg_FastCmd_Add_Qestion=Een opdracht toevoegen aan favorieten?
+@Msg_FastCmd_Add_Help=Als u een opdracht aan uw favorieten wilt toevoegen, schrijft u deze in de console en klikt u op +
+@Msg_FastCmd_Remove_Qestion=Opdracht uit snelle lijst verwijderen?
+
+@Msg_Version_Check_Failed=Kon geen verbinding maken met de updateserver
+@Msg_Version_Dont_Need=U gebruikt de nieuwste versie van het programma!
+
+@Msg_Welcome_to_EE=Gefeliciteerd, u heeft nu een uitgebreide versie van het programma. Bedankt voor uw steun!
+
+@Msg_Base_Cannot_Create=Kan de database niet maken - ACBridge kan de lijst met applicaties niet ophalen van het apparaat.\n
+Mogelijk moet u toestemming voor schrijfopslag verlenen voor ACBridge op uw apparaat.
+
+@Msg_Corrupted_Programm=Programma is beschadigd of gewijzigd en kan niet worden gestart.\n
+Probeer uw computer te scannen met een antivirusprogramma en het programma opnieuw te downloaden van een officiële bron. Zie meer op {0}
+@Msg_Program_Already_Running=De toepassing is al actief!\n
+U kunt het stoppen met Windows Taakbeheer:\n
+Druk op ctrl + shift + esc en stop proces {0}.exe
+
+@Msg_Program_Old_Framework=Voor het uitvoeren van het programma is .NET Framework versie 4.6 of hoger vereist.\n
+Nu heb je geïnstalleerd: {0}.\n\n
+Wilt u de nieuwste versie van Microsoft downloaden en installeren?
+
+@Msg_ACBridge_Need_Permissions=ACBridge is geïnstalleerd, maar kan geen gegevens verzenden.\n
+1) Uw apparaat staat mogelijk in de slaapstand. Ontgrendel het en probeer het opnieuw.\n\n
+2) Controleer en verleen de vereiste machtigingen voor de ACBridge-app op uw apparaat:\n\n
+Instellingen - Applicaties - ACBridge - Rechten\n
+
+@Msg_ACBridge_Update_Failed=De geïnstalleerde versie van ACBridge op uw apparaat is verouderd en kan niet automatisch worden bijgewerkt. Om te upgraden, verwijdert u com.cybercat.acbridge.apk en probeert u het handmatig te installeren.
+
+@Msg_ACBridge_Lower_Android_Version=Uw apparaat biedt geen ondersteuning voor het weergeven van app-pictogrammen en volledige namen.\n
+Vereist Android-versie 6 of hoger.
+
+@Msg_ACBridge_Cannot_Install=Kan de ACBridge-app niet installeren op uw apparaat.\n\n
+Probeer het bestand com.cybercat.acbridge.apk (uit de ADB-map) naar uw apparaat te kopiëren en installeer het. Geef daarna in de apparaatinstellingen toestemming om opslag voor de AcBridge-app te schrijven en start het programma opnieuw.\n\n
+Wilt u de gebruikershandleiding openen?
+
+@Msg_ACBridge_Remove_And_Install=De ACBridge-toepassing die op uw apparaat is geïnstalleerd, moet worden bijgewerkt. Om door te gaan, moet het programma de toepassing opnieuw installeren.\n\nNu doen?
+
+@Msg_ACBridge_Device_Sleep=Het apparaat reageert lange tijd niet en staat mogelijk in de slaapstand.\n\n
+Ontgrendel het scherm van uw apparaat en klik op OK.
+
+@Msg_ACBridge_Download_Failed=Fout bij het laden van gegevens. Probeer het opnieuw.
+
+@Msg_Cbx_Save_Cache=Het opslaan van de pictogrammencache kan de programmaprestaties verbeteren, maar pictogrammen kunnen een andere stijl hebben en komen niet overeen met wat op uw apparaat wordt weergegeven.\nHet wordt aanbevolen om deze optie uit te schakelen.
+
+@Msg_ACBridge_Adb_Not_Working_Correctly=ADB werkt niet correct op uw apparaat en sommige programmafuncties zijn niet beschikbaar. Probeer uw apparaat opnieuw te verbinden.
+
+@Msg_EE_No_Internet=Internettoegang is vereist voor activering.
+
+@Msg_EE_Restart_Program=Start het programma opnieuw om de wijzigingen door te voeren
+
+@Msg_Console_Reboot=Apparaat opnieuw opstarten in {0}-modus?
+
+@Msg_Clear_Ip_History=Alle IP-adressen uit de geschiedenis verwijderen?
+
+@Msg_Files_Upload={0} bestand(en) zijn geüpload naar de apparaatmap 'downloaden'.
+
+@Msg_Files_Not_Upload=Niet alle bestanden ({0}) zijn geüpload naar het apparaat.\n
+Zie het consolelogboek voor meer informatie.
+
+@Msg_Do_You_Want_Install_Apk=Installeer {0} op uw apparaat?
+@Msg_Apk_Installed=Applicatie is succesvol geïnstalleerd!
+@Msg_Apk_Install_Error=Fout. Het installeren van een applicatie is mislukt.
+@Msg_Extended_Function_Only=Deze functie is alleen beschikbaar in de uitgebreide versie van het programma.\n\nMeer weten?
+
+@Msg_Under_Construction=Nieuwe functies zijn in ontwikkeling en zullen binnenkort beschikbaar zijn.\n\n
+Wil je de ontwikkeling van het project ondersteunen en versnellen?
+
+@Msg_You_Win=Je hebt geluk!\n
+De kans om deze foto te zien is minder dan 10%, en in plaats daarvan zou het vervelende reclame kunnen zijn (bijvoorbeeld remedies tegen schimmel).\n\n
+Maar in plaats van te adverteren in plaats van deze foto, komen er binnenkort nieuwe coole functies.\n
+Vind je dat leuk?
+
+@Msg_Upload_Files_To_Device={0} bestanden uploaden naar uw apparaat?
+
+@Msg_License_Agreement=Gebruiksvoorwaarden en licentieovereenkomst:\n\n
+ADB AppControl (deze software) wordt "as is" geleverd zonder enige vorm van garantie. In geen geval kan de auteur van deze software aansprakelijk worden gesteld voor enige schade veroorzaakt door het gebruik van deze software.\n\n
+Deze software is gratis voor persoonlijk en educatief gebruik. Elk commercieel gebruik vereist de persoonlijke toestemming van de auteur en commerciële licentie.\n\n
+ADB AppControl mag niet worden gedecompileerd, gedemonteerd, onderworpen aan reverse-engineering of anderszins worden aangepast.\n\n
+Alle rechten op deze software behoren alleen toe aan de auteur.\n\n
+Als u deze software blijft gebruiken, betekent dit dat u de voorwaarden van deze licentie accepteert en dat u instemt met het verzamelen en verwerken van anonieme statistieken over het gebruik van deze software.\n\n
+De volledige tekst van de overeenkomst is hier beschikbaar:\n
+https://appcontrol.neocities.org/pages/terms_of_use.html
+
+@Msg_License_Agreement_Additional=LET OP!\n
+Download het programma alleen van de officiële website adbappcontrol.com.\nBestanden van andere bronnen kunnen geïnfecteerd zijn en een kritieke bedreiging vormen voor de beveiliging van uw apparaten.\n\n
+
+@Msg_Operation_Timeout=Bewerking duurt meer dan {0} seconden.\n
+Sommige opdrachten kunnen lang duren om te voltooien.\n\n
+Wachten tot de huidige bewerking is voltooid? Klik op NEE om te stoppen.
+
+@Msg_Permission_Granted_Success=Alle rechten zijn ingesteld.
+@Msg_Permission_Granted_Failed=Fout! Het verlenen of intrekken van deze machtigingen is mislukt:
+
+@#REGIO:SNELLE START
+
+@Quick_Start_Header=Snelle start
+@Quick_Start_Step=Stap
+@Quick_Start_Additional=Aanvullend:
+@Quick_Start_Language=Kies uw taal
+@Quick_Start_Help=Lees de gebruikershandleiding
+
+*@Quick_Start_Step_1=Schakel USB-foutopsporing in op uw apparaat. Het is simpel!\n\n
+Instellingen - Over het apparaat - Software - Klik (7 keer) op het BUILDNUMBER tot je een ontwikkelaar wordt!\n\n
+Instellingen - Voor ontwikkelaars - USB-foutopsporing - Inschakelen - Klaar!
+*@Quick_Start_Step_2=Sluit je apparaat aan op je computer met een USB-kabel (je hoeft de tv niet aan te sluiten via usb!).\n\n
+ADB AppControl detecteert uw apparaat en u ziet de status WACHTEN.\n\n
+Sta foutopsporing toe op het scherm van uw apparaat. Vergeet niet de optie "Altijd toestaan" aan te vinken.
+
+*@Quick_Start_Step_3=Als u bent verbonden via usb, klikt u op de knop "Netwerkfoutopsporing inschakelen" in ADB AppControl (rechtsboven)\n\n
+Ontdek het IP-adres van uw apparaat: Instellingen - Over het apparaat - Status - IP-adres\n\n
+Koppel de usb-kabel los en vraag het IP-adres in het programmaveld (rechtsboven). Klik op verbinden.
+
+
+@Quick_Start_Btn_GotIt=Ik snap het!
+
+@Quick_Start_Cbx_DontShow=Tutorial niet meer tonen
+
+@Msg_Delete_Apk_Confirm=Geselecteerde bestanden van schijf verwijderen?
+@Cbx_EE_Silent_Mode=Stille modus (geen bevestigingen)
+@Msg_Halloween_Cat=Halloween is hier!\nDit is een goede reden om de ontwikkelaar te steunen en +100 te krijgen voor karma en bescherming tegen ondoden, nietwaar? ;-)
+@Msg_New_Year=Prettige kerstdagen en een gelukkig nieuwjaar!\nMoge het nieuwe jaar u vrede, vreugde en geluk brengen.\nMet vriendelijke groet, CyberCat.
+
+@Txt_App_Name=Applicatienaam
+@Txt_Package=Pakket
+@Txt_Size=Grootte
+@Msg_Auto_Permissions_No_App_Found=Geen geïnstalleerde applicaties gevonden in de lijst.
+@Action_Clear_App_Data=App-gegevens wissen
+@Msg_Clear_App_Data=Alle toepassingsgegevens, inclusief instellingen, worden verwijderd. Doorgaan?
+@Msg_Clear_App_Data_Failed=Kan toepassingsgegevens niet wissen.
+@Msg_Clear_App_Data_Success=Toepassingsgegevens zijn gewist.
+
+@Msg_Wizard_Denied=Toegang tot de server is geweigerd. Neem contact op met de ontwikkelaar om het probleem op te lossen.
+@Msg_Wizard_Not_Found=Uw apparaat wordt niet ondersteund. Misschien wordt er in toekomstige updates ondersteuning voor toegevoegd.
+@Msg_Wizard_Loaded=Ongewenste apps gevonden: {0}
+@Msg_Wizard_Clear=Er zijn geen ongewenste apps gevonden op uw apparaat.\n
+Probeer het reinigingsniveau te wijzigen naar een hoger niveau.
+@Txt_Wizard_Title=Debloat-wizard
+@Txt_Wizard_Basic=Basis
+@Txt_Wizard_Descr_Basic=Schakel TOP ongewenste apps uit voor uw apparaat.
+@Txt_Wizard_Safe=Veilig
+@Txt_Wizard_Descr_Safe=Aanbevolen voor de meeste gebruikers.
+@Txt_Wizard_Medium=Gemiddeld
+@Txt_Wizard_Descr_Medium=Een dieper niveau van opschonen voor geavanceerde gebruikers.
+@Txt_Wizard_Max=Maximaal
+@Txt_Wizard_Descr_Max=Alleen gebruiken na handmatige aanpassing van de lijst.
+@Txt_Wizard_Select_Level=Reinigingsniveau:
+
+@Txt_Wizard_Welcome=Met een nieuwe en effectieve functie kunt u de meeste ongewenste toepassingen verwijderen.
+Afhankelijk van het niveau dat u hebt geselecteerd, wordt een lijst met applicaties geladen waarvan wordt aanbevolen dat ze op uw apparaat worden uitgeschakeld.
+Bekijk en wijzig de lijst zorgvuldig voordat u deze uitschakelt.
+@Txt_Extended_Only=Alleen in de uitgebreide versie!
+@Btn_Wizard_Load=TOEPASSEN
+@Lbl_Wizard_Descr=Controleer uw apparaat op ongewenste apps en bloatware.
+@Btn_Wizard=Bloatware op uw apparaat zoeken en uitschakelen
+@Msg_Cannot_Connect_To_Server=Kan geen verbinding maken met de server.
+@Txt_Want_Know_More=Meer informatie
+@Menu_App_Info=Over de app
+@Menu_Copy_Text=Kopiëren
+@Btn_Auto_Permissions_List=Ondersteunde apps
+@Msg_Version_Outdated=Uw versie van het programma is verouderd en wordt niet langer ondersteund.
+*@Txt_Wizard_New_Update=Debloat-database bijgewerkt!
+@Msg_Key_Check_Failed=Activering mislukt.\n
+Start het programma opnieuw en activeer het opnieuw met uw sleutel op dit apparaat.
+@Btn_Close=Sluiten
+@Btn_Dont_Show_Again=Dit bericht niet meer weergeven
+@Msg_Function_Under_Dev=De functie is in ontwikkeling en zal beschikbaar zijn in de volgende updates.
+@Msg_Version_Need_Update=De nieuwste versie van het programma is vereist. Installeer de update.
+@Txt_Act_Limit=De dagelijkse activeringslimiet voor deze sleutel is overschreden. Probeer het later alstublieft.
+@Txt_Act_Banned=Deze sleutel is geblokkeerd. Neem contact op met de ontwikkelaar.
+@Msg_Wizard_Recieve_Date_Error=Fout!\nOntvangen van gegevens mislukt. Probeer het later alstublieft.
+@Msg_Wizard_Privacy=Privacy-informatie.\n\n
+Elke keer dat u de Debloat Wizard-functie gebruikt (behalve op basisniveau), wordt de lijst met geïnstalleerde applicaties van het Android-apparaat naar de externe server gestuurd voor verwerking. Deze gegevens worden NIET opgeslagen en NIET gelogd en kunnen NIET worden geïdentificeerd met uw persoonlijkheid.\n\n
+Ben je het eens en wil je doorgaan?
+@Menu_Copy=Kopiëren
+@Menu_Cut=Knippen
+@Menu_Paste=Plakken
+@Msg_Uninstall_Clear_Data=App-gegevens en cache wissen tijdens verwijderen?
+
+@### NIEUW IN 1.6.0 ###
+
+@EE_Cbx_Use_System_Adb=Gebruik systeemadb (van %PATH%)
+@EE_Cbx_Kill_Adb_When_Exit=Stop adb bij afsluiten
+@Msg_Driver_Install_Complete=Het stuurprogramma is met succes geïnstalleerd op uw computer.
+@Msg_Driver_Install_Failed=Het stuurprogramma kon niet worden geïnstalleerd of er is al een ander stuurprogramma op het systeem geïnstalleerd.\n\n
+Wilt u de gebruikershandleiding met mogelijke oplossingen openen?
+@Msg_Error_Write_Disk=Fout. Het programma kan geen schrijftoegang tot de schijf krijgen en wordt afgesloten.
+Om door te gaan, verplaatst u de programmamap naar een andere locatie (bijvoorbeeld naar de D-schijf).
+@Menu_Top_Descr_Tm=Ons Telegram-kanaal
+@Cbx_LogCat_Save_Log=Logbestand opslaan in bestand
+@Btn_EE_Default=Standaard
+@Msg_Ee_Default=Wilt u alle instellingen terugzetten naar hun standaardstatus?
+@Lbl_EE_You_Are_Extended=Je hebt de uitgebreide versie
+@Lbl_EE_Activate=Kopieer uw sleutel hier en klik op OK
+@Btn_EE_Activate=Activeren
+@Cbx_EE_Adb_Key_Protection=ADB-sleutelbeveiliging
+@Lbl_AdbKey_LogIn=Ontgrendel ADB-sleutels met uw wachtwoord
+@Btn_AdbKey_LogIn_Unlock=Ontgrendelen
+@Btn_AdbKey_LogIn_Skip=Overslaan
+@Msg_AdbKey_Protect_Incorrect_Password=Onjuist wachtwoord.
+
+@Lbl_AdbKey_Protect=Bescherm uw ADB-sleutels met een wachtwoord om foutopsporing voor uw apparaten veilig in te schakelen.
+U moet dit wachtwoord elke keer dat u het programma start, invoeren.
+@Btn_AdbKey_Protect=Beveiligen
+@Btn_AdbKey_Protect_Load_Key=Ik heb al een sleutel
+@Lbl_AdbKey_Protect_NewPassword=Nieuw wachtwoord
+@Lbl_AdbKey_Protect_ConfirmPassword=Bevestig wachtwoord
+
+@Msg_AdbKey_Protect_Reset=Wilt u uw opgeslagen sleutels herstellen voordat u de beveiliging uitschakelt?
+@Msg_AdbKey_Protect_Success=ADB-sleutelbeveiliging is ingeschakeld.
+@Msg_AdbKey_Protect_Passwords_Not_Equal=Wachtwoorden komen niet overeen!
+@Msg_AdbKey_Protect_Disable=Eenmaal vergrendeld, wordt een willekeurige onbeschermde sleutel gebruikt voor alle apparaten.\n
+Uw beveiligde sleutel wordt opgeslagen en u kunt deze opnieuw gebruiken na het invoeren van uw wachtwoord.\n\n
+Weet u zeker dat u ADB-sleutels wilt blokkeren?
+@Tips_Protect_Unprotected=U gebruikt een willekeurige niet-beveiligde sleutel. Klik om te ontgrendelen.
+@Tips_Protect_Protected=U gebruikt een beveiligde sleutel. Klik om te blokkeren.\n
+Eenmaal vergrendeld, gebruikt ADB een willekeurig gegenereerde sleutel om met apparaten te werken.
+@Msg_AdbKey_Protect_Key_Not_Found=ADB-sleutelbestand niet gevonden!
+@Txt_AdbKey_Protect_Description=
+De adb-sleutelbestanden die worden gebruikt voor foutopsporing kunnen worden overgebracht naar een andere computer of worden gestolen.\n
+Als u voor het gemak de optie <Altijd toestaan> gebruikt bij het debuggen, dan zal de aanvaller met zo'n sleutel\n
+kan onbeperkte toegang krijgen tot uw Android-apparaat, zelfs als het is beveiligd met een wachtwoord of biometrie.\n
+De mogelijkheid om sleutels over te dragen kan ook handig zijn, bijvoorbeeld om verbinding te maken met een apparaat met een kapot scherm.\n\n
+ADB AppControl helpt u ADB-sleutels veilig te versleutelen en uw gegevens te beschermen.
+
+@Btn_Ee_Deactivation=Deactiveren
+@Msg_Ee_Deactivation=De activeringssleutel verwijderen en het programma deactiveren? (het programma wordt afgesloten)
+
+@Tips_Ee_Save_Ip=Sla het IP-adres van uw apparaten op in de favorieten voor een snelle verbinding
+@Tips_Ee_Dark_Theme=Zal het kleurenschema van de interface veranderen en 's avonds vermoeidheid van de ogen verminderen
+@Tips_Ee_Show_Icons=Het verbergen van pictogrammen vereenvoudigt de interface en versnelt de gegevensupdates van de app aanzienlijk
+@Tips_Ee_Silent_Mode=Schakel vervelende bevestigingsverzoeken uit
+@Tips_Ee_System_Adb=Schakel deze instelling in als u ADB al op uw systeem hebt geïnstalleerd en wilt gebruiken\n
+om met het programma te werken.
+@Tips_Ee_Save_Cache=Toepassingspictogrammen van aangesloten Android-apparaten worden opgeslagen in de cache op de pc.\n
+Alleen de pictogrammen die nog niet in de cache staan, worden van het apparaat geladen.\n
+Als u deze optie inschakelt, worden de updates van toepassingsgegevens versneld.
+@Tips_Apps_Update_Data=Update applicatienamen en pictogrammen
+@Tips_Apps_Load_Preset=Laad een eerder opgeslagen voorinstelling en controleer alle toepassingen ervan
+@Tips_Apps_Save_Preset=Sla de lijst met aangevinkte applicaties op in een tekstbestand
+@Tips_Apps_Auto_Permissions=Verleen snel alle benodigde machtigingen voor populaire apps
+@Tips_Apps_Install_Apk=Snelle installatie van apk-bestand van computer naar apparaat
+@Tips_Apps_Upload_File=Selecteer bestanden op schijf om ze te downloaden naar de downloadmap van uw apparaat
+@Tips_Console_Screenshot=Maak een screenshot van het scherm van het Android-apparaat en download deze naar uw computer
+@Lbl_Continue=Verbind uw Android-apparaat
+
+@Tips_Apps_History=Lijst met apparaten waarmee u al verbinding hebt gemaakt via het netwerk
+@Msg_Device_Disconnected_Aborted=Het apparaat reageert niet. De operatie werd afgebroken.
+@Txt_Act_Incorrect_Key=Onjuiste activeringssleutel!
+
+@Captcha_Head=Verificatie
+@Captcha_Title=Hallo, het is maar een kleine captcha :)
+@Captcha_Description=Tekst uit afbeelding invoeren:
+@Captcha_Btn_Enter=Controleer het!
+@Captcha_Msg_Validation_Failed=Je hebt de tekst verkeerd ingevoerd, probeer het opnieuw.\nLet op! Het aantal pogingen is beperkt.
+@Captcha_Msg_Validation_Banned=De verificatie is mislukt en uw IP-adres is tijdelijk geblokkeerd op de server. Probeer later te verifiëren.
+@Captcha_Btn_Refresh=Vernieuw de afbeelding als u de tekst niet kunt lezen.
+@Captcha_Title_Extended=De gebruikers van de uitgebreide versie hebben geen verificatie nodig.
+@Msg_Emergency_Stop=Let op! Het wordt niet aanbevolen om het werk van het programma zonder veel noodzaak te onderbreken.\n\n
+Weet u zeker dat u het werk van het programma wilt onderbreken?
+
+@Tips_Ee_Accurate_Sizes=Inschakelen om nauwkeurige applicatiegroottes te verkrijgen via acbridge bij het bijwerken van gegevens.\n
+Verhoogt de updatetijd iets. Android 8.0 of nieuwer vereist.
+@Cbx_Ee_Accurate_Sizes=Nauwkeurige toepassingsgroottes
+@Btn_Connection_Port_Auto=Poort:
+
+@Msg_Accurate_Sizes_Need_Permission=De optie Nauwkeurige app-groottes is ingeschakeld.\n
+U moet <PACKAGE_USAGE_STATS> toestemming geven voor ACBdridge om nauwkeurige app-groottes weer te geven. Verleen toestemming of schakel de optie voor nauwkeurige app-formaten uit in de instellingen om dit bericht te verbergen.\n
+Lees meer de Gebruikershandleiding.
+@ ### NIEUW IN VERSIE 1.6.4
+@Msg_Default_Browser_Not_Found=Fout. Standaardbrowser niet gevonden.
+@Menu_Search_In=Zoeken in...
+@Menu_App_Advanced=Geavanceerd...
+@Menu_App_Start=Starten
+@Menu_App_Stop=Stoppen
+@Menu_App_Report=Rapport over App
+
+@Frm_Report_Check_Type=Selecteer het type toepassing:
+@Frm_Report_Bloatware=Bloatware-app
+@Frm_Report_Bloatware_Desk=Deze toepassing is ongewenst en moet worden uitgeschakeld
+@Frm_Report_Critical=Kritieke systeem-app
+@Frm_Report_Critical_Desk=Als u deze toepassing uitschakelt, werkt het apparaat niet goed
+@Frm_Report_Button=Verzenden
+
+@Frm_Report_Comment=Opmerking (optioneel)
+@Frm_Report_Msg_Thanks=Er is een bericht verzonden naar de ontwikkelaar. Bedankt voor de feedback!
+@Frm_Report_Desk=Laat de ontwikkelaar weten over een ongewenste of problematische toepassing. Dit zal helpen om ADB AppContol nog beter te maken.
+@Frm_Report_Already_Sent=Je hebt al gerapporteerd over deze app.
+
+@Msg_Install_Multiple=Meerdere installatie\n
+Met meervoudige installatie kunt u meerdere toepassingen tegelijk op uw apparaat installeren.
+Sleep uw .apk- of .apks-bestanden gewoon naar het programmavenster om ze in deze lijst te laten verschijnen.\n\n
+De bestanden worden gekopieerd naar de map "Installeren" en zijn beschikbaar voor installatie op elk aangesloten apparaat. Je kunt ook een aparte map aanmaken in Installeren en daar wat apk-bestanden in zetten. Daarna verschijnt de map in de lijst en wordt alle apk die het bevat geïnstalleerd wanneer je het installeert.\n\n
+De DEMO-applicaties worden verborgen wanneer u uw bestanden toevoegt.
+@Menu_Context_Rename_Apk=Hernoemen
+@Btn_Install_ApkFolder=Map installeren
+@Btn_Device_ApkFolder={0} Map
+@Lbl_Select_Folder=Selecteer bestandsmap:
+@Msg_No_Internet_Connection=Netwerkverbinding vereist
+
+@Msg_Debug_Recomendation=Het wordt aanbevolen om "Altijd toestaan" te selecteren wanneer u om toestemming voor foutopsporing wordt gevraagd.
+Het helpt als u problemen ondervindt met het apparaat. Schakel deze optie alleen in op vertrouwde computers! Lees meer op {0}
+@Lbl_Settings_Feature_8=Sleep .apk-bestanden en voorinstellingen naar het programmavenster
+@Lbl_Settings_Feature_9=Meerdere app-installatie (batchinstallatie)
+*@Btn_Select_And_Install=Snelle installatie
+
+@# UPDATE 1.6.6
+@Msg_Scrcpy_Not_Installed=Om uw Android-apparaat op afstand te bedienen, moet u de SCRCPY-toepassing installeren. Dit is een gratis open source applicatie ontwikkeld door Genymobile (https://github.com/Genymobile).\n\n
+Om Scrcpy te installeren, downloadt u het scrcpy-win{0}.zip-archief met het programma en selecteert u het in het dialoogvenster voor bestandsselectie. Het hoeft maar één keer te worden gedaan.\n\n
+Klik op JA om een ​​link te openen om Scrcpy op Github te downloaden of op NEE om naar de installatie te gaan.
+
+@Msg_Scrcpy_Successfully_Installed=Scrcpy is met succes geïnstalleerd.\n\n
+Belangrijk! Scrcpy is open source-software van derden, ontwikkeld door Genymobile. ADB AppControl en zijn ontwikkelaar hebben niets met deze software te maken. Zorg ervoor dat u voor gebruik de Scrcpy-licentieovereenkomst leest en accepteert.
+
+@Msg_Scrcpy_Fail_Installed=Kan Scrcpy niet installeren.
+@Msg_Scrcpy_Txt_Installed=Scrcpy geïnstalleerd.
+@Btn_Scrcpy_Start=Bedien uw apparaatscherm
+@Btn_Tools_Resolution=Schermresolutie
+@Btn_Tools_StatusBar=Statusbalkpictogrammen
+@Btn_Tools_Capture_Video=Video-opname
+@Txt_Tools_Density=Pixeldichtheid
+@Tab_Tools=Tools
+@Btn_Tools_StatusBar_Hide=Verbergen
+@Txt_Tools_StatusBar_Desk=Selecteer de statusbalkpictogrammen die u wilt verbergen
+@Txt_Ram_Total=Totaal
+@Txt_Ram_Free=Gratis
+@Txt_Ram_Used=Gebruikt
+
+
+@# UPDATE 1.7.2
+@Msg_Settings_Changed=Wilt u instellingen opslaan?
+@Btn_Add_Apk=Apk toevoegen
+@Btn_Remove_Apk=Verwijder apk
+@Btn_Back=Terug
+@Txt_Install_Only_Free_Version=In de gratis versie van ADB AppControl kunt u niet meer dan één toepassing tegelijk installeren. Download de uitgebreide versie om deze beperking op te heffen en van andere voordelen te genieten.\n\n
+Wil meer weten?
+@Txt_License_Key=Toon productlicentiesleutel
+@Msg_Bridge_No_Permissions=Het programma kan de machtigingen voor de ACBridge-app niet controleren en werkt mogelijk niet goed.\n\n
+Zorg ervoor dat de ACBridge-app (com.cybercat.acbridge) toestemming heeft om toegang te krijgen tot de opslag op uw Android-apparaat. U kunt meer informatie vinden op de officiële website in het gedeelte Documentatie - Probleemoplossing.
+wil je verder gaan?
+@Msg_Files_Not_Found=Het programma kan niet worden gestart omdat de vereiste bestanden ontbreken.\n\nMogelijke oplossingen:\n
+- Zorg ervoor dat uw antivirus de programmabestanden niet blokkeert.\n
+- Start het programma niet vanuit een uitgepakt archief.\n
+- Download het programma opnieuw van de officiële website.
+@Txt_Resolution_Warning=Het instellen van te hoge of te lage waarden kan een storing in het apparaat veroorzaken!
+@Txt_Tools_Resolution=Oplossing:
+
+@# UPDATE 1.7.4
+*@Txt_Console_Search_Not_Found=Geen resultaten gevonden
+*@Txt_Console_Search_Results_Found=Gevonden
+
+@# UPDATE 1.7.5
+*@Radio_Enabled=Ingeschakeld
+*@About_LastUpdate=Laatste update
+
+@# UPDATE 1.7.6
+@Msg_Scrcpy_Update_Available=Nieuwe versie beschikbaar {0}\n\nWilt u de downloadpagina van Scrcpy openen?
+@Msg_Scrcpy_Uninstall_Success=Scrcpy is verwijderd!
+@Msg_Scrcpy_Uninstall_Failed=Verwijderen mislukt!
+
+@# UPDATE 1.7.8
+@Msg_Restore_Not_Supported=WAARSCHUWING! Je apparaat ondersteunt geen applicatieherstel.\n\n
+U kunt niet-geïnstalleerde systeemtoepassingen niet herstellen totdat de fabrieksinstellingen van het apparaat zijn teruggezet.\n\n
+Wil je doorgaan?
+@Btn_Record_Screen_Video=Schermvideo vastleggen
+@Msg_Video_Recorded=Schermvideo opgeslagen in het bestand:\n{0}.

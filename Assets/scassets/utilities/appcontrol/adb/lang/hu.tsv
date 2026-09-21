@@ -1,0 +1,657 @@
+VERSION=1.8.3
+# Special marks:
+# @Do_Not_Translate_This=Translate only this
+# \n - new line symbol
+# {0} - the variable insert (Now is {0} year => Now is 2020 year)
+# * - developer will marks new or edited string (use CTRL + F for search )
+# {AT} - is @ symbol for email (user{AT}mail.com => user@mail.com)
+# Please try to keep the line length and formatting close to the original!
+# Put your Name and Email to the Translator_Name= and Translator_Email=
+
+@# BEGIN TRANSLATION:
+
+@Language=hu
+@Translation_Version=1.0
+@MyLanguage=Hungarian
+@Translator_Name=gidano
+@Translator_Email=gidano{AT}gmail.com
+
+
+@Translation_Author=Honosítás:
+
+@Txt_Official_Site=A program weboldala:  
+
+@Txt_Form_Permissions_Search=Keresés...
+
+@Txt_Form_Permissions_Help=Megadhatsz (jelölve) vagy visszavonhatsz (jelöletlen) alkalmazás engedélyeket.\n
+Fontos! Csak a manuálisan megadott engedélyeket vonhatod vissza.
+
+@Txt_Form_AutoPermissions_Help=A legördülő lista tartalmazza a telepített alkalmazásokat, amelyekhez speciális engedélyekre van szükség. Válassz ki egyet, majd kattints az Engedélyek beállítása elemre.
+
+@ToolTip_Refresh=Frissítés
+@ToolTip_Console_Dark_Mode=Sötét módú konzol
+@ToolTip_Wide_Console=Fejlesztői konzol
+@ToolTip_Press_Enter=Parancs futtatás
+@ToolTip_Clear_Command_Line=Parancssor törlése
+@ToolTip_Fast_Cmd_Add=Parancsot adhatsz a Kedvencekhez
+@ToolTip_Fast_Cmd_Remove=Parancsot kivesz a Kedvencekből
+@ToolTip_Cbx_Names_Auto_Update=Az app ikonok és nevek auto. frissítése, amikor a készülék csatlakoztatva van
+
+@About_Program=ADB AppControl
+@About_Author_0=fejlesztő:
+@About_LinkTopic=Felhasználói és használati utasítás
+@About_Version=verzió
+@About_GoodDay=Legyen szép a napod :)
+
+@Status_Disconnected=Leválasztva
+@Status_Connected=Csatlakozva
+@Status_Waiting=Várakozás
+@Status_Error=Hiba
+@Status_Device_Dont_Respond=(nem válaszol)
+
+@Device_NeedAuth=Engedélyezd a hibakeresést az eszközön.
+
+@Menu_Top_Descr_Check_Version=Frissítések keresése
+@Menu_Top_Descr_Open_Folder=Nyissa meg a programok mappát
+@Menu_Top_Descr_Help=Segítség kérése
+@Menu_Top_Descr_Donate=Támogasd a projektet!
+@Menu_Top_Descr_Donate_King=Köszönöm a támogatásod!
+@Menu_Top_Descr_Language=Nyelv módosítás
+
+@Lbl_Total_Applications=Összes:
+@Lbl_Fast_Commands=Gyors parancsok
+@Lbl_Selected_Apps=Kiválasztva:
+@Lbl_Info_Drag_And_Drop=Húzd vagy másold  az APK-kat az 'install' mappába
+@Txt_Form_Permissions=Jogosultságok
+@Lbl_Form_AutoPermissions_Select=Válaszd ki az alkalmazást
+
+@Lbl_Settings_Feature_1=A program alapfunkciói
+@Lbl_Settings_Feature_2=Speciális programbeállítások
+@Lbl_Settings_Feature_3=Több fájl letöltése az eszközre
+@Lbl_Settings_Feature_4=Húzd az apk fájlt a listára a telepítéshez
+@Lbl_Settings_Feature_5=Köszönet a fejlesztőtől
+@Lbl_Settings_Feature_6=Alkalmazások rendezése a listában
+@Lbl_Settings_Feature_7=Hozzáférés a Letiltás Varázsló MINDEN szintjéhez
+
+@Action_Choose=Válassz:
+@Action_Disable=Inaktivál
+@Action_Enable=Aktivál
+@Action_Uninstall=Eltávolít
+@Action_Save=Ment
+
+@Btn_Install=Telepít
+@Btn_Apply=Alkalmaz
+@Btn_Restore=Visszaállít
+@Btn_No=Nem
+@Btn_Yes=Igen
+@Btn_Cancel=Mégsem
+@Btn_Enable_Debug=Engedélyezi a hibakeresést
+@Btn_Connect=Kapcsolódás
+@Btn_Disconnect=Leválasztás
+@Btn_Update_Names=Frissíti az alkalmazás adatait
+@Btn_Get_Names=Alkalmazás adatok lekérése
+@Btn_Preset_Load=Előválasztás betöltése
+@Btn_Preset_Save=Előválasztás mentése
+@Btn_LogCat_Start=Start\nNaplófájl
+@Btn_LogCat_Stop=Stop\nNaplófájl
+@Btn_Copy_Log=Konzol másolás
+@Btn_Console_Clear=Törölje a konzolt
+@Btn_Take_Screenshot=Képernyőfelvétel
+@Btn_Reboot=Újraindít
+@Btn_Upload=Feltölt
+@Btn_Set_Permissions=Engedélyek beállítása
+@Btn_Auto_Permissions=Auto.\nEngedélyek
+
+@Loading_Loading=Betöltés
+@Loading_Connecting=Csatlakozás
+@Loading_Enable=Aktivál
+@Loading_Disable=Deaktivál
+@Loading_Saving=Ment
+@Loading_Uninstall=Eltávolít
+@Loading_Install=Telepít
+@Loading_Refreshing=Frissítés
+@Loading_Exit=Kilép
+@Loading_Build=Betölt
+@Loading_Rebooting=Újraindít
+
+@Loading_Restoring=Visszaállítás
+@Loading_Build_Step_0=ACBridge telepítés
+@Loading_Build_Step_1=Kapcsolat
+@Loading_Build_Step_2=ACBridge indítás
+@Loading_Build_Step_3=Adat betöltés
+@Loading_Build_Step_4=Adatok írása
+@Loading_Build_Step_Icons=Ikonok letöltése
+@Loading_Build_Update_Bridge=ACBridge frissítés
+
+@Tab_Page_Apps= Alkalmazások
+@Tab_Page_Console=Parancssor
+@Tab_Page_About=Rólunk
+
+@Radio_All=Összes
+@Radio_System=Rendszer
+@Radio_User=Felhasználói
+@Radio_Disabled=Letiltva
+@Radio_Install=Telepítés
+@Radio_Deleted=Törölve
+
+@Preset_Title=Mentse a Sablont
+@Preset_FileName=Előválasztás neve
+@Preset_Comment=Az előválasztás leírása
+@Preset_Apps=Alkalmazások
+@Preset_Header_1=# A Sablon az ADB AppControl alkalmazásban jött létre
+@Preset_Header_2=# Összes alkalmazás:
+
+@Cbx_Full_Names=Az alkalmazások teljes neve
+@Cbx_Show_Icons=App ikonok megjelenítése
+@Cbx_Select_All=Mindet kiválaszt
+@Cbx_Keep_Data=A data és a cache törlése
+@Cbx_Names_Auto_Update=Adatok auto. frissítése
+
+@Menu_Context_Copy_Package=Csomagnév másolás
+@Menu_Context_Copy_AppName=App név másolás
+@Menu_Context_Set_Permissions=Engedélyek beállítása
+@Menu_Context_Delete_Apk=Törlés
+
+@Tips_Rb_All=Az összes telepített alkalmazás (kivéve a letiltottak)
+@Tips_Rb_System=Csak a rendszeralkalmazások megjelenítése
+@Tips_Rb_User=Felhasználói és harmadik féltől származó alkalmazások megtekintése.
+@Tips_Rb_Disabled=Csak a letiltott alkalmazásokat jelenítse meg
+@Tips_Rb_Install=Appok telepítése. Helyezd az apk fájlokat a telepítési mappába
+@Tips_Rb_Deleted=A törölt rendszeralkalmazások megtekintése. 
+@Tips_1=
+@Tips_2=
+@Tips_3=
+@Tips_4=
+@Tips_5=
+
+@Cbx_EE_Save_IP_History=Csatlakozási előzmények rögzítése
+@Cbx_EE_Dark_Theme=Sötét téma
+@Cbx_EE_Save_Cache=Ikon gyorsítótár mentése
+@Btn_EE_Clear_IP_History=Előzmények törlése
+@Btn_EE_Save_Settings=Beállítások mentése
+@Lbl_EE_Opacity=Áttetszőség
+@Lbl_EE_Icons_Size=Ikon méret 
+@Lbl_EE_Font_Size=Betű méret
+@Tab_EE_Super_Settings=Beállítások
+@Lbl_EE_Only_Extended=Csak a Kibővített Verzióban elérhető, a projekt támogatói számára 
+@Btn_EE_Become_Extended=Hogyan csináljam?
+
+@Note_Install_ACBridge=ACBridge telepítés\n
+Az ACBridge alkalmazás telepítve lesz az eszközére.\n
+Ez lehetővé teszi, hogy az alkalmazás ikonjait láthasd a listában, és az alkalmazások neveit a csomagnevek helyett..\n\n
+Figyelem: Egyes eszközökön aktiválni kell a Telepítés ADB-n keresztül opciót a Fejlesztői menüben. Ügyelj arra is, hogy készüléked ne legyen alvó üzemmódban (oldd fel a képernyőt)!\n\n
+Elfogadod az ACBridge alkalmazás telepítését a készülékedre?
+
+@Note_Version_New_Found=A program egy új verziója érhető el - {0}.\nKattints az Igen gombra a frissítéshez.
+
+@Note_Restore_Deleted=Törölt\n
+Ez a lista a törölt rendszeralkalmazásokat tartalmazza.\n\n
+Válaszd ki a kívántakat, és kattints a Visszaállítás gombra. Ha a visszaállítás sikeres, az alkalmazás megjelenik a fő listában.\n\n
+FONTOS! Az Android 6 és korábbi verziói nem támogatják a helyreállítást.
+
+@Note_Please_Donate=Tetszik az AdB AppControl?\n
+Szeretnél még több lehetőséget? Támogathatod a fejlesztőt, és további funkciókkal érheted el a program Kibővített Verzióját.
+Támogatásod a legjobb módja annak, hogy köszönetet mondj és új ötletekre inspirálj. Csupán egy csésze kávéval jobb lehet az ADB AppControl!\n\n
+Szeretnél többet megtudni?
+
+@Note_Changelog=A(z) {0} újdonságai\n{1}
+
+@Note_Driver_Install=Kapcsolódási problémák?\n
+Ha megpróbálsz csatlakoztatni egy eszközt az USB porton keresztül, de semmi sem történik, akkor valószínűleg telepíteni kell az ADB illesztőprogramot.\n\n
+Letöltöd és telepíted az illesztőprogramot most?
+
+@#REGION:MSG
+
+@Msg_Preset_Owerwrite=Ilyen fájl már létezik. Törlöd?
+@Msg_MoreThanOneDevice_0=Csatlakoztatott eszközök:
+@Msg_MoreThanOneDevice_1=A program nem használható egynél több eszközzel.
+@Msg_SearchStop_0=Nincs találat!
+@Msg_SearchStop_Title=Keresés
+@Msg_PresetSaved=A Sablon mentésre került, ide:
+@Msg_PresetSavedTitle=Az előválasztás mentésre került
+@Msg_PresetLoaded_Title=Az előválasztás betöltődött
+@Msg_PresetLoaded_0=Kiválaszt
+@Msg_PresetLoaded_1=alkalmazások az előre beállított zerint
+@Msg_ActionComplete_Disabled=Letiltott alkalmazások
+@Msg_ActionComplete_Enabled=Engedélyezett alkalmazások
+@Msg_ActionComplete_Saved=Alkalmazások biztonsági mentése
+@Msg_ActionComplete_Uninstalled=Eltávolított alkalmazások
+@Msg_ActionComplete_Installed=Telepített alkalmazások
+@Msg_ActionComplete_Title=Feladat teljesítve
+@Msg_ActionComplete_Restored=Helyreállított alkalmazások
+
+@Msg_DoYouWantBackup_Title=Biztonsági mentés
+
+@Msg_DoYouWantBackup_0=Készüljön biztonsági mentés az apk fájlokról az eltávolítás előtt (ajánlott)?
+
+@Msg_Warning_Title=Figyelem!
+
+@Msg_DisableOrUninstallConfirm=A SYSTEM alkalmazások eltávolítása vagy letiltása eszközhibát és gyári alaphelyzetbe állítást eredményezhet (az adatok törlésével). Biztos, hogy akarod folytatni?
+
+@Msg_Connect_To_IP_Error_Title=Csatlakozási hiba
+
+@Msg_Connect_To_IP_Error_10013=Nincs hálózati hozzáférés (10013).\n
+Próbáld a következőket:\n\n
+- Ellenőrizd a PC hálózati kapcsolatát.\n
+- Ha tűzfalat használsz, engedélyezd az adb.exe fájl elérését a hálózathoz.\n
+
+@Msg_Connect_To_IP_Error_10060=Csatlakozási hiba (10060).\n
+Próbáld a következőket:\n\n
+- Ellenőrizd, hogy az IP cím helyes-e.\n
+- Ellenőrizd, hogy a készülék nincs-e készenléti állapotban.\n
+- Ellenőrizd, hogy a PC és az eszköz ugyanahhoz a helyi hálózathoz csatlakozik-e.\n
+@Msg_Connect_To_IP_Error_10061=Engedélyezd a hálózati hibakeresést (10061).\n
+Próbáld a következőket:\n\n
+- Csatlakoztasd eszközöd USB-n keresztül és engedélyezd a hálózati hibakeresést az AppControl alkalmazásban.\n
+- VAGY az eszköz fejlesztői beállításaiban engedélyezd a hálózati hibakeresést (ha van).\n
+
+@Msg_Connect_To_IP_Error_Not_Respond=A készülék sokáig nem reagált, a műveletet megszakadt..\n
+Győződj meg arról, hogy a készülék nincs készenléti állapotban (képernyő fel van oldva).
+
+@Msg_Debug_Question=Biztosan engedélyezed a hibakeresést ezen az eszközön?
+
+@Msg_Debug_Enabled=Most hálózaton keresztül csatlakozhatsz az eszközödhöz (az eszköz újraindítása előtt működik).\n\n
+IP: {0}     Port: {1}\n\n
+A csatlakozáshoz húzd ki az USB kábelt, majd nyomd az OK gombot.
+
+
+@Msg_Connect_Invalid_IP=Érvénytelen IP cím formátum.
+@Msg_Action_Choose=Válassz ki egy műveletet a listából !
+@Msg_FastCmd_Add_Qestion=Hozzáadod a Kedvencekhez ?
+@Msg_FastCmd_Add_Help=Parancs gyorslistához adásához írd be a konzolba, majd kattints a + jelre
+@Msg_FastCmd_Remove_Qestion=Eltávolítod a parancsot a gyorslistáról ?
+
+@Msg_Version_Check_Failed=Nem lehet csatlakozni a frissítési kiszolgálóhoz
+@Msg_Version_Dont_Need=A program legújabb verzióját használod!
+
+@Msg_Welcome_to_EE=Gratulálunk, most már a program Kibővített Verziójával rendelkezel. Köszönöm a támogatásod!
+
+@Msg_Base_Cannot_Create=Nem lehet létrehozni az adatbázist - Az ACBridge nem tudja lekérni az alkalmazások listáját az eszközről.\n
+Lehet, hogy tárhely írási engedélyt kell adnod az eszközön az ACBridge számára.
+
+@Msg_Corrupted_Programm=A program sérült vagy módosított, így nem indítható el.\n
+Vizsgáld át a számítógépet egy víruskeresővel, és töltsd le a programot hivatalos forrásból. További információ: {0}
+
+@Msg_Program_Already_Running=Az alkalmazás már fut!\n
+A Windows feladatkezelővel leállíthatod:\n
+Nyomd meg a ctrl + shift + esc billentyűkombinációt, és állítsd le {0}.exe folyamatot
+
+@Msg_Program_Old_Framework=A program megköveteli a .NET Framework 4.6 vagy újabb verziót a működéshez.\n
+Jelenleg telepítve: {0}.\n\n
+Szeretnéd letölteni és telepíteni a legújabb verziót a Microsoft-tól?
+
+@Msg_ACBridge_Need_Permissions=Az ACBridge telepítve van, de nem tud adatokat továbbítani.\n
+1) Előfordulhat, hogy készüléked alvó üzemmódban van. Oldd fel és próbáld újra.\n\n
+2) Ellenőrizd és add meg a szükséges engedélyeket az eszköz ACBridge alkalmazásához:\n\n
+Beállítások - Alkalmazások - ACBridge - Engedélyek\n
+
+@Msg_ACBridge_Update_Failed=Az eszközre telepített ACBridge verzió elavult és nem frissíthető automatikusan. A frissítéshez távolítsd el a com.cybercat.acbridge.apk fájlt és próbáld meg manuálisan telepíteni.
+
+@Msg_ACBridge_Lower_Android_Version=A készülék nem támogatja az ikonok és az alkalmazások teljes nevének megjelenítését.\n
+Követelmény: Android 6 vagy újabb verzió.
+
+@Msg_ACBridge_Cannot_Install=Nem sikerült telepíteni az ACBridge alkalmazást az eszközödre.\n\n
+Próbáld az eszközödre másolni a com.cybercat.acbridge.apk fájlt (az ADB mappából) és telepítsd fel. Ezt követően az eszközbeállításokban adj engedélyt az AcBridge alkalmazás számára a tárhely írására és indítsd újra a programot.\n\n
+Meg akarod nyitni a Felhasználói Kézikönyvet? 
+
+@Msg_ACBridge_Remove_And_Install=A készülékére telepített ACBridge alkalmazást frissíteni kell. A folytatáshoz a program újratelepíti az alkalmazást.\n\nCsináljuk most?
+
+@Msg_ACBridge_Device_Sleep=A készülék sokáig nem reagál, talán alvó módban lehet.\n\n
+Oldd fel az eszköz képernyőjét majd kattints az OK gombra.
+
+@Msg_ACBridge_Download_Failed=Hiba történt az adatok betöltésekor. Próbáld újra.
+
+@Msg_Cbx_Save_Cache=Az ikonok gyorsítótárának mentése növelheti a program teljesítményét, de az ikonok eltérő stílusúak lehetnek, és nem biztosan egyeznek a készüléken megjelenítettekkel.\nJavasoljuk, hogy tiltsd le ezt az opciót.
+
+@Msg_ACBridge_Adb_Not_Working_Correctly=Az ADB nem működik megfelelően az eszközön és az alkalmazás nem tud tovább működni. Próbáld újra csatlakoztatni az eszközt.
+
+@Msg_EE_No_Internet=Az aktiváláshoz internet hozzáférésre van szükség.
+
+@Msg_EE_Restart_Program=Indítsd újra a programot, hogy a változtatások életbe lépjenek
+
+@Msg_Console_Reboot=Indítsuk újra az eszközt {0} módba?
+
+@Msg_Clear_Ip_History=Törlöd az összes IP címet az előzményekből?
+
+@Msg_Files_Upload={0} a fájl letöltésre került az eszköz 'download' mappájába.
+
+@Msg_Files_Not_Upload=Az összes fájlt ({0}) nem töltöttük le az eszközre.\n
+Részletekért lásd a konzol naplót
+
+@Msg_Do_You_Want_Install_Apk=Telepíted a(z) {0} alkalmazást az eszközre?
+@Msg_Apk_Installed=Az alkalmazás telepítése sikeres volt!
+@Msg_Apk_Install_Error=Hiba. Nem sikerült telepíteni az alkalmazást.
+
+@Msg_Extended_Function_Only=Ez a funkció csak a program kibővített verziójában érhető el.\n\nSzeretnél többet megtudni ?
+
+@Msg_Under_Construction=Új funkciók állnak fejlesztés alatt, és hamarosan elérhetőek lesznek.\n\n
+Szeretnéd támogatni és felgyorsítani a projekt fejlesztését?
+
+@Msg_You_Win=Szerencsés vagy!\n
+Ennek a képnek az esélye kevesebb, mint 10%, helyette bosszantó reklámot tartalmazhat (pl. gyógymódok gomba ellen).\n\n
+De a reklámozás helyett hamarosan néhány újszerű funkció lesz.\n
+Tetszik?
+
+@Msg_Upload_Files_To_Device=Letöltesz {0} fájlt az eszközre ??
+
+@Msg_License_Agreement=Felhasználási feltételek és licencszerződés:\n\n
+Az ADB AppControl (ez a szoftver) «as is» - olyan amilyen, amelyet garancia nélkül nyújtunk. A szoftver szerzője semmilyen körülmények között nem tehető felelőssé a szoftver használatából eredő károkért.\n\n
+Ez a szoftver ingyenes személyes és oktatási célokra. Bármilyen kereskedelmi felhasználáshoz a szerző személyes engedélye és a kereskedelmi engedély szükséges.\n\n
+Az ADB AppControl-t nem szabad szétszedni, visszafejteni vagy más módon módosítani.\n\n
+A szoftver minden joga kizárólag a szerzőt illeti.\n\n
+A szoftver folyamatos használata azt jelenti, hogy elfogadod a licenc feltételeit, és hozzájárul a szoftver használatáról szóló névtelen statisztikák gyűjtéséhez és feldolgozásához.\n\nNem sikerült
+A Megállapodás teljes szövege itt érhető el:\n
+https://appcontrol.neocities.org/pages/terms_of_use.html
+
+@Msg_License_Agreement_Additional=ATTENTION!\n
+Csak a hivatalos adbappcontrol.com webhelyről töltse le a programot.\nA más forrásból származó fájlok fertőzöttek lehetnek, és kritikus veszélyt jelenthetnek az eszközeid biztonságára nézve.\n\n
+
+@Msg_Operation_Timeout=A művelet több mint {0} másodpercet vesz igénybe.\n
+Egyes megrendelések sokáig tarthatnak.\n\n
+Megvárod az aktuális művelet befejezését? Leállítása a NEM gombbal.
+
+@Msg_Permission_Granted_Success=Minden engedély beállítása sikeresen megtörtént.
+@Msg_Permission_Granted_Failed=Hiba! Az engedélyek megadása vagy visszavonása nem sikerült:
+
+@#REGION:GYORS INDÍTÁS
+
+@Quick_Start_Header=Gyors indítás
+@Quick_Start_Step=Lépés
+@Quick_Start_Additional=További:
+@Quick_Start_Language=Válassz nyelvet
+@Quick_Start_Help=Olvasd el a felhasználói kézikönyvet
+
+@Quick_Start_Step_1=Engedélyezd az USB hibakeresést az eszközön. Ez egyszerű!\n\n
+Beállítások - A telefonról - Szoftver - Kattints (7-szer) a build SZÁM-ra, míg fejlesztővé nem válsz!\n\n
+Beállítások - Rendszer - Fejlesztői beállítások - USB-hibakeresés - Engedélyezés - Kész!
+
+@Quick_Start_Step_2=Csatlakoztasd a készüléket a számítógépéhez USB segítségével.\n\n
+Az ABD AppControl felismeri az eszközt, és látni fogod a FÜGGŐ állapotot.\n\n
+Engedélyezd a hibakeresést az eszköz képernyőjén. Ne felejtsd el kiválasztani az EMLÉKEZZEN lehetőséget
+
+@Quick_Start_Step_3=Az eszközhöz WiFi kapcsolaton keresztül történő csatlakozáshoz kattints a HÁLÓZATI HIBAKERESÉS ENGEDÉLYEZÉSE gombra (jobb felső sarokban)\n\n
+Tudd meg készüléked IP-címét: Beállítások - Az eszközről - Állapot - IP-cím\n\n
+Húzd ki az USB kábelt, és kérd az IP címet a programmezőben (jobb felső sarokban). Kattints a Csatlakozás gombra.
+
+
+@Quick_Start_Btn_GotIt=Értem, rendben!
+
+@Quick_Start_Cbx_DontShow=Ne mutassa újra az oktatóanyagot
+
+@Msg_Delete_Apk_Confirm=Töröljük az apk fájlt a lemezről ?
+@Cbx_EE_Silent_Mode=Csendes mód (nincs megerősítés)
+@Msg_Halloween_Cat=Itt van a Halloween!\nNagyszerű ok arra, hogy támogasd a fejlesztőt, kapj +100 karmát és védelmet élőhalottak ellen, nem? ;-)
+@Msg_New_Year=Kellemes új évet és boldog karácsonyt!!\nHozzon az új év békét, örömet és boldogságot.\nTisztelettel, CyberCat.
+
+@Txt_App_Name=Alkalmazás neve
+@Txt_Package=Csomag
+@Txt_Size=Méret
+@Msg_Auto_Permissions_No_App_Found=Nem található telepített alkalmazás a listában.
+@Action_Clear_App_Data=Alkalmazás adatok törlése
+@Msg_Clear_App_Data=Az alkalmazás összes adata, beleértve a beállításokat is, törlődik. Folytatod?
+@Msg_Clear_App_Data_Failed=Nem sikerült törölni az alkalmazás adatait.
+@Msg_Clear_App_Data_Success=Az alkalmazás adatainak törlése sikeres volt.
+
+@Msg_Wizard_Denied=A kiszolgálóhoz való hozzáférést megtagadták. A probléma megoldásához vedd fel a kapcsolatot a fejlesztővel.
+@Msg_Wizard_Not_Found=Az eszközöd nem támogatott. Lehet, hogy a jövőbeni frissítésekkel megkapod a támogatást.
+@Msg_Wizard_Loaded=Kéretlen alkalmazások találhatók: {0}
+@Msg_Wizard_Clear=Nem találhatók kéretlen alkalmazások az eszközön.\n
+Próbáld magasabbra módosítani a Tisztítási szintet.
+@Txt_Wizard_Title=Debloat Varázsló
+@Txt_Wizard_Basic=Alapszint
+@Txt_Wizard_Descr_Basic=Letiltja a TOP nem kívánt alkalmazásokat az eszközön.
+@Txt_Wizard_Safe=Biztonság
+@Txt_Wizard_Descr_Safe=Ajánlott a legtöbb felhasználónak.
+@Txt_Wizard_Medium=Közepes
+@Txt_Wizard_Descr_Medium=Mélyebb szintű tisztítás a haladó felhasználók számára.
+@Txt_Wizard_Max=Maximális
+@Txt_Wizard_Descr_Max=Csak a lista kézi beállítása után használd.
+@Txt_Wizard_Select_Level=Takarítási szint:
+
+@Txt_Wizard_Welcome=Egy új és hatékony szolgáltatás lehetővé teszi a legtöbb kéretlen alkalmazás eltávolítását. 
+A kiválasztott szinttől függően olyan alkalmazások listája kerül betöltésre, amelyeket ajánlott letiltani a készüléken.
+A letiltás előtt gondosan nézd át és ha kell, módosítsd a listát.
+
+@Txt_Extended_Only=Csak a Kibővített Verzióban!
+@Btn_Wizard_Load=ALKALMAZ
+@Lbl_Wizard_Descr=Ellenőrizd eszközödön a kéretlen alkalmazásokat és a bloatware-eket.
+@Btn_Wizard=Megkeresi és letiltja a kéretlen appokat az eszközön
+@Msg_Cannot_Connect_To_Server=Nem sikerült csatlakozni a szerverhez.
+@Txt_Want_Know_More=Tudj meg többet
+@Menu_App_Info=Az alkalmazásról
+@Menu_Copy_Text=Másol
+@Btn_Auto_Permissions_List=Támogatott Appok
+@Msg_Version_Outdated=A programod verziója elavult, és már nem támogatott.
+@Txt_Wizard_New_Update=Debloat adatbázis frissítve!
+@Msg_Key_Check_Failed=Sikertelen aktiválás.\n
+Indítsd újra a programot és aktiváld újra a kulccsal ezen az eszközön.
+@Btn_Close=Bezár
+@Btn_Dont_Show_Again=Az üzenet ne jelenjen meg újra
+@Msg_Function_Under_Dev=A funkció fejlesztés alatt áll, a későbbi frissítésekben lesz elérhető.
+@Msg_Version_Need_Update=A program legújabb verziójára van szükség. Kérjük telepítsd a frissítést.
+@Txt_Act_Limit=Túllépted a kulcs aktiválás napi korlátját. Kérjük próbáld később.
+@Txt_Act_Banned=Ez a kulcs le van tiltva. Vedd fel a kapcsolatot a fejlesztővel.
+@Msg_Wizard_Recieve_Date_Error=Hiba!\nNem sikerült az adatok fogadása. Kérjük próbáld később.
+@Msg_Wizard_Privacy=Adatvédelmi információk.\n\n
+Minden alkalommal, amikor a Debloat Varázsló funkciót használod (az Alapszint kivételével), az Android eszközön telepített alkalmazások listáját elküldjük a távoli szerverre feldolgozásra. Ezeket az adatokat NEM tároljuk, NEM naplózzuk, és NEM azonosíthatók a személyeddel.\n\n
+Egyetértesz mindezzel és folytatod?
+@Menu_Copy=Másol
+@Menu_Cut=Kivág
+@Menu_Paste=Beilleszt
+@Msg_Uninstall_Clear_Data=Törlöd az app adatait és a gyorsítótárat az eltávolítás során?
+
+@### NEW IN 1.6.0 ###
+
+@EE_Cbx_Use_System_Adb=Használja a rendszer adb-t (innen %PATH%)
+@EE_Cbx_Kill_Adb_When_Exit=ADB leállítása, mikor kilépsz
+@Msg_Driver_Install_Complete=Az illesztőprogramot sikeresen telepítetted a számítógépedre.
+@Msg_Driver_Install_Failed=Az illesztőprogram nem telepíthető, vagy egy másik már telepítve van a rendszerre.\n\n
+Meg szeretnéd nyitni a Felhasználói útmutatót a lehetséges megoldásokkal?
+@Msg_Error_Write_Disk=Hiba. A programnak nincs írási joga a lemezre és be fog zárulni. 
+A folytatáshoz helyezd a program mappáját egy másik helyre (pl. a D meghajtóra).
+@Menu_Top_Descr_Tm=Telegram csatornánk
+@Cbx_LogCat_Save_Log=A napló mentése fájlba
+@Btn_EE_Default=Alapérték
+@Msg_Ee_Default=Vissza szeretnéd állítani az összes beállítást az alapértelmezett állapotra?
+@Lbl_EE_You_Are_Extended=A Kibővített Verziót használod!
+@Lbl_EE_Activate=Másold a kulcsot ide és kattints az OK-ra
+@Btn_EE_Activate=Aktiválás
+
+@Cbx_EE_Adb_Key_Protection=ADB kulcs védelem
+@Lbl_AdbKey_LogIn=Oldd fel az ADB kulcsokat a jelszavaddal
+@Btn_AdbKey_LogIn_Unlock=Feloldás
+@Btn_AdbKey_LogIn_Skip=Kihagy
+@Msg_AdbKey_Protect_Incorrect_Password=Helytelen jelszó.
+
+@Lbl_AdbKey_Protect=Védd jelszóval az ADB kulcsokat, hogy biztonságosan engedélyezhesd a hibakeresést az eszközön. 
+A program minden indításakor meg kell adnod ezt a jelszót.
+@Btn_AdbKey_Protect=Védelem
+@Btn_AdbKey_Protect_Load_Key=Már van kulcsom
+@Lbl_AdbKey_Protect_NewPassword=Új jelszó
+@Lbl_AdbKey_Protect_ConfirmPassword=Jelszó megerősítés
+
+@Msg_AdbKey_Protect_Reset=Vissza akarod állítani a mentett kulcsokat a védelem letiltása előtt?
+@Msg_AdbKey_Protect_Success=Az ADB kulcs védelem bekapcsolva.
+@Msg_AdbKey_Protect_Passwords_Not_Equal=A jelszavak nem egyeznek!
+@Msg_AdbKey_Protect_Disable=A zárolás után egy véletlenszerű védtelen kulcsot használunk minden eszközhöz.\n
+A biztonságos kulcs mentésre kerül, és a jelszó megadása után újra felhasználhatod.\n\n
+Biztosan blokkolod az ADB kulcsokat?
+@Tips_Protect_Unprotected=Véletlenszerű, nem biztonságos kulcsot használsz. Kattints a feloldáshoz.
+@Tips_Protect_Protected=Biztonságos kulcsot használsz. Kattints a blokkolásához.\n
+A zárolás után az ADB egy véletlenszerűen generált kulcsot fog használni az eszközökkel való munkához.
+@Msg_AdbKey_Protect_Key_Not_Found=Az ADB kulcsfájl nem található!
+@Txt_AdbKey_Protect_Description=
+A hibakereséshez használt ADB kulcsfájlokat át lehet vinni egy másik számítógépre vagy el is lehet lopni.\n
+Ha kényelmesebbé teszed a <Mindig engedélyez> opció használatát a hibakeresés során, akkor egy ilyen kulccsal a támadó\n
+korlátlan hozzáférést kaphat az androidos eszközödhez, még akkor is, ha jelszóval vagy biometrikusan védett.\n
+A kulcsok átvitelének lehetősége szintén hasznos lehet - például egy törött képernyős eszközhöz való csatlakozáshoz.\n\n
+Az ADB AppControl segít az ADB kulcsok biztonságos titkosításában és az adatok védelmében.
+
+@Btn_Ee_Deactivation=Deaktiválás
+@Msg_Ee_Deactivation=Törlöd az aktiváló kulcsot és kikapcsolod a programot? (a program be fog zárulni)
+
+@Tips_Ee_Save_Ip=A gyors csatlakozás érdekében mentsd el készülékeid IP címét a kedvencek közé
+@Tips_Ee_Dark_Theme=Megváltoztatja az interfész színvilágát és csökkenti az esti szemfáradást
+@Tips_Ee_Show_Icons=Az ikonok elrejtése egyszerűsíti a kezelőfelületet és jelentősen felgyorsítja az alkalmazás adatfrissítéseit
+@Tips_Ee_Silent_Mode=Tiltsd le a bosszantó megerősítési kéréseket
+@Tips_Ee_System_Adb=Kapcsold be ezt a beállítást, ha már telepítetted az ADB-t a rendszeredre, és használni szeretnéd\n
+együttműködve a programmal.
+@Tips_Ee_Save_Cache=A csatlakoztatott androidos eszközökről származó alkalmazásikonok a számítógép gyorsítótárába kerülnek.\n
+Csak azokat az ikonokat tölti be az eszközről, amelyek még nincsenek a gyorsítótárban.\n
+Ennek bekapcsolása felgyorsítja az alkalmazás adatainak frissítését.
+
+@Tips_Apps_Update_Data=Frissítsd az alkalmazások nevét és ikonját
+@Tips_Apps_Load_Preset=Tölts be egy korábban mentett előválasztást és ellenőrizd az összes alkalmazást
+@Tips_Apps_Save_Preset=Mentsd az ellenőrzött alkalmazások listáját egy szövegfájlba
+@Tips_Apps_Auto_Permissions=Gyorsan megadhatsz minden szükséges engedélyt a népszerű alkalmazásokhoz
+@Tips_Apps_Install_Apk=Az apk fájl gyors telepítése számítógépről eszközre
+@Tips_Apps_Upload_File=Válaszd ki a lemezen lévő fájlokat, hogy letölthesd azokat a készüléked Download mappájába
+@Tips_Console_Screenshot=Készíts egy képernyőképet az androidos eszköz képernyőjéről, és töltsd le a számítógépedre
+@Lbl_Continue=Csatlakoztasd Android eszközöd
+
+@Tips_Apps_History=Azon eszközök listája, amelyekhez már csatlakoztál a hálózaton keresztül
+@Msg_Device_Disconnected_Aborted=Az eszköz nem válaszol. A művelet megszakadt.
+@Txt_Act_Incorrect_Key=Érvénytelen aktiváló kulcs!
+
+@Captcha_Head=Ellenőrzés
+@Captcha_Title=Szia, ez csak egy kis captcha :)
+@Captcha_Description=Írd be a szöveget a képről:
+@Captcha_Btn_Enter=Ellenőrizd!
+@Captcha_Msg_Validation_Failed=Helytelenül írtad be a szöveget, próbáld újra.\nFigyelem! A kísérletek száma korlátozott.
+@Captcha_Msg_Validation_Banned=Nem sikerült ellenőrizni, és az IP-címed ideiglenesen blokkoltuk a szerveren. Próbáld később ellenőriztetni.
+@Captcha_Btn_Refresh=Frissítsd a képet, ha nem tudod elolvasni a szöveget.
+@Captcha_Title_Extended=A Kibővített Verzió felhasználóinak nincs szükségük ellenőrzésre.
+@Msg_Emergency_Stop=Figyelem! Nem ajánlott megszakítani a program munkáját különösebb ok nélkül.\n\n
+Biztosan meg akarod szakítani a program futását?
+
+@Tips_Ee_Accurate_Sizes=Engedélyezd a pontos alkalmazásméretek elérését az acbridge segítségével az adatok frissítésekor.\n
+Ez kissé megnöveli a frissítési időt. Android 8.0 vagy újabb szükséges.
+@Cbx_Ee_Accurate_Sizes=Pontos alkalmazás méretek
+@Btn_Connection_Port_Auto=Port:
+
+*@Msg_Accurate_Sizes_Need_Permission=A pontos app méretek opció engedélyezve van.\n
+<PACKAGE_USAGE_STATS> engedélyre van szüksége ahhoz, hogy az ACBdridge pontos app méreteket jelenítsen meg. Az üzenet elrejtéséhez add meg az engedélyt, vagy kapcsold ki a pontos app méreteket a beállításokban.\n
+Olvasd el a Felhasználói kézikönyvet.
+
+@ ### NEW IN VERSION 1.6.4
+@Msg_Default_Browser_Not_Found=Hiba. Az alapértelmezett böngésző nem található.
+@Menu_Search_In=Keresés a...
+@Menu_App_Advanced=Haladó...
+@Menu_App_Start=Indítás
+@Menu_App_Stop=Stop
+@Menu_App_Report=Jelentés az alkalmazásról
+
+@Frm_Report_Check_Type=Válaszd ki az alkalmazás típusát:
+@Frm_Report_Bloatware=Kéretlen app
+@Frm_Report_Bloatware_Desk=Ez az alkalmazás nem kívánatos, ezért le kell tiltani
+@Frm_Report_Critical=Kritikus rendszer app
+@Frm_Report_Critical_Desk=Az alkalmazás letiltása az eszköz meghibásodását okozza
+@Frm_Report_Button=Elküld
+
+@Frm_Report_Comment=Komment (opcionálisan)
+@Frm_Report_Msg_Thanks=Üzenetet küldtünk a fejlesztőnek. Köszönjük a visszajelzést!
+@Frm_Report_Desk=Tájékoztasd a fejlesztőt egy nem kívánt vagy problémás alkalmazásról. Ez segít abban, hogy az ADB AppContol még jobb legyen.
+@Frm_Report_Already_Sent=Már jelentettél erről az alkalmazásról.
+
+@Msg_Install_Multiple=Többszörös telepítés\n
+A többszörös telepítés lehetővé teszi, hogy egyszerre több alkalmazást telepíts a készülékre. 
+Egyszerűen húzd át a .apk vagy .apks fájlokat a programablakba, hogy megjelenjenek a listában.\n\n
+A fájlok átmásolódnak az "Install" mappába, és bármely csatlakoztatott eszközre telepíthetők. Létrehozhatsz egy külön mappát is a Telepítésben, és néhány APK fájlt tehetsz bele. Ezt követően a mappa megjelenik a listában, és minden tartalmazott apk telepítésre kerül.\n\n
+A DEMO alkalmazások rejtve lesznek a fájlok hozzáadásakor.
+*@Menu_Context_Rename_Apk=Átnevez
+*@Btn_Install_ApkFolder=Telepítő mappa
+*@Btn_Device_ApkFolder={0} mappa
+*@Lbl_Select_Folder=Válaszd ki a mappát a fájlokkal:
+*@Msg_No_Internet_Connection=Hálózati kapcsolat szükséges
+
+*@Msg_Debug_Recomendation=Javasoljuk, hogy válaszd a "Mindig engedélyezve" lehetőséget, amikor a rendszer hibakeresési engedélyt kér.
+Segít, ha problémákat tapasztalsz a készülékkel. Ezt a lehetőséget csak megbízható számítógépeken engedélyezd! Olvass tovább, {0}
+*@Lbl_Settings_Feature_8=Húzd át az .apk fájlokat és az előre beállítottakat (Presets) a programablakba
+*@Lbl_Settings_Feature_9=Több app telepítés (Kötegelt telepítés)
+*@Btn_Select_And_Install=Kiválaszt és Telepít
+
+@# UPDATE 1.6.6
+
+@Msg_Scrcpy_Not_Installed=Az Android eszköz távoli vezérléséhez telepítened kell az SCRCPY alkalmazást. Ez egy ingyenes, nyílt forráskódú alkalmazás, amelyet a Genymobile fejlesztett ki (https://github.com/Genymobile).\n\n
+A Scrcpy telepítéséhez töltsd le a scrcpy-win{0}.zip archívumot a programmal, és válaszd ki azt a fájlválasztó párbeszédpanelen. Ezt csak egyszer kell elvégezni.\n\n
+Kattints az IGEN-re a Scrcpy letöltéséhez a Github-ról, vagy a NEM-re a telepítéshez.
+@Msg_Scrcpy_Successfully_Installed=A Scrcpy telepítése sikeresen megtörtént.\n\n
+Fontos! A Scrcpy egy harmadik féltől származó nyílt forráskódú szoftver, amelyet a Genymobile fejlesztett ki. Az ADB AppControlnak és fejlesztőjének semmi köze ehhez a szoftverhez. Használat előtt feltétlenül olvasd, és fogadd el a Scrcpy licencszerződését.
+@Msg_Scrcpy_Fail_Installed=Nem sikerült telepíteni a Scrcpy programot.
+@Msg_Scrcpy_Txt_Installed=A Scrcpy telepítve van.
+@Btn_Scrcpy_Start=Irányíts a készüléked képernyőjén
+@Btn_Tools_Resolution=Képernyő felbontás
+@Btn_Tools_StatusBar=Állapotsáv ikonjai
+@Btn_Tools_Capture_Video=Videó felvétel
+@Txt_Tools_Density=Képpontsűrűség
+@Tab_Tools=Eszközök
+@Btn_Tools_StatusBar_Hide=Elrejt
+@Txt_Tools_StatusBar_Desk=Válaszd ki az elrejteni kívánt állapotsor ikonokat
+@Txt_Ram_Total=Összes
+@Txt_Ram_Free=Szabad
+@Txt_Ram_Used=Foglalt																			
+
+@# UPDATE 1.7.2
+@Msg_Settings_Changed=Szeretnéd menteni a beállításokat?
+@Btn_Add_Apk=Apk hozzáadása
+@Btn_Remove_Apk=Apk törlése
+@Btn_Back=Vissza
+@Txt_Install_Only_Free_Version=Az ADB AppControl ingyenes verziójában egyszerre csak egy alkalmazás telepíthető. Szerezd be a Kiterjesztett verziót a korlátozás megszüntetéséhez, és élvezd további előnyeit.\n\n
+Szeretnél többet megtudni?
+@Txt_License_Key=Termék licenckulcs megjelenítése
+@Msg_Bridge_No_Permissions=A program nem tudta ellenőrizni az ACBridge alkalmazás engedélyeit, de előfordulhat, hogy nem működik megfelelően.\n\n
+Győződj meg arról, hogy az ACBridge alkalmazás (com.cybercat.acbridge) rendelkezik-e engedéllyel az Android eszközöd tárhelyének eléréséhez. További információ a hivatalos weboldalon a Dokumentáció - Hibaelhárítás részben található.
+Szeretnéd folytatni?
+@Msg_Files_Not_Found=A program nem indítható el, mert szükséges fájlok hiányoznak.\n\nLehetséges megoldások:\n
+- Győződj meg arról, hogy a víruskereső nem blokkolja a programfájlokat.\n
+- Ne futtasd a programot kicsomagolatlan archívumból.\n
+- Töltsd le újra a programot a hivatalos webhelyről.
+@Txt_Resolution_Warning=Túl magas vagy túl alacsony értékek beállítása a készülék meghibásodását okozhatja!
+@Txt_Tools_Resolution=Felbontás:
+
+@# UPDATE 1.7.4
+*@Txt_Console_Search_Not_Found=Nincs találat
+*@Txt_Console_Search_Results_Found=Találat
+
+@# UPDATE 1.7.5
+*@Radio_Enabled=Engedélyezve
+*@About_LastUpdate=Utolsó frissítés
+
+@# UPDATE 1.7.6
+@Msg_Scrcpy_Update_Available=Új verzió érhető el {0}\n\nMeg szeretnéd nyitni a Scrcpy letöltési oldalát?
+@Msg_Scrcpy_Uninstall_Success=A Scrcpy eltávolítása megtörtént!
+@Msg_Scrcpy_Uninstall_Failed=Nem sikerült az eltávolítás!
+
+@# UPDATE 1.7.8
+@Msg_Restore_Not_Supported=FIGYELEM! A készülék nem támogatja az alkalmazás-visszaállítást.\n\n
+Nem tudod visszaállítani az eltávolított rendszeralkalmazásokat az eszköz gyári visszaállításáig.\n\n
+Akarod folytatni?
+@Btn_Record_Screen_Video=Képernyő videó rögzítése
+@Msg_Video_Recorded=Képernyő videó mentve a fájlba:\n{0}.
+
+@# UPDATE 1.8.0
+@Txt_Process_Manager=Folyamat kezelő
+@Txt_Running_Processes=Futó folyamatok
+@Txt_Search=Keresés
+@Txt_Find_In_AppList=Keresse meg az applistában
+@Tip_Process_Manager=A Folyamat kezelő bemutatja a futó alkalmazásokat és a felhasznált RAM-ot.
+@Txt_Process_Manager_Extended_Only=A Folyamat kezelő bemutatja a futó alkalmazásokat és a felhasznált RAM-ot. 
+Használja az eszköz erőforrásait az aktívan fogyasztó alkalmazások keresésére és letiltására.
+
+@InfoMsg_AdbTv_Title=ADB TV Android TV-hez!
+@InfoMsg_AdbTv_Text=Próbálja ki vadonatúj alkalmazáskezelőmet Android TV-hez! Kezelje az alkalmazásokat tévén és TV-boxon számítógép nélkül, csak a távirányítóval. Már letölthető.
+
+
+
+@# UPDATE 1.8.3
+@Txt_Pairing=Párosítás
+@Txt_Ip=IP
+@Txt_Port=Port
+@Txt_Code=Kód
+@Txt_Pair_Desc=Nyisd meg az eszköz beállításokat - Fejlesztői beállítások - Vezeték nélküli hibakeresés (Wi-Fi). Kattints a párosítás kóddal lehetőségre.
+@Btn_Pair=Párosít
+@Btn_Need_Help=Segítségre van szükség?
+@Msg_Pair_Success_Text=Sikeres párosítás! Mostantól egyszerre csatlakoztathatod az eszközöd vezeték nélküli hibakereső porton keresztül. Nem kell újra párosítania az eszközt.
+@Msg_Pair_Failed_Text=A párosítás nem sikerült! Android eszközödnek és a számítógépednek ugyanahhoz a Wi-Fi hálózathoz kell csatlakoznia. Győződj meg arról is, hogy nem használsz VPN-t.
+@Tip_Pairing=A párosítás lehetővé teszi, hogy USB kábel nélkül csatlakoztasd az eszközöd Wi-Fi kapcsolaton. Android 11 vagy újabb szükséges.
+@Pairing_Tips=Ellenőrzőlista:\nCsak Android 11 és újabb verziókhoz.\nEszközök ugyanazon a Wi-Fi hálózaton.\nA VPN-t ki kell kapcsolni.\nA párosítási és a csatlakozási port eltérő!			   

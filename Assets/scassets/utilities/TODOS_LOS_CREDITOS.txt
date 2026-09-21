@@ -1,0 +1,26 @@
+TODOS LOS CREDITOS VAN A LOS CREADORES DE ESTOS PROGRAMAS!!!
+
+AutoClicker = https://opautoclicker.com
+
+AutoKeyboard = https://auto-keyboard.com !POSIBLE TRAMPA DDOS!
+               support@auto-keyboard.com
+
+UninstallTool = Copyright (C) 2004 - 2025 CrystallDEA Software
+                This product is licensed to:
+                CrystalIDEA Software
+                Portable License
+                https://crystalidea.com/uninstall-tool
+
+DriverBooster = IObit Software 
+                https://www.iobit.com/es/driver-booster.php
+				
+Wu10Man = WereDev
+          https://github.com/WereDev/Wu10Man
+          https://weredev.com
+ 
+ADB AppControl = CyberCat
+
+
+----
+
+LOS SCRIPT .BAT FUERON COMPLETAMENTE DESARROLLADOS POR OPTISTUDIO

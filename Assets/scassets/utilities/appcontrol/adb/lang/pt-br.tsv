@@ -1,0 +1,648 @@
+VERSION=1.8.3
+
+@# BEGIN TRANSLATION:
+
+@Language=pt-br
+@Translation_Version=1.0
+@MyLanguage=Portuguese (Brazil)	
+@Translator_Name=igorruckert
+@Translator_Email=igorruckert{AT}yahoo.com.br
+
+
+@Translation_Author=Tradução:
+
+@Txt_Official_Site=Site do programa 
+
+@Txt_Form_Permissions_Search=Pesquisar...
+
+@Txt_Form_Permissions_Help=Você pode garantir (marcar) ou revogar (desmarcar) permissões para o aplicativo.\n
+Importante! Você somente pode revogar permissões que já foram manualmente garantidas.
+
+@Txt_Form_AutoPermissions_Help=A lista contém aplicativos instalados para os quais revelar a funcionalidade requer permissões especiais. Selecione um aplicativo e clique em 'Definir permissões'.
+
+@ToolTip_Refresh=Atualizar
+@ToolTip_Console_Dark_Mode=Modo escuro do console
+@ToolTip_Wide_Console=Expandir console
+@ToolTip_Press_Enter=Executar comando
+@ToolTip_Clear_Command_Line=Limpar linha de comando
+@ToolTip_Fast_Cmd_Add=Adicionar comando aos favoritos
+@ToolTip_Fast_Cmd_Remove=Remover comando dos favoritos
+@ToolTip_Cbx_Names_Auto_Update=Habilitar atualização automática de ícones e nomes de aplicativos quando o dispositivo é conectado
+
+@About_Program=ADB AppControl
+@About_Author_0=Desenvolvedor:
+@About_LinkTopic=Manual do usuário e instruções
+@About_Version=Versão
+@About_GoodDay=Tenha um bom dia :)
+
+@Status_Disconnected=Desconectado
+@Status_Connected=Conectado
+@Status_Waiting=Aguardando
+@Status_Error=Erro
+@Status_Device_Dont_Respond=(não respondendo)
+
+@Device_NeedAuth=Permitir depuração no seu dispositivo.
+
+@Menu_Top_Descr_Check_Version=Verificar por atualizações
+@Menu_Top_Descr_Open_Folder=Abrir pasta do programa
+@Menu_Top_Descr_Help=Ajuda
+@Menu_Top_Descr_Donate=Apoiar o projeto!
+@Menu_Top_Descr_Donate_King=Obrigado pelo apoio!
+@Menu_Top_Descr_Language=Idioma
+
+@Lbl_Total_Applications=Total:
+@Lbl_Fast_Commands=Comandos rápidos
+@Lbl_Selected_Apps=Mostrar selecionados:
+@Lbl_Info_Drag_And_Drop=Arraste e solte APKs ou copie-os para a pasta 'install'
+@Txt_Form_Permissions=Permissões
+@Lbl_Form_AutoPermissions_Select=Selecionar aplicativo
+
+@Lbl_Settings_Feature_1=Funções básicas do programa
+@Lbl_Settings_Feature_2=Configurações avançadas do programa
+@Lbl_Settings_Feature_3=Upload de múltiplos arquivos para o dispositivo
+@Lbl_Settings_Feature_4=Arraste e solte APK na lista para instalar
+@Lbl_Settings_Feature_5=Gratidão do desenvolvedor
+@Lbl_Settings_Feature_6=Classificação de aplicativos na lista
+@Lbl_Settings_Feature_7=Acesso a TODOS os níveis do Assistente de Debloat
+
+@Action_Choose=Selecionar:
+@Action_Disable=Desativar
+@Action_Enable=Ativar
+@Action_Uninstall=Desinstalar
+@Action_Save=Salvar
+
+@Btn_Install=Instalar
+@Btn_Apply=Aplicar
+@Btn_Restore=Restaurar
+@Btn_No=Não
+@Btn_Yes=Sim
+@Btn_Cancel=Cancelar
+@Btn_Enable_Debug=Habilitar depuração de rede
+@Btn_Connect=Conectar
+@Btn_Disconnect=Desconectar
+@Btn_Update_Names=Atualizar dados do aplicativo
+@Btn_Get_Names=Obter dados do aplicativo
+@Btn_Preset_Load=Carregar predefinição
+@Btn_Preset_Save=Salvar predefinição
+@Btn_LogCat_Start=Iniciar\nlogcat
+@Btn_LogCat_Stop=Parar\nlogcat
+@Btn_Copy_Log=Copiar log\ndo console
+@Btn_Console_Clear=Limpar\nconsole
+@Btn_Take_Screenshot=Capturar\ntela
+@Btn_Reboot=Reiniciar
+@Btn_Upload=Upload de arquivos
+@Btn_Set_Permissions=Definir permissões
+@Btn_Auto_Permissions=Permissões\nautomáticas
+
+@Loading_Loading=Carregando
+@Loading_Connecting=Conectando
+@Loading_Enable=Habilitando
+@Loading_Disable=Desabilitando
+@Loading_Saving=Salvando
+@Loading_Uninstall=Desinstalando
+@Loading_Install=Instalando
+@Loading_Refreshing=Carregando
+@Loading_Exit=Concluindo
+@Loading_Build=Carregando
+@Loading_Rebooting=Reiniciando
+
+@Loading_Restoring=Restaurando
+@Loading_Build_Step_0=Instalando ACBridge
+@Loading_Build_Step_1=Conectando
+@Loading_Build_Step_2=Iniciar Bridge
+@Loading_Build_Step_3=Carregar dados
+@Loading_Build_Step_4=Salvando dados
+@Loading_Build_Step_Icons=Baixar ícones
+@Loading_Build_Update_Bridge=Atualizar ACBridge
+
+@Tab_Page_Apps= Aplicativos
+@Tab_Page_Console=Console
+@Tab_Page_About=Sobre
+
+@Radio_All=Tudo
+@Radio_System=Sistema
+@Radio_User=Usuário
+@Radio_Disabled=Desativado
+@Radio_Install=Instalar
+@Radio_Deleted=Excluído
+
+@Preset_Title=Salvar predefinição
+@Preset_FileName=Nome da predefinição
+@Preset_Comment=Descrição da predefinição
+@Preset_Apps=aplicativos
+@Preset_Header_1=# Predefinição criada no ADB AppControl
+@Preset_Header_2=# Total de aplicativos:
+
+@Cbx_Full_Names=Mostrar nome completo dos aplicativos
+@Cbx_Show_Icons=Mostrar ícone dos aplicativos
+@Cbx_Select_All=Selecionar todos
+@Cbx_Keep_Data=Excluir dados e cache
+@Cbx_Names_Auto_Update=Atualizar dados automaticamente
+
+@Menu_Context_Copy_Package=Copiar nome do pacote
+@Menu_Context_Copy_AppName=Copiar nome do aplicativo
+@Menu_Context_Set_Permissions=Definir permissões
+@Menu_Context_Delete_Apk=Excluir
+
+@Tips_Rb_All=Mostrar todos os aplicativos instalados (exceto os desativados)
+@Tips_Rb_System=Mostrar somente aplicativos do sistema
+@Tips_Rb_User=Mostra os aplicativos instalados pelo usuário e aplicativos de terceiros.
+@Tips_Rb_Disabled=Mostrar somente aplicativos desativados
+@Tips_Rb_Install=Instalando aplicativos. Coloque os arquivos APK na pasta 'install'
+@Tips_Rb_Deleted=Mostra os aplicativos excluídos do sistema. 
+@Tips_1=
+@Tips_2=
+@Tips_3=
+@Tips_4=
+@Tips_5=
+
+@Cbx_EE_Save_IP_History=Salvar histórico de conexões
+@Cbx_EE_Dark_Theme=Tema escuro
+@Cbx_EE_Save_Cache=Salvar cache de ícones
+@Btn_EE_Clear_IP_History=Limpar histórico
+@Btn_EE_Save_Settings=Salvar configurações
+@Lbl_EE_Opacity=Opacidade
+@Lbl_EE_Icons_Size=Tamanho do ícone
+@Lbl_EE_Font_Size=Tamanho da fonte
+@Tab_EE_Super_Settings=Configurações
+@Lbl_EE_Only_Extended=Disponível apenas para apoiadores do projeto na versão Extended
+@Btn_EE_Become_Extended=Como obter?
+
+@Note_Install_ACBridge=Instalar ACBridge\n
+O serviço ACBridge será instalado no seu dispositivo.\n
+Ele permitirá que você veja os ícones dos aplicativos na lista, e os nomes comuns dos aplicativos em vez do nome dos pacotes.\n\n
+Atenção: Em alguns dispositivos, você precisa habilitar a opção 'Instalação via ADB' no menu de Desenvolvedor. Certifique-se também de que o seu dispositivo no modo de suspensão (desbloqueie a tela)!\n\n
+Concorda em instalar o aplicativo ACBridge no seu dispositivo?
+
+@Note_Version_New_Found=Uma nova versão do programa está disponível - {0}.\nPressione Sim para atualizar.
+
+@Note_Restore_Deleted=Excluído\n
+Esta lista contém aplicativos excluídos do sistema.\n\n
+Selecione aqueles que desejar e clique Restaurar. Se a restauração for bem sucedida, o aplicativo aparecerá na lista principal.\n\n
+IMPORTANTE! O Android versão 6 e inferior não suporta recuperação.
+
+@Note_Please_Donate=Gostando do ADB AppControl?\n
+Gostaria de ainda mais recursos? Torne-se um apoiador do projeto e tenha acesso a versão Extended do programa com novas funções interessantes e úteis. 
+O seu apoio é a melhor maneira de dizer "obrigado" e inspirar novas ideias. Só um copo de café pode tornar o ADB AppControl ainda melhor!\n\n
+Quer saber mais?
+
+@Note_Changelog=Novo no {0}\n{1}
+
+@Note_Driver_Install=Problemas de conexão?\n
+Se você tentar conectar um dispositivo por USB mas nada acontecer, talvez você tenha que instalar o driver ADB.\n\n
+Baixar e instalar o driver agora?
+
+@#REGION:MSG
+
+@Msg_Preset_Owerwrite=Um arquivo com este nome já existe. Substituí-lo?
+@Msg_MoreThanOneDevice_0=Dispositivos conectados: 
+@Msg_MoreThanOneDevice_1=O programa não se destina a funcionar com mais de um dispositivo.
+@Msg_SearchStop_0=Nenhuma correspondência encontrada!
+@Msg_SearchStop_Title=Pesquisar
+@Msg_PresetSaved=Predefinição salva em
+@Msg_PresetSavedTitle=Predefinição salva
+@Msg_PresetLoaded_Title=Predefinição carregada
+@Msg_PresetLoaded_0=Selecionados
+@Msg_PresetLoaded_1=aplicativos da predefinição
+@Msg_ActionComplete_Disabled=Aplicativos desativados
+@Msg_ActionComplete_Enabled=Aplicativos ativados
+@Msg_ActionComplete_Saved=Aplicativos salvos
+@Msg_ActionComplete_Uninstalled=Aplicativos removidos
+@Msg_ActionComplete_Installed=Aplicativos instalados
+@Msg_ActionComplete_Title=Tarefa concluída
+@Msg_ActionComplete_Restored=Aplicativos restaurados
+
+@Msg_DoYouWantBackup_Title=Backup
+
+@Msg_DoYouWantBackup_0=Gostaria de fazer backup dos arquivos APK antes de desinstalar (recomendado)?
+
+@Msg_Warning_Title=Atenção!
+
+@Msg_DisableOrUninstallConfirm=Remover ou desativar aplicativos do SISTEMA pode resultar em falhas do dispositivo e redefinição para o padrão de fábrica (com limpeza de dados). Deseja continuar?
+
+@Msg_Connect_To_IP_Error_Title=Erro de conexão
+
+@Msg_Connect_To_IP_Error_10013=Sem conexão de rede (10013).\n
+Tente o seguinte:\n\n
+- Verifique a conexão de rede do seu PC.\n
+- Se você usa um firewall, permita que adb.exe acesse a rede.\n
+
+@Msg_Connect_To_IP_Error_10060=Falha ao conectar (10060).\n
+Tente o seguinte:\n\n
+- Verifique se o endereço IP está correto.\n
+- Veja se o dispositivo não está no modo de suspensão.\n
+- Certifique-se de que o seu PC e dispositivo estão conectados na mesma rede.\n
+@Msg_Connect_To_IP_Error_10061=Habilitar depuração de rede (10061).\n
+Tente o seguinte:\n\n
+- Conecte o seu dispositivo por USB e habilite a depuração de rede no AppControl.\n
+- OU nas configurações de desenvolvedor do seu dispositivo, habilite a 'Depuração pela rede' (se houver).\n
+
+@Msg_Connect_To_IP_Error_Not_Respond=O dispositivo não respondeu por um longo tempo e a operação foi interrompida.\n
+Certifique-se de que o dispositivo não está em modo de suspensão (desbloqueie a tela).
+
+@Msg_Debug_Question=Deseja realmente habilitar a depuração neste dispositivo?
+
+@Msg_Debug_Enabled=Agora você pode conectar o seu dispositivo pela rede (irá funcionar depois de reiniciar o seu dispositivo).\n\n
+IP: {0}     Porta: {1}\n\n
+Para conectar agora mesmo, desconecte o cabo USB e pressione OK.
+
+
+@Msg_Connect_Invalid_IP=Formato inválido de endereço IP.
+@Msg_Action_Choose=Selecione uma ação da lista!
+@Msg_FastCmd_Add_Qestion=Adicionar comando aos favoritos?
+@Msg_FastCmd_Add_Help=Para adicionar um comando aos seus favoritos, digite-o no console e clique em +
+@Msg_FastCmd_Remove_Qestion=Remover comando da lista rápida?
+
+@Msg_Version_Check_Failed=Não foi possível conectar no servidor de atualização
+@Msg_Version_Dont_Need=Você está usando a versão mais recente do programa!
+
+@Msg_Welcome_to_EE=Parabéns, agora você possui a versão Extended do programa. Obrigado pelo apoio!
+
+@Msg_Base_Cannot_Create=Falha ao criar banco de dados. O ACBridge não pôde obter a lista de aplicativos do dispositivo.\n
+Você pode precisar conceder permissão de armazenamento de gravação para o ACBridge no seu dispositivo.
+
+@Msg_Corrupted_Programm=O programa está corrompido ou modificado e não pode ser iniciado.\n
+Tente verificar seu computador com um antivírus, e baixe o programa novamente de uma fonte oficial. Veja mais em {0}
+
+@Msg_Program_Already_Running=O aplicativo já está em execução!\n
+Você pode finalizá-lo usando o Gerenciador de Tarefas do Windows:\n
+Pressione CTRL + SHIFT + ESC e finalize o processo {0}.exe
+
+@Msg_Program_Old_Framework=O programa necessita do .NET Framework versão 4.6 ou superior para funcionar.\n
+Você tem instalado: {0}.\n\n
+Gostaria de baixar e instalar a versão mais recente da Microsoft?
+
+@Msg_ACBridge_Need_Permissions=O ACBridge está instalado, mas não pode transmitir dados.\n
+1) Seu dispositivo pode estar em modo de suspensão. Desbloqueie-o e tente de novo.\n\n
+2) Verifique e conceda as permissões necessárias para o aplicativo ACBridge no seu dispositivo:\n\n
+Configurações - Aplicativos - ACBridge - Permissões\n
+
+@Msg_ACBridge_Update_Failed=A versão instalada do ACBridge no seu dispositivo está desatualizada e não pode ser atualizada automaticamente. Para atualizar, desinstale com.cybercat.acbridge.apk e tente instalar manualmente.
+
+@Msg_ACBridge_Lower_Android_Version=Seu dispositivo não suporta a exibição dos ícones e nomes completos dos aplicativos.\n
+Necessário Android 6 ou superior.
+
+@Msg_ACBridge_Cannot_Install=Falha ao instalar o ACBridge no seu dispositivo.\n\n
+Tente copiar o arquivo com.cybercat.acbridge.apk (da pasta ADB) para seu dispositivo e instale-o. Após isto, nas configurações do dispositivo, conceda a permissão de escrita de armazenamento para o aplicativo AcBridge e reinicie o programa.\n\n
+Gostaria de abrir o manual do usuário?
+
+@Msg_ACBridge_Remove_And_Install=O aplicativo ACBridge instalado no seu dispositivo precisa ser atualizado. Para continuar, o programa precisa reinstalar o aplicativo.\n\nFazer isto agora?
+
+@Msg_ACBridge_Device_Sleep=O dispositivo não está respondendo por um longo tempo e deve estar em modo de suspensão.\n\n
+Desbloqueie a tela do seu dispositivo e clique em OK.
+
+@Msg_ACBridge_Download_Failed=Erro ao carregar dados. Por favor, tente de novo.
+
+@Msg_Cbx_Save_Cache=Salvar o cache de ícones pode aumentar o desempenho do programa, mas os ícones podem ter um estilo diferente e não corresponder aos exibidos no seu dispositivo.\nÉ recomendado desativar esta opção.
+
+@Msg_ACBridge_Adb_Not_Working_Correctly=O ADB não funciona corretamente no seu dispositivo e algumas funções do programa não estarão disponíveis. Tente reconectar o seu dispositivo.
+
+@Msg_EE_No_Internet=Uma conexão com a Internet é necessária para a ativação.
+
+@Msg_EE_Restart_Program=Reinicie o programa para aplicar as alterações
+
+@Msg_Console_Reboot=Reiniciar o dispositivo no modo {0}?
+
+@Msg_Clear_Ip_History=Remover todos os endereços IP do histórico?
+
+@Msg_Files_Upload={0} arquivo(s) enviado(s) para a pasta 'Download' do dispositivo.
+
+@Msg_Files_Not_Upload=Nem todos os arquivos ({0}) foram enviados para o dispositivo.\n
+Para detalhes, veja o log do Console.
+
+@Msg_Do_You_Want_Install_Apk=Instalar {0} no seu dispositivo?
+@Msg_Apk_Installed=O aplicativo foi instalado com sucesso!
+@Msg_Apk_Install_Error=Erro. Falha ao instalar o aplicativo.
+
+@Msg_Extended_Function_Only=Esta função está disponível somente na versão Extended do programa.\n\nDeseja saber mais?
+
+@Msg_Under_Construction=Novos recursos estão em desenvolvimento e estarão disponíveis em breve.\n\n
+Gostaria de apoiar e acelerar o desenvolvimento do projeto?
+
+@Msg_You_Win=Você está com sorte!\n
+A chance de ver esta imagem é menor do que 10%, e no seu lugar poderia estar uma propaganda irritante (por exemplo: remédio para fungos).\n\n
+Mas, em vez de anunciar no lugar dessa imagem, novos recursos interessantes estarão disponíveis em breve.\n
+Gostou disto?
+
+@Msg_Upload_Files_To_Device=Enviar {0} arquivos para seu dispositivo?
+
+@Msg_License_Agreement=Termos de uso e contrato de licença:\n\n
+O ADB AppControl (este software) é fornecido «como está» sem nenhuma garantia de qualquer tipo. Em nenhuma circunstância o autor deste software será responsabilizado por quaisquer danos causados pelo uso deste software.\n\n
+Este software é gratuito para uso pessoal e educacional. Qualquer uso comercial requer a permissão pessoal do autor e licença comercial.\n\n
+O ADB AppControl não deve ser descompilado, desmontado, submetido à engenharia reversa ou modificado de outra forma.\n\n
+Todos os direitos deste software pertencem apenas ao seu autor.\n\n
+O uso continuado deste software significa que você aceita os termos desta licença e que concorda com a coleta e processamento de estatísticas anônimas sobre o uso deste software.\n\nFalhou
+O texto completo do contrato está disponível aqui:\n
+https://appcontrol.neocities.org/pages/terms_of_use.html
+
+@Msg_Operation_Timeout=A operação leva mais do que {0} segundos.\n
+Alguns comandos podem demorar para serem concluídos.\n\n
+Aguardar a conclusão da operação atual? Clique NÃO para parar.
+
+@Msg_Permission_Granted_Success=Todas as permissões foram definidas com sucesso.
+@Msg_Permission_Granted_Failed=Erro! Falha ao conceder ou revogar estas permissões:
+
+@#REGION:QUICK START
+
+@Quick_Start_Header=Início rápido
+@Quick_Start_Step=Passo
+@Quick_Start_Additional=Adicional:
+@Quick_Start_Language=Escolha o idioma
+@Quick_Start_Help=Ler manual do usuário
+
+@Quick_Start_Step_1=Habilite a Depuração USB no seu dispositivo. É simples!\n\n
+Configurações - Sobre o dispositivo - Software - Clique (7 vezes) no NÚMERO DE MONTAGEM até você se tornar Desenvolvedor!\n\n
+Configurações - Para desenvolvedores - Depuração USB - Habilitar. Feito!
+
+@Quick_Start_Step_2=Conecte o seu dispositivo ao seu computador com um cabo USB.\n\n
+O ADB AppControl irá detectar seu dispositivo e você verá o status AGUARDANDO.\n\n
+Permita a depuração na tela do seu dispositivo. Não esqueça de selecionar a opção LEMBRAR
+
+@Quick_Start_Step_3=Para conectar-se ao dispositivo por Wi-Fi, clique em HABILITAR DEPURAÇÃO DE REDE (canto superior direito)\n\n
+Encontre o IP do seu dispositivo: Configurações - Sobre o dispositivo - Status - Endereço IP\n\n
+Desconecte o cabo USB e digite o IP no campo do programa (canto superior direito). Clique em Conectar.
+
+
+@Quick_Start_Btn_GotIt=Entendi!
+
+@Quick_Start_Cbx_DontShow=Não mostrar tutorial de novo
+
+@Msg_Delete_Apk_Confirm=Excluir arquivos selecionados do disco?
+@Cbx_EE_Silent_Mode=Modo silencioso (sem confirmações)
+@Msg_Halloween_Cat=O Dia das Bruxas está aí!\nEste é um grande motivo para apoiar o desenvolvedor e obter +100 para carma e proteção contra mortos-vivos, não é?? ;-)
+@Msg_New_Year=Feliz Natal e Próspero Ano Novo!\nQue o ano novo lhe traga paz, alegria e felicidade.\nAtenciosamente, CyberCat.
+
+@Txt_App_Name=Nome do aplicativo
+@Txt_Package=Pacote
+@Txt_Size=Tamanho
+@Msg_Auto_Permissions_No_App_Found=Nenhum aplicativo instalado encontrado na lista.
+@Action_Clear_App_Data=Limpar dados do aplicativo
+@Msg_Clear_App_Data=Todos os dados do aplicativo, incluindo configurações, serão excluídos. Continuar?
+@Msg_Clear_App_Data_Failed=Falha ao limpar os dados do aplicativo.
+@Msg_Clear_App_Data_Success=Dados do aplicativo excluídos com sucesso.
+
+@Msg_Wizard_Denied=O acesso ao servidor foi negado. Contate o desenvolvedor para resolver o problema.
+@Msg_Wizard_Not_Found=Seu dispositivo não é suportado. Talvez o suporte para ele seja adicionado em futuras atualizações.
+@Msg_Wizard_Loaded=Aplicativos indesejados encontrados: {0}
+@Msg_Wizard_Clear=Nenhum aplicativo indesejado encontrado no seu dispositivo.\n
+Tente alterar o nível de limpeza para um mais alto.
+@Txt_Wizard_Title=Assistente de Debloat
+@Txt_Wizard_Basic=Básico
+@Txt_Wizard_Descr_Basic=Desativa os aplicativos indesejados PRINCIPAIS no seu dispositivo.
+@Txt_Wizard_Safe=Seguro
+@Txt_Wizard_Descr_Safe=Recomendado para a maioria dos usuários.
+@Txt_Wizard_Medium=Médio
+@Txt_Wizard_Descr_Medium=Um nível de limpeza mais profundo para usuários avançados.
+@Txt_Wizard_Max=Máximo
+@Txt_Wizard_Descr_Max=Use somente após ajustar manualmente a lista.
+@Txt_Wizard_Select_Level=Nível de limpeza:
+
+@Txt_Wizard_Welcome=Um novo e efetivo recurso permitirá que você se livre dos aplicativos mais indesejados. 
+Dependendo do nível selecionado, uma lista de aplicativos que são recomendados para serem desativados no seu dispositivo será carregada. 
+Revise e modifique a lista com cuidado antes de desativar.
+
+@Txt_Extended_Only=Somente na versão Extended!
+@Btn_Wizard_Load=APLICAR
+@Lbl_Wizard_Descr=Verifica o seu dispositivo por aplicativos indesejados e bloatware.
+@Btn_Wizard=Encontre e desative bloatware no seu dispositivo
+@Msg_Cannot_Connect_To_Server=Não foi possível conectar no servidor.
+@Txt_Want_Know_More=Saiba mais
+@Menu_App_Info=Sobre o aplicativo
+@Menu_Copy_Text=Copiar
+@Btn_Auto_Permissions_List=Aplicativos suportados
+@Msg_Version_Outdated=Sua versão do programa está desatualizada e não é mais suportada.
+@Txt_Wizard_New_Update=Atualização disponível!
+@Msg_Key_Check_Failed=Falha na ativação.\n
+Reinicie o programa e reative-o com a sua chave neste dispositivo.
+@Btn_Close=Fechar
+@Btn_Dont_Show_Again=Não mostrar mensagem de novo
+@Msg_Function_Under_Dev=Este recurso está em desenvolvimento e estará disponível em futuras atualizações.
+@Msg_Version_Need_Update=A versão mais recente do programa é necessária. Por favor, instale a atualização.
+@Txt_Act_Limit=O limite diário de ativação para esta chave foi excedido. Por favor tente novamente mais tarde.
+@Txt_Act_Banned=Esta chave foi bloqueada. Por favor, contate o desenvolvedor.
+@Msg_Wizard_Recieve_Date_Error=Erro!\nFalha ao receber os dados. Tente novamente mais tarde.
+@Msg_Wizard_Privacy=Informações de Privacidade\n\n
+Sempre que você usa a função de Assistente de Debloat (exceto o nível Básico), a lista de aplicativos instalados do dispositivo Android será enviada para o servidor remoto para processamento. Estes dados NÃO são armazenados e NÃO são registrados e NÃO podem ser identificados com sua personalidade.\n\n
+Você concorda e deseja continuar?
+@Menu_Copy=Copiar
+@Menu_Cut=Recortar
+@Menu_Paste=Colar
+@Msg_Uninstall_Clear_Data=Limpar dados e cache do aplicativo durante a desinstalação?
+
+@### NEW IN 1.6.0 ###
+
+@EE_Cbx_Use_System_Adb=Usar ADB do sistema (de %PATH%)
+@EE_Cbx_Kill_Adb_When_Exit=Parar ADB ao sair
+@Msg_Driver_Install_Complete=O driver foi instalado com sucesso no seu computador.
+@Msg_Driver_Install_Failed=O driver não foi instalado, ou outro driver já está instalado no seu sistema.\n\n
+Gostaria de abrir o Guia do Usuário com possíveis soluções?
+@Msg_Error_Write_Disk=Erro. O programa não possui permissão de escrita no disco e será fechado. 
+Para continuar, mova a pasta do programa para outro local (por exemplo: para a unidade D).
+@Menu_Top_Descr_Tm=Canal no Telegram
+@Cbx_LogCat_Save_Log=Salvar registro em arquivo
+@Btn_EE_Default=Padrão
+@Msg_Ee_Default=Deseja redefinir todas as configurações para os valores padrão?
+@Lbl_EE_You_Are_Extended=Você possui a versão Extended
+@Lbl_EE_Activate=Cole sua chave aqui e clique em OK
+@Btn_EE_Activate=Ativar
+
+@Cbx_EE_Adb_Key_Protection=Proteção de chave ADB
+@Lbl_AdbKey_LogIn=Desbloquear chaves ADB com sua senha
+@Btn_AdbKey_LogIn_Unlock=Desbloquear
+@Btn_AdbKey_LogIn_Skip=Ignorar
+@Msg_AdbKey_Protect_Incorrect_Password=Senha incorreta.
+
+@Lbl_AdbKey_Protect=Proteja suas chaves ADB com uma senha para habilitar a depuração com segurança nos seus dispositivos. 
+Você precisará entrar esta senha sempre que iniciar o programa.
+@Btn_AdbKey_Protect=Proteger
+@Btn_AdbKey_Protect_Load_Key=Já tenho uma chave
+@Lbl_AdbKey_Protect_NewPassword=Nova senha
+@Lbl_AdbKey_Protect_ConfirmPassword=Confirmar senha
+
+@Msg_AdbKey_Protect_Reset=Deseja restaurar as suas chaves salvas antes de desabilitar a proteção?
+@Msg_AdbKey_Protect_Success=A proteção de chave ADB está ativa.
+@Msg_AdbKey_Protect_Passwords_Not_Equal=As senhas não coincidem!
+@Msg_AdbKey_Protect_Disable=Uma vez bloqueado, uma chave não protegida aleatória será usada para todos os dispositivos.\n
+A sua chave segura será salva e você pode usá-la novamente após entrar a sua senha.\n\n
+Deseja realmente bloquear as suas chaves ADB?
+@Tips_Protect_Unprotected=Você está usando uma chave não segura aleatória. Clique para desbloquear.
+@Tips_Protect_Protected=Você está usando uma chave segura. Clique para bloquear.\n
+Uma vez bloqueado, o ADB usará uma chave aleatória gerada para funcionar com os seus dispositivos.
+@Msg_AdbKey_Protect_Key_Not_Found=Arquivo de chave ADB não encontrado!
+@Txt_AdbKey_Protect_Description=
+Os arquivos de chave ADB usados para depuração podem ser transferidos para outro computador ou roubados.\n
+É conveniente você usar a opção <Sempre permitir> ao depurar, então, com essa chave, o invasor\n
+pode ter acesso ilimitado ao seu dispositivo Android, mesmo ele possuindo proteção por senha ou biometria.\n
+A habilidade de transferir chaves também pode ser útil. Por exemplo, para conectar em um dispositivo com a tela quebrada.\n\n
+O ADB AppControl ajuda a criptografar com segurança as chaves ADB e proteger seus dados.
+
+@Btn_Ee_Deactivation=Desativar
+@Msg_Ee_Deactivation=Excluir chave de ativação e desativar o programa? (o programa será fechado)
+
+@Tips_Ee_Save_Ip=Salva o IP dos seus dispositivos nos favoritos para uma conexão rápida
+@Tips_Ee_Dark_Theme=Muda o esquema de cor da interface e reduz o cansaço visual à noite
+@Tips_Ee_Show_Icons=Ocultar os ícones irá simplificar a interface e acelerar a atualização de dados do aplicativo
+@Tips_Ee_Silent_Mode=Desativa pedidos de confirmação irritantes
+@Tips_Ee_System_Adb=Habilite esta configuração se você já possui o ADB instalado no seu sisteme\n
+e deseja usá-lo com o programa.
+@Tips_Ee_Save_Cache=Os ícones dos aplicativos dos dispositivos Android conectados serão salvos no cache do PC.\n
+Somente estes ícones que ainda não estão no cache serão carregados a partir do dispositivo.\n
+Ativar esta opção irá acelerar a atualização de dados do aplicativo.
+
+@Tips_Apps_Update_Data=Atualiza os nomes e ícones dos aplicativos
+@Tips_Apps_Load_Preset=Carrega uma predefinição salva anteriormente e verifica todos os aplicativos dela
+@Tips_Apps_Save_Preset=Salva uma lista de aplicativos verificados em um arquivo de texto
+@Tips_Apps_Auto_Permissions=Rapidamente concede todas as permissões necessárias para aplicativos populares
+@Tips_Apps_Install_Apk=Instalação rápida de arquivo APK do computador para o dispositivo
+@Tips_Apps_Upload_File=Selecione arquivos no disco para enviá-los para a pasta 'Download' do seu dispositivo
+@Tips_Console_Screenshot=Faz uma captura de tela da tela do dispositivo Android e baixa para o seu computador
+@Lbl_Continue=Conecte o seu dispositivo Android
+
+@Tips_Apps_History=Lista de dispositivos aos quais você já se conectou pela rede
+@Msg_Device_Disconnected_Aborted=O dispositivo não está respondendo. A operação será cancelada.
+@Txt_Act_Incorrect_Key=Chave de ativação incorreta!
+
+@Captcha_Head=Verificação
+@Captcha_Title=Olá, é só um pequeno captcha :)
+@Captcha_Description=Digite o texto da imagem:
+@Captcha_Btn_Enter=Verificar!
+@Captcha_Msg_Validation_Failed=Você digitou o texto incorretamente, tente novamente.\nAtenção! O número de tentativas é limitado.
+@Captcha_Msg_Validation_Banned=Você falhou na verificação e seu endereço IP foi temporariamente bloqueado no servidor. Tente verificar mais tarde.
+@Captcha_Btn_Refresh=Atualize a imagem se você não conseguir ler o texto.
+@Captcha_Title_Extended=Usuários da versão Extended não necessitam de verificação.
+@Msg_Emergency_Stop=Atenção! Não é recomendado interromper o trabalho do programa sem muita necessidade.\n\n
+Tem certeza que deseja interromper o trabalho do programa?
+
+@Tips_Ee_Accurate_Sizes=Ative para obter o tamanho preciso dos aplicativos via acbridge ao atualizar dados.\n
+Aumenta ligeiramente o tempo de atualização. Android 8.0 ou mais recente necessário.
+@Cbx_Ee_Accurate_Sizes=Tamanho preciso dos aplicativos
+@Btn_Connection_Port_Auto=Porta:
+
+@Msg_Accurate_Sizes_Need_Permission=A opção de tamanho preciso dos aplicativos está ativada.\n
+Você precisa conceder a permissão <PACKAGE_USAGE_STATS> para que o ACBdridge mostre o tamanho preciso dos aplicativos. Para ocultar esta mensagem, conceda permissão ou desative a opção de tamanho preciso dos aplicativos nas Configurações.\n
+Leia mais no Manual do Usuário.
+
+@ ### NEW IN VERSION 1.6.4
+@Msg_Default_Browser_Not_Found=Erro. Navegador padrão não encontrado.
+@Menu_Search_In=Pesquisar em...
+@Menu_App_Advanced=Avançado...
+@Menu_App_Start=Iniciar
+@Menu_App_Stop=Parar
+@Menu_App_Report=Relatório sobre o aplicativo
+
+@Frm_Report_Check_Type=Selecione o tipo de aplicativo:
+@Frm_Report_Bloatware=Bloatware
+@Frm_Report_Bloatware_Desk=Este aplicativo é indesejado e deve ser desativado
+@Frm_Report_Critical=Aplicativo crítico do sistema
+@Frm_Report_Critical_Desk=Desativar este aplicativo causa o mau funcionamento do dispositivo
+@Frm_Report_Button=Enviar
+
+@Frm_Report_Comment=Comentário (opcional)
+@Frm_Report_Msg_Thanks=Uma mensagem foi enviada ao desenvolvedor. Obrigado pelo feedback!
+@Frm_Report_Desk=Informe o desenvolvedor sobre um aplicativo indesejado ou problemático. Isso ajudará a tornar o ADB AppContol ainda melhor.
+@Frm_Report_Already_Sent=Você já relatou sobre este aplicativo.
+
+@Msg_Install_Multiple=Instalação múltipla\n
+A instalação múltipla permite que você instale múltiplos aplicativos no seu dispositivo de uma vez só. 
+Simplesmente arraste e solte os arquivos .apk ou .apks na janela do programa para que eles apareçam nesta lista.\n\n
+Os arquivos serão copiados para a pasta "Install" e estarão disponíveis para instalação em qualquer dispositivo conectado. Você também pode criar uma pasta separada em "Install" e colocar alguns arquivos .apk nela. Após isto, a pasta aparecerá na lista e todos os arquivos .apk contidos nela serão instalados quando você instalá-la.\n\n
+Os aplicativos DEMO serão ocultados quando você adicionar os seus arquivos.
+@Menu_Context_Rename_Apk=Renomear
+@Btn_Install_ApkFolder=Instalar Pasta
+@Btn_Device_ApkFolder=Pasta {0}
+@Lbl_Select_Folder=Selecione a pasta do arquivo:
+@Msg_No_Internet_Connection=Conexão de rede necessária
+
+@Msg_Debug_Recomendation=É recomendado selecionar "Sempre permitir" quando solicitada a permissão de depuração. 
+Isso ajudará se você tiver problemas com o dispositivo. Ative esta opção apenas em computadores confiáveis! Leia mais em {0}
+@Lbl_Settings_Feature_8=Arraste e solte arquivos .apk e predefinições na janela do programa
+@Lbl_Settings_Feature_9=Instalação de vários aplicativos (instalação em lote)
+*@Btn_Select_And_Install=Instalação rápida
+
+@# UPDATE 1.6.6
+
+@Msg_Scrcpy_Not_Installed=Para controlar remotamente o seu dispositivo Android, você deve instalar o aplicativo SCRCPY. Este é um aplicativo de código aberto gratuito desenvolvido por Genymobile (https://github.com/Genymobile).\n\n
+Para instalar o Scrcpy, baixe o arquivo scrcpy-win{0}.zip com o programa e selecione-o no diálogo de seleção de arquivo. Isto só precisa ser feito uma vez.\n\n
+Clique SIM para abrir um link para baixar o Scrcpy no Github ou NÃO para ir para a instalação.
+
+@Msg_Scrcpy_Successfully_Installed=O Scrcpy foi instalado com sucesso.\n\n
+Importante! O Scrcpy é um software de código aberto de terceiros desenvolvido por Genymobile. O ADB AppControl e seu desenvolvedor não tem nada a ver com este software. Certifique-se de ler e aceitar o Contrato de Licença do Scrcpy antes de usá-lo.
+
+@Msg_Scrcpy_Fail_Installed=Falha ao instalar o Scrcpy.
+@Msg_Scrcpy_Txt_Installed=Scrcpy instalado.
+@Btn_Scrcpy_Start=Controle a tela do seu dispositivo
+@Btn_Tools_Resolution=Resolução da tela
+@Btn_Tools_StatusBar=Ícones da barra de status
+@Btn_Tools_Capture_Video=Gravação de vídeo
+@Txt_Tools_Density=Densidade de pixels
+@Tab_Tools=Ferramentas
+@Btn_Tools_StatusBar_Hide=Ocultar
+@Txt_Tools_StatusBar_Desk=Selecione os ícones da barra de status que deseja ocultar
+@Txt_Ram_Total=Total
+@Txt_Ram_Free=Livre
+@Txt_Ram_Used=Usado
+
+
+@# UPDATE 1.7.2
+@Msg_Settings_Changed=Deseja salvar as configurações?
+@Btn_Add_Apk=Adicionar APK
+@Btn_Remove_Apk=Excluir APK
+@Btn_Back=Voltar
+@Txt_Install_Only_Free_Version=Na versão gratuita do ADB AppControl você não pode instalar mais do que um aplicativo por vez. Obtenha a versão Extended para remover esta limitação e aproveite outros benefícios.\n\n
+Gostaria de saber mais?
+@Txt_License_Key=Mostrar chave de licença do produto
+@Msg_Bridge_No_Permissions=O programa não pôde verificar as permissões para o aplicativo ACBridge e pode não funcionar corretamente.\n\n
+Certifique-se de que o aplicativo ACBridge (com.cybercat.acbridge) possui permissão para acessar o armazenamento no seu dispositivo Android. Você pode aprender mais no site oficial, na seção Documentação - Solução de Problemas.
+Deseja continuar?
+@Msg_Files_Not_Found=O programa não pôde ser iniciado porque os arquivos necessários estão faltando.\n\nPossíveis soluções:\n
+- Certifique-se de que seu antivírus não bloqueie os arquivos de programa.\n
+- Não execute o programa a partir de um arquivo descompactado.\n
+- Baixe o programa novamente a partir do site oficial.
+@Txt_Resolution_Warning=Definir valores muito altos ou muito baixos pode causar mau funcionamento do dispositivo!
+@Txt_Tools_Resolution=Resolução:
+
+@# UPDATE 1.7.4
+*@Txt_Console_Search_Not_Found=Nenhum resultado encontrado
+*@Txt_Console_Search_Results_Found=Encontrado
+
+@# UPDATE 1.7.5
+*@Radio_Enabled=Ativado
+*@About_LastUpdate=Última atualização
+
+@# UPDATE 1.7.6
+
+@Msg_Scrcpy_Update_Available=Nova versão disponível {0}\n\nVocê deseja abrir a página de download do Scrcpy?
+@Msg_Scrcpy_Uninstall_Success=O Scrcpy foi instalado!
+@Msg_Scrcpy_Uninstall_Failed=Falha ao desinstalar!
+
+@# UPDATE 1.7.8
+@Msg_Restore_Not_Supported=ATENÇÃO! O seu dispositivo não suporta a restauração de aplicativos.\n\n
+Você não poderá restaurar aplicativos do sistema desinstalados até realizar uma restauração de fábrica no dispositivo.\n\n
+Você deseja continuar?
+@Btn_Record_Screen_Video=Capturar vídeo da tela
+@Msg_Video_Recorded=Vídeo da tela salvo no arquivo:\n{0}.
+
+@# UPDATE 1.8.0
+@Txt_Process_Manager=Gerenciador de processos
+@Txt_Running_Processes=Processos em execução
+@Txt_Search=Pesquisar
+@Txt_Find_In_AppList=Localizar na lista de aplicativos
+@Tip_Process_Manager=O gerenciador de processos irá mostrar os aplicativos em execução e o consumo de RAM de cada um.
+@Txt_Process_Manager_Extended_Only=O gerenciador de processos irá mostrar os aplicativos em execução e o consumo de RAM de cada um. 
+Use-o para pesquisar e desativar aplicativos que consomem muitos recursos do dispositivo.
+
+@InfoMsg_AdbTv_Title=ADB TV para Android TV!
+@InfoMsg_AdbTv_Text=Teste meu novo gerenciador de aplicativos para Android TV! Gerencie os aplicativos das suas TVs e TV boxes sem PC, usando somente o controle remoto. Já disponível para download.
+
+@# UPDATE 1.8.3
+@Txt_Pairing=Pareando
+@Txt_Ip=IP
+@Txt_Port=Porta
+@Txt_Code=Código
+@Txt_Pair_Desc=Abra as configurações do dispositivo - Opções do desenvolvedor - Depuração sem fio (Wi-Fi). Clique em parear com um código.
+@Btn_Pair=Parear
+@Btn_Need_Help=Você precisa de ajuda?
+@Msg_Pair_Success_Text=Pareado com sucesso! A partir de agora, você pode conectar o seu dispositivo pela porta de depuração sem fio. Você não precisa parear o seu dispositivo novamente.
+@Msg_Pair_Failed_Text=Falha ao parear! O seu dispositivo Android e PC devem estar conectados na mesma rede Wi-Fi. Também, certifique-se de não estar usando uma VPN.
+@Tip_Pairing=O pareamento permitirá que você conecte seu dispositivo via Wi-Fi sem um cabo USB. O Android 11 ou mais novo é necessário.
+@Pairing_Tips=Requisitos:\nSomente Android 11 e superior.\nDispositivos na mesma rede Wi-Fi.\nA VPN dese estar desativada.\nA porta de pareamento e conexão devem ser diferentes!

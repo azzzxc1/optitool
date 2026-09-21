@@ -1,0 +1,622 @@
+VERSION=1.8.0
+# Special marks:
+# @Do_Not_Translate_This=Translate only this
+# \n - new line symbol
+# {0} - the variable insert (Now is {0} year => Now is 2020 year)
+# * - developer will marks new or edited string (use CTRL + F for search *)
+# {AT} - is @ symbol for email (user{AT}mail.com => user@mail.com)
+# Please try to keep the line length and formatting close to the original!
+# Put your Name and Email to the Translator_Name= and Translator_Email=
+
+@# BEGIN TRANSLATION:
+
+@Language=Tr
+@Translation_Version=1.0
+@MyLanguage=Türkçe
+@Translator_Name=SuuleymanKaya
+@Translator_Email=suuleymankaya{AT}sika3.com
+
+
+@Translation_Author=Çeviri Yazarı:
+
+@Txt_Official_Site=Resmi Site: 
+
+@Txt_Form_Permissions_Search=Txt Form İzinleri Arama...
+
+@Txt_Form_Permissions_Help=Uygulama için izinler verebilir veya kaldırabilirsiniz.Sadece manuel izinleri iptal edebilirsiniz.
+
+*@Txt_Form_AutoPermissions_Help=Bir uygulama seçin ve izinleri Ayarla'yı tıklayın.
+
+@ToolTip_Refresh=Araç ipuçlarını yenile
+@ToolTip_Console_Dark_Mode=Konsol Karanlık Modu
+@ToolTip_Wide_Console=Geniş Komut Penceresi
+@ToolTip_Press_Enter=Enter tuşuna basın
+@ToolTip_Clear_Command_Line=Komut satırını sil
+@ToolTip_Fast_Cmd_Add=Hızlı Cmd ekle
+@ToolTip_Fast_Cmd_Remove=Hızlı Cmd'den kaldır
+@ToolTip_Cbx_Names_Auto_Update=Cbx Adlarını Otomatik Güncelleme
+
+@About_Program=ADB AppControl
+@About_Author_0=Geliştirici:
+@About_LinkTopic=Kullanım kılavuzu
+@About_Version=Sürüm
+@About_GoodDay=İyi Günler :)
+
+@Status_Disconnected=Bağlantı kesildi
+@Status_Connected=Bağlı
+@Status_Waiting=Bekleniyor
+@Status_Error=Hata
+@Status_Device_Dont_Respond=Cihaz Yanıt Vermiyor
+
+@Device_NeedAuth=Cihazınızda hata ayıklamaya izin verin.
+
+@Menu_Top_Descr_Check_Version=Güncellemeleri kontrol et
+@Menu_Top_Descr_Open_Folder=Programlar klasörünü açın
+@Menu_Top_Descr_Help=Yardım al
+@Menu_Top_Descr_Donate=Projeye bağış yap!
+@Menu_Top_Descr_Donate_King=Projeyi destekleyin!
+@Menu_Top_Descr_Language=Dili değiştir
+
+@Lbl_Total_Applications=Toplam:
+@Lbl_Fast_Commands=Hızlı Komutlar
+@Lbl_Selected_Apps=Seçildi:
+@Lbl_Info_Drag_And_Drop=APK'ları sürükleyip bırakın veya 'install' klasörüne kopyalayın
+@Txt_Form_Permissions=Izinler
+@Lbl_Form_AutoPermissions_Select=Otomatik İzin Seçimi
+
+@Lbl_Settings_Feature_1=Temel program özellikleri
+@Lbl_Settings_Feature_2=Gelişmiş program ayarları
+@Lbl_Settings_Feature_3=Cihaza birden fazla dosya indirme
+@Lbl_Settings_Feature_4=Yüklemek için apk'yı listeye sürükleyip bırakın
+@Lbl_Settings_Feature_5=Geliştiriciden teşekkürler
+@Lbl_Settings_Feature_6=Uygulamaları listede sırala
+*@Lbl_Settings_Feature_7=Devre dışı bırakma sihirbazının TÜM seviyelerine erişim
+
+@Action_Choose=Seç:
+@Action_Disable=Devre dışı bırak
+@Action_Enable=Aktif et
+@Action_Uninstall=Kaldır
+@Action_Save=Kaydet
+
+@Btn_Install=Kur
+@Btn_Apply=Uygulama
+@Btn_Restore=Eski haline getir
+@Btn_No=Hayır
+@Btn_Yes=Evet
+@Btn_Cancel=İptal
+@Btn_Enable_Debug=Geliştirici Seçeneklerini Aktif Et
+@Btn_Connect=Bağlantı
+@Btn_Disconnect=Bağlı değil
+@Btn_Update_Names=Uygulama yükselteme ismi
+@Btn_Get_Names=Uygulama verilerini al
+@Btn_Preset_Load=Ön ayarı yükle
+@Btn_Preset_Save=Ön ayarı kaydet
+@Btn_LogCat_Start=Başlat\nLogCat
+@Btn_LogCat_Stop=Durdur\nLogCat
+@Btn_Copy_Log=Kopyala\nLog
+@Btn_Console_Clear=Temizle\nKomut Penceresi
+@Btn_Take_Screenshot=Çek \n Ekran Fotografı(ss)
+@Btn_Reboot=Yeniden Başlat
+@Btn_Upload=Yükle
+@Btn_Set_Permissions=İzinleri ayarla
+@Btn_Auto_Permissions=Otomatik\nİzinler
+
+@Loading_Loading=Yükleniyor...
+@Loading_Connecting=Bağlanıyor..
+@Loading_Enable=Aktif
+@Loading_Disable=Aktif Değil
+@Loading_Saving=Kaydediliyor..
+@Loading_Uninstall=Kaldırılıyor..
+@Loading_Install=Yükle
+@Loading_Refreshing=Yenileniyor..
+@Loading_Exit=Çık
+@Loading_Build=İnşa Et
+@Loading_Rebooting=Yeniden Başlatılıyor..
+
+@Loading_Restoring=Geri yükleniyor
+@Loading_Build_Step_0=Kurulum ACBridge
+@Loading_Build_Step_1=Connexion
+@Loading_Build_Step_2=Bağlantı
+@Loading_Build_Step_3=Veri Yükleniyor
+@Loading_Build_Step_4=Veri yaz
+@Loading_Build_Step_Icons=İconları indir
+@Loading_Build_Update_Bridge=AC Köprüsü güncellemesi
+
+@Tab_Page_Apps= Uygulamalar
+@Tab_Page_Console=Komut Penceresi
+@Tab_Page_About=Hakkında
+
+@Radio_All=Hepsi
+@Radio_System=Sistem
+@Radio_User=Kullanıcılar
+@Radio_Disabled=Devre dışı bırak
+@Radio_Install=Kur
+@Radio_Deleted=Sil
+
+@Preset_Title=Başlık
+@Preset_FileName=Dosya ismi
+@Preset_Comment=Açıklama
+@Preset_Apps=Uygulamalar
+@Preset_Header_1=# Ön seçim, ADB AppControl'de oluşturuldu
+@Preset_Header_2=# Toplam Uygulamalar:
+
+@Cbx_Full_Names=Tam uygulama adlarını göster
+@Cbx_Show_Icons=Uygulama simgelerini göster
+@Cbx_Select_All=Hepsini seç
+*@Cbx_Keep_Data=Verileri ve önbelleği silin
+@Cbx_Names_Auto_Update=Otomatik veri güncelleme
+
+@Menu_Context_Copy_Package=Paket adını kopyala
+@Menu_Context_Copy_AppName=Uygulama adını kopyala
+@Menu_Context_Set_Permissions=İzinleri ayarla
+@Menu_Context_Delete_Apk=Apk dosyasını sil
+
+@Tips_Rb_All=Tüm yüklü uygulamaları göster (devre dışı bırakılmış olanlar hariç)
+@Tips_Rb_System=Yalnızca sistem uygulamalarını göster
+@Tips_Rb_User=Kullanıcı tarafından yüklenen uygulamaları ve üçüncü taraf uygulamalarını görüntüleyin.
+@Tips_Rb_Disabled=Yalnızca devre dışı bırakılmış uygulamaları göster
+@Tips_Rb_Install=Uygulamalar yükleniyor. Apk dosyalarını kurulum klasörüne yerleştirin
+@Tips_Rb_Deleted=Silinen sistem uygulamalarını görüntüleyin.
+@Tips_1=
+@Tips_2=
+@Tips_3=
+@Tips_4=
+@Tips_5=
+
+@Cbx_EE_Save_IP_History=Bağlantı geçmişi kaydediliyor
+@Cbx_EE_Dark_Theme=Koyu Tema
+@Cbx_EE_Save_Cache=Simge önbelleğini kaydet
+@Btn_EE_Clear_IP_History=Geçmişi temizle
+@Btn_EE_Save_Settings=Ayarları kaydet
+@Lbl_EE_Opacity=Opaklık
+@Lbl_EE_Icons_Size=icon boyutu
+@Lbl_EE_Font_Size=Font boyutu
+@Tab_EE_Super_Settings=Ayarlar
+*@Lbl_EE_Only_Extended=Yükseltilmiş sürümde yalnızca proje liderleri için kullanılabilir  
+@Btn_EE_Become_Extended=Nasıl yapılır?
+
+@Note_Install_ACBridge=ACBridge Kurulumu \n
+ACBridge uygulaması cihazınıza yüklenecek.\n
+Listedeki uygulama simgelerini ve paket adları yerine genel uygulama adlarını görmenizi sağlar.\n\n
+Uyarı: Bazı cihazlarda Geliştirici menüsünde ADB ile Yükle seçeneğini etkinleştirmeniz gerekir. Ayrıca cihazınızın uyku modunda olmadığından emin olun (ekranın kilidini açın)!\n\n
+ACbridge uygulamasını cihazınıza yüklemeyi kabul ediyor musunuz?
+@Note_Version_New_Found=Programın yeni bir sürümü bulundu - {0}.\nGüncellemek için Evet'e basın.
+@Note_@Note_Restore_Deleted=Sil\n
+Bu liste silinen sistem uygulamalarını içerir.\n\n
+İhtiyacınız olanları seçin ve Geri Yükle'yi tıklayın. Geri yükleme başarılı olursa uygulama ana listede görünür.\n\n
+ÖNEMLİ! Android sürüm 6 ve önceki sürümler kurtarmayı desteklemez.
+
+@Note_Please_Donate=ADB AppControl'ü beğendiniz mi?\n
+Daha fazla özellik mi istiyorsunuz? Bir proje sponsoru olun ve programın yeni ilginç ve kullanışlı işlevlerle yükseltilmiş versiyonuna erişin.
+Desteğiniz "teşekkür ederim" demenin ve yeni fikirlere ilham vermenin en iyi yoludur. Tek bir fincan kahve, ADB AppControl'ü iyileştirebilir!\n\n
+Daha fazlasını öğrenmek ister misiniz?
+
+@Note_Changelog=Değişiklik günlüğü {0}\n{1}
+
+@@Note_Driver_Install=Bağlantı sorunları mı?\n
+Bir cihazı usb portu üzerinden bağlamaya çalışırsanız ancak hiçbir şey olmuyorsa, ADB sürücüsünü yüklemeniz gerekebilir.\n\n
+Sürücüyü şimdi indirip yükleyin?
+@#REGION:MSG
+
+@Msg_Preset_Owerwrite=Böyle bir dosya zaten var. Ezmek mi?
+@Msg_MoreThanOneDevice_0=Bağlı cihazlar:
+@Msg_MoreThanOneDevice_1=Program, birden fazla cihazla çalışmak üzere tasarlanmamıştır.
+@Msg_SearchStop_0=Sonuç bulunamadı!
+@Msg_SearchStop_Title=Ara
+@Msg_PresetSaved=Ön ayar şuraya kaydedildi
+@Msg_PresetSavedTitle=Ön ayar kaydedildi
+@Msg_PresetLoaded_Title=Ön ayar yüklendi
+@Msg_PresetLoaded_0=Seç
+@Msg_PresetLoaded_1=ön ayardan uygulamalar
+@Msg_ActionComplete_Disabled=Uygulamalar devre dışı bırakıldı
+@Msg_ActionComplete_Enabled=Uygulamalar etkin
+@Msg_ActionComplete_Saved=Uygulama yedeklemesi
+@Msg_ActionComplete_Uninstalled=Uygulamaları kaldır
+@Msg_ActionComplete_Installed=Uygulamalar yüklendi
+@Msg_ActionComplete_Title=Görev tamamlandı
+@Msg_ActionComplete_Restored=Uygulamalar geri yüklendi
+@Msg_DoYouWantBackup_Title=Yedekleme
+
+@Msg_DoYouWantBackup_0=Kaldırma işleminden önce apk dosyalarını yedekleyin (önerilir)?																						
+
+
+@Msg_Warning_Title=Uyarı!
+
+@Msg_DisableOrUninstallConfirm=SYSTEM uygulamalarının kaldırılması veya devre dışı bırakılması cihazın arızalanmasına ve fabrika ayarlarına sıfırlanmasına (veri silme ile) neden olabilir. Devam etmek istediğine emin misin?
+
+@Msg_Connect_To_IP_Error_Title=Bağlantı hatası
+
+@Msg_Connect_To_IP_Error_10013=Ağ erişimi yok (10013).\n
+Aşağıdakileri deneyin:\n\n
+- Bilgisayarınızın ağ bağlantısını kontrol edin.\n
+- Güvenlik duvarı kullanıyorsanız adb.exe'nin ağa erişmesine izin verin.\n
+@Msg_Connect_To_IP_Error_10060=Bağlantı başarısız (10060).\n
+Aşağıdakileri deneyin:\n\n
+- IP adresinin doğru olup olmadığını kontrol edin.\n
+- Cihazın uyku modunda olup olmadığını kontrol edin.\n
+- Bilgisayarınızın ve cihazınızın aynı yerel ağa bağlı olduğundan emin olun.\n
+@Msg_Connect_To_IP_Error_10061=Ağ hata ayıklamasını etkinleştir (10061).\n
+Aşağıdakileri deneyin:\n\n
+- Cihazınızı USB üzerinden bağlayın ve AppControl'de ağ hata ayıklamasını etkinleştirin.\n
+- VEYA cihazınızın geliştirici ayarlarında ağ hata ayıklamasını etkinleştirin (varsa).\n
+
+@Msg_Connect_To_IP_Error_Not_Respond=Cihaz uzun süre yanıt vermedi ve işlem kesintiye uğradı..\n
+Cihazın uyku modunda olmadığından emin olun (ekran kilidini açın).
+
+@Msg_Debug_Question=Bu cihazda hata ayıklamayı etkinleştirmek istediğinizden emin misiniz?
+
+*@Msg_Debug_Enabled=Artık cihazınıza ağ üzerinden bağlanabilirsiniz (cihazı yeniden başlatmadan önce çalışacaktır).\n\n
+IP: {0} Bağlantı Noktası: {1}\n\n
+Şimdi bağlanmak için USB kablosunu çıkarın ve Tamam'a basın.
+
+@Msg_Connect_Invalid_IP=Geçersiz IP adresi biçimi.
+@Msg_Action_Choose=Listeden bir eylem seçin!
+@Msg_FastCmd_Add_Qestion=Sık kullanılanlara komut eklensin mi?
+@Msg_FastCmd_Add_Help=Hızlı listeye bir komut eklemek için konsola yazın ve tıklayın;
+@Msg_FastCmd_Remove_Qestion=Komut hızlı listeden kaldırılsın mı?
+
+@Msg_Version_Check_Failed=Güncelleme sunucusuna bağlanılamadı
+@Msg_Version_Dont_Need=Programın en son sürümünü kullanıyorsunuz!
+
+@Msg_Welcome_to_EE=Tebrikler, artık programın yükseltilmiş bir versiyonuna sahipsiniz. Desteğin için teşekkürler!
+
+
+@Msg_Base_Cannot_Create=Veritabanı oluşturulamıyor - ACBridge cihazdan uygulama listesini alamıyor.\n
+Cihazınızda ACbridge için depolama yazma izni vermeniz gerekebilir.
+
+@Msg_Corrupted_Programm=Program bozulmuş veya değiştirilmiş ve başlatılamıyor.\n
+Bilgisayarınızı bir antivirüs ile taramayı deneyin ve programı resmi bir kaynaktan indirin. {0} adresinde daha fazlasını görün
+
+@Msg_Program_Already_Running=Uygulama zaten çalışıyor!\n
+Windows Görev Yöneticisi'ni kullanarak durdurabilirsiniz:\n
+ctrl + shift + esc tuşlarına basın ve {0}.exe işlemini durdurun
+
+@Msg_Program_Old_Framework=Program gerektirir . NET Framework sürüm 4.6 veya üzeri çalışır.\n
+Şimdi yüklediniz: {0}.\n\n
+Microsoft'tan en son sürümü indirip yüklemek ister misiniz?
+
+@Msg_ACBridge_Need_Permissions=ACBridge kurulu, ancak veri aktaramıyor.\n
+1) Cihazınız uyku modunda olabilir. Kilidini açın ve tekrar deneyin.\n\n
+2) Cihazınızdaki ACbridge uygulamasına gerekli izinleri kontrol edin ve verin:\n\n
+Ayarlar - Uygulamalar - ACbridge - İzinler\n
+
+@Msg_ACBridge_Update_Failed=Cihazınızda kurulu ACBridge sürümü güncel değil ve otomatik olarak güncellenemez. Yükseltmek için com.cybercat.acbridge.apk dosyasını kaldırın ve manuel olarak yüklemeyi deneyin.
+
+@Msg_ACBridge_Lower_Android_Version=Cihazınız simgelerin ve tam uygulama adlarının görüntülenmesini desteklemiyor.\n
+Android sürüm 6 veya üzeri gerektirir.
+
+@Msg_ACBridge_Cannot_Install=ACBridge uygulaması cihazınıza kurulamadı.\n\n
+com.cybercat.acbridge.apk dosyasını (ADB klasöründen) cihazınıza kopyalayıp kurmayı deneyiniz. Bundan sonra, cihaz ayarlarında AcBridge uygulaması için depolama alanı yazma izni verin ve programı yeniden başlatın.
+Kullanım kılavuzunu açmak ister misiniz?
+
+@Msg_ACBridge_Remove_And_Install=Cihazınızda kurulu ACBridge uygulamasının güncellenmesi gerekiyor. Devam etmek için programın uygulamayı yeniden yüklemesi gerekiyor.\n\nŞimdi yapmak ister misiniz?
+
+@Msg_ACBridge_Device_Sleep=Cihaz uzun süre yanıt vermiyor ve uyku modunda olabilir. n n
+Cihaz ekranınızın kilidini açın ve Tamam'ı tıklayın.
+
+@Msg_ACBridge_Download_Failed=Veri yüklenirken hata oluştu. Tekrar deneyin.
+@Msg_Cbx_Save_Cache=Simge önbelleğini kaydetmek program performansını artırabilir, ancak simgelerin farklı bir stili olabilir ve cihazınızda görüntülenenle eşleşmeyebilir.\nBu seçeneği devre dışı bırakmanız önerilir.
+@Msg_ACBridge_Adb_Not_Working_Correctly=ADB cihazda düzgün çalışmıyor ve uygulama çalışmaya devam edemiyor. Cihazınızı yeniden bağlamayı veya otomatik veri güncellemelerini kapatmayı deneyin.
+@Msg_EE_No_Internet=Etkinleştirme için İnternet erişimi gereklidir.
+@Msg_EE_Restart_Program=Değişikliklerin etkili olması için programı yeniden başlatın
+@Msg_Console_Reboot=Cihaz {0} modunda yeniden başlatılsın mı?
+@Msg_Clear_Ip_History=Geçmişten tüm IP adresleri silinsin mi?
+@Msg_Files_Upload={0} dosya(lar) cihazın 'indirme' klasörüne yüklendi.
+
+@Msg_Files_Not_Upload=Tüm dosyalar ({0}) cihaza yüklenmedi.\n
+Daha fazla ayrıntı için konsol günlüğüne bakın
+
+@Msg_Do_You_Want_Install_Apk={0} cihazınıza yüklensin mi?
+@Msg_Apk_Installed=Uygulama başarıyla kuruldu!
+@Msg_Apk_Install_Error=Hata. Bir uygulama yüklenemedi.
+
+@Msg_Extended_Function_Only=Bu fonksiyon sadece programın yükseltilmiş versiyonunda mevcuttur.\n\nDaha fazlasını öğrenmek istiyorsunuz
+
+@Msg_Under_Construction=Yeni özellikler geliştirme aşamasındadır ve yakında kullanıma sunulacaktır.\n\n
+Projenin gelişimini desteklemek ve hızlandırmak ister misiniz?
+
+@Msg_You_Win=Şansınız var!\n
+Bu resmi görme şansı %10'dan azdır, onun yerine sıkıcı bir reklam olabilir (ör. maya enfeksiyonları için tedaviler).\n\n
+Ancak yakında reklamlar yerine harika yeni özellikler gelecek.\n
+Bundan hoşlandın mı?
+
+@Msg_Upload_Files_To_Device=Cihazınıza {0} dosya yükle?
+
+@Msg_License_Agreement=Hizmet Şartları ve Lisans Sözleşmesi:\n\n
+ADB AppControl (bu yazılım), herhangi bir garanti olmaksızın "olduğu gibi" sağlanır. Bu yazılımın yazarı veya çevirmeni hiçbir koşulda bu yazılımın kullanımından kaynaklanan zararlardan sorumlu tutulamaz.\n\n
+Bu yazılım, kişisel ve eğitim amaçlı kullanım için ücretsizdir. Herhangi bir ticari kullanım, yazarın kişisel iznini ve ticari lisansını gerektirir.\n\n
+ADB AppControl kaynak koda dönüştürülememeli, parçalarına ayrılmamalı, tersine mühendislik uygulanmamalı veya başka bir şekilde değiştirilmemelidir.\n\n
+Bu yazılımın tüm hakları yalnızca yazarına aittir.\n\n
+Bu yazılımı kullanmaya devam etmeniz, bu lisansın koşullarını kabul ettiğiniz ve bu yazılımın kullanımıyla ilgili anonim istatistiklerin toplanmasına ve işlenmesine onay verdiğiniz anlamına gelir.\n\nBaşarısız
+Sözleşmenin tam metnine şuradan ulaşabilirsiniz:\n
+https://appcontrol.neocities.org/pages/terms_of_use.html
+
+@Msg_Operation_Timeout=İşlem {0} saniyeden uzun sürüyor.\n
+Bazı komutlar uzun sürebilir.\n\n
+Mevcut işlemin tamamlanmasını bekle? Durdurmak için HAYIR'ı tıklayın.
+
+@Msg_Permission_Granted_Success=Tüm izinler başarıyla verildi.
+@Msg_Permission_Granted_Failed=Tüm izinler verilmedi. Daha fazla ayrıntı için konsola bakın.
+
+@#REGION:HIZLI BAŞLANGIÇ
+
+@Quick_Start_Header=Hızlı başlangıç
+@Quick_Start_Step=Adım
+@Quick_Start_Additional=Ek:
+@Quick_Start_Language=Bir dil seçin
+@Quick_Start_Help=Kullanıcı kılavuzunu okuyun
+ 
+@Quick_Start_Step_1=Cihazınızda USB hata ayıklamasını etkinleştirin. Çok kolay!\n\n
+Ayarlar - Telefon hakkında - Geliştirici olana kadar Yapı NUMARASI'na ​​(7 kez) tıklayın!\n\n
+Ayarlar - Sistem - Geliştirici Seçenekleri - USB Hata Ayıklama - Etkinleştir - Bitti!
+
+@Quick_Start_Step_2=Bir USB kablosu kullanarak cihazınızı bilgisayarınıza bağlayın.\n\n
+ADB AppControl cihazınızı algılayacak ve BEKLEMEDE durumunu göreceksiniz.\n\n
+Cihazınızın ekranında hata ayıklamaya izin verin. UNUTMAYIN seçeneğini seçmeyi unutmayın
+
+@Quick_Start_Step_3=Cihaza Wi-Fi aracılığıyla bağlanmak için, AĞ HATA AYIKLAMASINI ETKİNLEŞTİR düğmesini (sağ üstte) tıklayın\n\n
+Cihazınızın IP adresini öğrenin: Ayarlar - Cihaz hakkında - Durum - IP adresi\n\n
+USB kablosunu çıkarın ve program alanında (sağ üstte) IP adresini isteyin. Bağlan'a tıklayın.
+
+
+@Quick_Start_Btn_GotIt=Anladım!
+
+@Quick_Start_Cbx_DontShow=Öğreticiyi tekrar gösterme
+
+*@Msg_Delete_Apk_Confirm=Apk dosyası diskten silinsin mi?
+*@Cbx_EE_Silent_Mode=Sessiz mod (onay yok)
+*@Msg_Halloween_Cat=Cadılar Bayramı geldi!\nBu, geliştiriciyi desteklemek ve +100 karma ve ölümsüz koruması almak için harika bir neden, değil mi? ;-)
+*@Msg_New_Year=Mutlu Yıllar ve Mutlu Noeller!\nYeni Yıl size huzur, neşe ve mutluluk getirsin.\nSaygılarımızla, CyberCat.
+
+@Txt_App_Name=Uygulama adı
+*@Txt_Package=Paket
+*@Text_Size=Boyut
+*@Msg_Auto_Permissions_No_App_Found=Listede yüklü uygulama bulunamadı.
+*@Action_Clear_App_Data=Uygulama verilerini temizle
+*@Msg_Clear_App_Data=Ayarlar dahil tüm uygulama verileri silinecek. İlerlemek?
+*@Msg_Clear_App_Data_Failed=Uygulama verileri temizlenemedi.
+*@Msg_Clear_App_Data_Success=Uygulama verileri başarıyla temizlendi.
+
+@Msg_Wizard_Denied=Sunucuya erişim reddedildi. Lütfen sorunu çözmek için geliştiriciyle iletişime geçin.
+@Msg_Wizard_Not_Found=Cihazınız uyumlu değil. Belki de desteği gelecekteki güncellemelerde eklenecektir.
+@Msg_Wizard_Loaded=istenmeyen uygulamalar bulundu: {0}
+@Msg_Wizard_Clear=Cihazınızda istenmeyen uygulama bulunamadı. \ OLUMSUZLUK
+Temizleme seviyesini daha yüksek bir seviyeye değiştirmeyi deneyin.
+@Txt_Wizard_Title=Debloat Sihirbazı
+@Txt_Wizard_Basic=Temel
+@Txt_Wizard_Descr_Basic=Cihazınız için EN İYİ istenmeyen uygulamaları devre dışı bırakın.
+@Txt_Wizard_Safe=Güvenli
+@Txt_Wizard_Descr_Safe=Çoğu kullanıcı için önerilir.
+@Txt_Wizard_Medium=Orta
+@Txt_Wizard_Descr_Medium=İleri düzey kullanıcılar için daha derin bir temizleme düzeyi.
+@Txt_Wizard_Max=Maksimum
+@Txt_Wizard_Descr_Max=Yalnızca listeyi manuel olarak ayarladıktan sonra kullanın.
+@Txt_Wizard_Select_Level=Temizleme düzeyi:
+
+@Txt_Wizard_Welcome=Yeni bir özellik, istenmeyen uygulamaların çoğundan kurtulmanızı sağlayacak.
+Seçtiğiniz seviyeye bağlı olarak, cihazınızda devre dışı bırakılması önerilen uygulamaların bir listesi yüklenecektir.
+Devre dışı bırakmadan önce listeyi dikkatlice kontrol edin ve düzenleyin.
+
+@Txt_Extended_Only=Yalnızca yükseltilmiş sürümde!
+@Btn_Wizard_Load=UYGULA
+@Lbl_Wizard_Descr=Cihazınızı istenmeyen uygulamalar ve bloatware için kontrol edin.
+@Btn_Wizard=Doğrula ve şişirmeyi kaldır
+@Msg_Cannot_Connect_To_Server=Sunucuya bağlanılamıyor.
+@Txt_Want_Know_More=Daha fazla bilgi edinin
+@Menu_App_Info=Daha fazla bilgi edinin
+@Menu_Copy_Text=Kopyala
+@Btn_Auto_Permissions_List=Desteklenen uygulamalar
+@Msg_Version_Outdated=Program sürümünüz güncel değil ve artık desteklenmiyor.
+@Txt_Wizard_New_Update=Güncelleme mevcut!
+@Msg_Key_Check_Failed=Etkinleştirme başarısız.\n
+Lütfen programı yeniden başlatın ve bu cihazdaki anahtarınızla yeniden etkinleştirin.
+@Btn_Close=Kapat
+@Btn_Dont_Show_Again=Bu mesajı bir daha gösterme
+@Msg_Function_Under_Dev=Özellik geliştirme aşamasındadır ve gelecekteki güncellemelerde kullanılabilecektir.
+@Msg_Version_Need_Update=Programın en son sürümü gerekli. Lütfen güncellemeyi yükleyin.
+@Txt_Act_Limit=Bu anahtar için günlük etkinleştirme sınırı aşıldı. teşekkürler sonra dene
+@Txt_Act_Banned=Bu anahtar engellendi. Lütfen geliştiriciyle iletişime geçin.
+@Msg_Wizard_Recieve_Date_Error=Hata!\nNVeri alınamadı. teşekkürler sonra dene
+@Msg_Wizard_Privacy=Gizlilik bilgisi.\n\n
+Debloat Wizard işlevini her kullandığınızda (temel seviye hariç), Android cihazından yüklenen uygulamaların listesi işlenmek üzere uzak sunucuya gönderilir. Bu veriler DEPOLANMAZ ve KAYDEDİLMEZ ve kişiliğinizle TANIMLANMAZ.\n\n
+Kabul ediyor ve devam etmek istiyor musunuz?
+@Menu_Copy=Kopyala
+@Menu_Cut=Kes
+@Menu_Paste=Yapıştır
+@Msg_Uninstall_Clear_Data=Kaldırma sırasında uygulama verileri ve önbellek temizlensin mi?
+
+@### YENİ 1.6.0 ###
+
+@EE_Cbx_Use_System_Adb=Sistem ADB'sini kullan (%PATH%'den)
+@EE_Cbx_Kill_Adb_When_Exit=Çıkarken ADB'yi sonlandır
+@Msg_Driver_Install_Complete=Sürücü bilgisayarınıza başarıyla kuruldu.
+@Msg_Driver_Install_Failed=Sürücü yüklenemedi veya sistemde başka bir sürücü zaten yüklü.\n\n
+Olası çözümlerle Kullanım Kılavuzunu açmak ister misiniz?
+@Msg_Error_Write_Disk=Hata. Program diske yazamaz ve kapatılacaktır.
+Devam etmek için program klasörünü başka bir konuma taşıyın (örneğin, D sürücüsüne).
+@Menu_Top_Descr_Tm=Telegram kanalımız
+@Cbx_LogCat_Save_Log=Günlüğü dosyaya kaydet
+@Btn_EE_Default=Varsayılan
+@Msg_Ee_Default=Tüm ayarları varsayılan durumlarına sıfırlamak istiyor musunuz?
+@Lbl_EE_You_Are_Extended=Yükseltilmiş bir sürümünüz var
+@Lbl_EE_Activate=Anahtarınızı buraya kopyalayın ve Tamam'a tıklayın
+@Btn_EE_Activate=Etkinleştir
+
+@Cbx_EE_Adb_Key_Protection=ADB anahtar koruması
+@Lbl_AdbKey_LogIn=Şifrenizle ADB anahtarlarının kilidini açın
+
+@Btn_AdbKey_LogIn_Unlock=Kilidi Aç
+
+@Btn_AdbKey_LogIn_Skip=Atla
+
+@Msg_AdbKey_Protect_Incorrect_Password=Yanlış şifre.
+
+@Lbl_AdbKey_Protect=Cihazlarınızda hata ayıklamayı güvenli bir şekilde etkinleştirmek için ADB anahtarlarınızı bir parola ile koruyun.
+Programı her başlattığınızda bu şifreyi girmeniz gerekecektir.
+
+@Btn_AdbKey_Protect=Koru
+
+@Btn_AdbKey_Protect_Load_Key=Zaten bir anahtarım var
+
+@Lbl_AdbKey_Protect_NewPassword=Yeni parola
+
+@Lbl_AdbKey_Protect_ConfirmPassword=Şifreyi onayla
+
+@Msg_AdbKey_Protect_Reset=Korumayı devre dışı bırakmadan önce kayıtlı anahtarlarınızı geri yüklemek istiyor musunuz?
+
+@Msg_AdbKey_Protect_Success=ADB anahtar koruması etkinleştirildi.
+
+@Msg_AdbKey_Protect_Passwords_Not_Equal=Parolalar eşleşmiyor!
+
+@Msg_AdbKey_Protect_Disable=Kilitlendiğinde, tüm cihazlar için korumasız bir rastgele anahtar kullanılacaktır.\n
+Güvenli anahtarınız kaydedilecek ve şifrenizi girdikten sonra tekrar kullanabilirsiniz.\n\n
+ADB anahtarlarını engellemek istediğinizden emin misiniz?
+
+@Tips_Protect_Unprotected=Güvenli olmayan rastgele bir anahtar kullanıyorsunuz. Kilidi açmak için tıklayın.
+
+@Tips_Protect_Protected=Güvenli bir anahtar kullanıyorsunuz. Engellemek için tıklayın.\n
+Kilitlendikten sonra ADB, cihazlarla çalışmak için rastgele oluşturulmuş bir anahtar kullanır.
+
+@Msg_AdbKey_Protect_Key_Not_Found=ADB anahtar dosyası bulunamadı!
+
+@Txt_AdbKey_Protect_Description=
+Hata ayıklama için kullanılan adb anahtar dosyaları başka bir bilgisayara aktarılabilir veya çalınabilir.\n
+Kolaylık olması için hata ayıklarken <Her zaman izin ver> seçeneğini kullanırsanız, saldırgan böyle bir anahtarla\\n
+şifreli veya biyometrik korumalı olsa bile Android cihazınıza sınırsız erişim elde edebilirsiniz. \olumsuzluk
+Anahtarları aktarma özelliği de yararlı olabilir - örneğin, ekranı bozuk bir cihazda oturum açmak.\n\n
+ADB AppControl, ADB anahtarlarını güvenli bir şekilde şifrelemenize ve verilerinizi korumanıza yardımcı olur.
+
+@Btn_Ee_Deactivation=Devre Dışı Bırak
+@Msg_Ee_Deactivation=Etkinleştirme anahtarı silinsin ve program devre dışı bırakılsın mı? (program kapatılacaktır)
+
+@Tips_Ee_Save_Ip=Hızlı bağlantı için cihazlarınızın IP adresini favorilere kaydedin
+@Tips_Ee_Dark_Theme=Arayüz renk paletini değiştirecek ve akşamları göz yorgunluğunu azaltacak
+@Tips_Ee_Show_Icons = Simgeleri gizlemek arayüzü basitleştirecek ve uygulama veri güncellemelerini önemli ölçüde hızlandıracak
+@Tips_Ee_Silent_Mode=Can sıkıcı onay istemlerini devre dışı bırakın
+@Tips_Ee_System_Adb=ADB sisteminizde zaten kuruluysa ve kullanmak istiyorsanız bu ayarı etkinleştirin\n
+Programla çalışması için.
+@Tips_Ee_Save_Cache=Bağlı Android cihazlardan uygulama simgeleri PC önbelleğine kaydedilecek.\n
+Cihazdan yalnızca henüz önbelleğe alınmamış simgeler yüklenecektir.\n
+Bu seçeneğin etkinleştirilmesi, uygulama veri güncellemelerini hızlandıracaktır.
+
+@Tips_Apps_Update_Data=Uygulama adlarını ve simgelerini güncelleyin
+@Tips_Apps_Load_Preset=Önceden kaydedilmiş bir ön ayarı yükleyin ve içindeki tüm uygulamaları kontrol edin
+@Tips_Apps_Save_Preset=Kontrol edilen uygulamaların listesini bir metin dosyasına kaydedin
+@Tips_Apps_Auto_Permissions=Kontrol edilen uygulamaların listesini metin dosyasına kaydet
+@Tips_Apps_Install_Apk=Bilgisayardan cihaza apk dosyasını hızlı yükleyin
+@Tips_Apps_Upload_File=Cihazınızın yükleme klasörüne yüklemek için diskteki dosyaları seçin
+@Tips_Console_Screenshot=Android cihaz ekranının ekran görüntüsünü alın ve bilgisayarınıza yükleyin
+@Lbl_Continue=Android cihazınızı bağlayın
+
+@Tips_Apps_History=Ağ aracılığıyla şimdiye kadar bağlandığınız cihazların listesi
+@Msg_Device_Disconnected_Aborted=Cihaz yanıt vermiyor. Operasyon iptal edildi.
+@Txt_Act_Incorrect_Key=Yanlış etkinleştirme anahtarı!
+
+@Captcha_Head=Doğrulama
+@Captcha_Title=Merhaba, sadece küçük bir captcha :)
+@Captcha_Description=Görüntüden metin girin:
+@Captcha_Btn_Enter=Şunu kontrol edin!
+@Captcha_Msg_Validation_Failed=Metni yanlış girdiniz, tekrar deneyin.\nUyarı! Deneme sayısı sınırlıdır.
+@Captcha_Msg_Validation_Banned=Doğrulamada başarısız oldunuz ve IP adresiniz sunucuda geçici olarak engellendi. Daha sonra kontrol etmeyi deneyin.
+@Captcha_Btn_Refresh=Metni okuyamıyorsanız resmi yenileyin.
+@Captcha_Title_Extended=Yükseltilmiş sürüm kullanıcılarının doğrulamaya ihtiyacı yoktur.
+@Msg_Emergency_Stop=Uyarı! Çok ihtiyaç duymadan programın çalışmasına ara verilmesi önerilmez.\n\n
+Programın çalışmasını durdurmak istediğinizden emin misiniz?
+
+@Tips_Ee_Accurate_Sizes=Verileri güncellerken özet yoluyla doğru uygulama boyutlarını elde etmenizi sağlar.\n
+Güncelleme süresini biraz artırır. Android 8.0 veya daha yenisi gereklidir.
+@Cbx_Ee_Accurate_Sizes=Doğru uygulama boyutları
+@Btn_Connection_Port_Auto=Bağlantı Noktası:
+
+*@Msg_Accurate_Sizes_Need_Permission=Doğru Uygulama Boyutları seçeneği etkinleştirildi.\n
+Doğru uygulama boyutlarını görüntülemek için ACBdridge'e <PACKAGE_USAGE_STATISTICS> izni vermelisiniz. Bu mesajı gizlemek için ayarlarda Kesin uygulama boyutları seçeneğini devre dışı bırakın veya izin verin.
+Kullanım kılavuzunun geri kalanını okuyun.
+@ ### YENİ VERSION 1.6.4
+*@Msg_Default_Browser_Not_Found=Hata. Varsayılan tarayıcı bulunamadı.
+*@Menu_Search_In=İçinde ara...
+*@Menu_App_Advanced=Gelişmiş...
+*@Menu_App_Start=Başlat
+*@Menu_App_Stop=Durdur
+*@Menu_App_Report=Uygulama Raporu
+
+*@Frm_Report_Check_Type=Uygulama türünü seçin:
+*@Frm_Report_Bloatware=Uygulama yazılım yazılımı
+*@Frm_Report_Bloatware_Desk=Bu uygulama istenmeyen ve devre dışı bırakılmalıdır
+*@Frm_Report_Critical=Kritik sistem uygulaması
+*@Frm_Report_Critical_Desk=Bu uygulamanın devre dışı bırakılması cihazın arızalanmasına neden olur
+*@Frm_Report_Button=Gönder
+
+*@Frm_Report_Comment=Yorum (isteğe bağlı)
+*@Frm_Report_Msg_Thanks=Geliştiriciye bir mesaj gönderildi. Geri bildiriminiz için teşekkürler!
+*@Frm_Report_Desk=Geliştiriciye istenmeyen veya sorunlu bir uygulama bildirin. Bu, ADB AppContol'u daha da iyileştirmeye yardımcı olacaktır.
+*@Frm_Report_Already_Sent=Bu uygulama hakkında zaten rapor verdiniz.
+
+*@Msg_Install_Multiple=Birden çok yükle\n
+Çoklu kurulum, cihazınıza aynı anda birden fazla uygulama yüklemenize olanak tanır.
+Bu listede görünmelerini sağlamak için .apk veya .apks dosyalarınızı program penceresine sürükleyip bırakmanız yeterlidir.\n\n
+Dosyalar "Kur" klasörüne kopyalanacak ve bağlı herhangi bir cihaza kurulum için hazır olacaktır. Ayrıca Installer'da ayrı bir klasör oluşturabilir ve apk dosyalarını oraya koyabilirsiniz. Bundan sonra, klasör listede görünecek ve yüklediğinizde içindeki tüm apk yüklenecektir.\n\n
+Dosyalarınızı eklediğinizde DEMO uygulamaları gizlenecektir.
+*@Menu_Context_Rename_Apk=Yeniden Adlandır
+*@Btn_Install_ApkFolder=Klasörü Yükle
+*@Btn_Device_ApkFolder={0} Klasör
+*@Lbl_Select_Folder=Dosyaları içeren klasörü seçin:
+*@Msg_No_Internet_Connection=Ağ bağlantısı gerekli
+
+*@Msg_Debug_Recomendation=Hata ayıklama izni istendiğinde "Her zaman izin ver" seçeneğinin seçilmesi önerilir.
+Bu, cihazla ilgili herhangi bir sorununuz varsa size yardımcı olacaktır. Bu seçeneği yalnızca güvenilir bilgisayarlarda etkinleştirin! {0} hakkında daha fazlasını okuyun
+*@Lbl_Settings_Feature_8=.apk dosyalarını ve ön ayarları program penceresine sürükleyip bırakın
+*@Lbl_Settings_Feature_9=Birden çok uygulama yükleme (toplu kurulum)
+*@Btn_Select_And_Install=Seç ve yükle
+
+@# YÜKESELTME 1.6.6
+
+@Msg_Scrcpy_Not_Installed=Android cihazınızı uzaktan kontrol etmek için SCRCPY uygulamasını yüklemeniz gerekir. Bu, Genymobile (https://github.com/Genymobile) tarafından geliştirilen ücretsiz bir açık kaynaklı uygulamadır.\n\n
+Scrcpy'yi yüklemek için programla birlikte scrcpy-win{0}.zip arşivini indirin ve dosya seçimi iletişim kutusunda seçin. Bunu yalnızca bir kez yapmanız gerekir.\n\n
+Scrcpy'yi Github'dan indirmek için bir bağlantı açmak için EVET'i veya kuruluma erişmek için HAYIR'ı tıklayın.
+
+@Msg_Scrcpy_Successfully_Installed=Scrcpy başarıyla kuruldu.\n\n
+Önemli! Scrcpy, Genymobile tarafından geliştirilen üçüncü taraf açık kaynaklı yazılımdır. ADB AppControl ve geliştiricisinin bu yazılımla hiçbir ilgisi yoktur. Kullanmadan önce Scrcpy Lisans Sözleşmesini okuyup kabul ettiğinizden emin olun.
+
+@Msg_Scrcpy_Fail_Installed=Scrcpy yüklenemedi.
+@Msg_Scrcpy_Txt_Installed=Scrcpy kuruldu.
+@Btn_Scrcpy_Start=Cihazınızın ekranını kontrol edin
+@Btn_Tools_Resolution=Ekran çözünürlüğü
+@Btn_Tools_StatusBar=Durum Çubuğu Simgeleri
+@Btn_Tools_Capture_Video=Video kaydı
+@Txt_Tools_Density=Piksel yoğunluğu
+@Tab_Tools=Araçlar
+@Btn_Tools_StatusBar_Hide=Gizle
+@Txt_Tools_StatusBar_Desk=Gizlemek istediğiniz durum çubuğu simgelerini seçin
+@Txt_Ram_Total=Toplam Ram
+@Txt_Ram_Free=Boştaki Ram
+@Txt_Ram_Used=Kullanılmış Ram
+@# GÜNCELLEME 1.7.2
+@Msg_Settings_Changed=Ayarları kaydetmek istiyor musunuz?
+@Btn_Add_Apk=Apk ekle
+@Btn_Remove_Apk=APK'yı kaldır
+@Btn_Back=Geri
+@Txt_Install_Only_Free_Version=ADB AppControl'ün ücretsiz sürümünde, aynı anda birden fazla uygulama yükleyemezsiniz. Bu sınırlamayı kaldırmak ve diğer avantajlardan yararlanmak için yükseltilmiş sürümü edinin.\n\n
+Daha fazlasını öğrenmek ister misiniz?
+@Txt_License_Key=Ürün lisans anahtarını göster
+@Msg_Bridge_No_Permissions=Program, ACbridge uygulamasının izinlerini doğrulayamadı ve düzgün çalışmayabilir.\n\n
+ACbridge uygulamasının (com.cybercat.acbridge) Android cihazınızdaki depolama alanına erişim iznine sahip olduğundan emin olun. Resmi web sitesindeki Belgeler - Sorun Giderme bölümünde daha fazlasını okuyabilirsiniz.
+Devam etmek istiyor musun?
+@Msg_Files_Not_Found=Gerekli dosyalar eksik olduğundan program başlatılamıyor.\n\nOlası çözümler:\n
+- Antivirüsünüzün program dosyalarını engellemediğinden emin olun.\n
+- Paketlenmemiş bir arşivden programı çalıştırmayın.\n
+- Paketlenmemiş bir arşivden programı çalıştırmayın.
+@Txt_Resolution_Warning=Çok yüksek veya çok düşük değerler cihazın arızalanmasına neden olabilir!
+@Txt_Tools_Resolution=Çözünürlük:
+
+@# GÜNCELLEME 1.7.4
+*@Txt_Console_Search_Not_Found=Sonuç bulunamadı
+*@Txt_Console_Search_Results_Found=Bulundu
+
+@# GÜNCELLEME 1.7.5
+*@Radio_Enabled=Etkin
+*@About_LastUpdate=Son güncelleme
+
+@# GÜNCELLEME 1.7.6
+@Msg_Scrcpy_Update_Available=Yeni sürüm mevcut {0}\n\nScrcpy indirme sayfasını açmak istiyor musunuz?
+@Msg_Scrcpy_Uninstall_Success=Scrcpy kaldırıldı!
+@Msg_Scrcpy_Uninstall_Failed=Kaldırılamadı!
