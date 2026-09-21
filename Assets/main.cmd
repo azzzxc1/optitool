@@ -27,7 +27,7 @@ for /f "tokens=*" %%a in ('wmic os get osarchitecture') do set "Arquitectura=%%a
 for /f "tokens=*" %%a in ('reg query "HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full" /v Version') do set "DotNetVersion=%%a" 
 
 ::Coloca los entornos en el batch
-set OPTI_VER=OptiTool v4.1
+set OPTI_VER=OptiTool v4.2
 set OPTI_TEXT=OptiTool - Script de optimizacion
 set WGET="%~dp0wget.exe"
 set FFPLAY="%~dp0ffplay.exe"
