@@ -1,10 +1,14 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Kanit&weight=800&size=50&pause=1000&color=188EF7&vCenter=true&width=435&lines=Project%3A+OptiTool)](https://git.io/typing-svg)
 
+> [!WARNING]
+> ## Project finished
+> **OptiTool is no longer in development.** The latest available version is [**4.2**](https://github.com/OptiStudioXD/OptiTool/releases/latest). There will be no further versions, and the project will receive no more maintenance or support.
+>
+
 [![Version](https://img.shields.io/github/v/release/OptiStudioXD/OptiTool?color=%230567ff&label=Latest%20Release&style=for-the-badge)](https://github.com/OptiStudioXD/OptiTool/releases/latest)
-![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/OptiStudioXD/OptiTool/OptiTool_v4.1.Es.zip?label=Total%20Downloads&style=for-the-badge)
+![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/OptiStudioXD/OptiTool/OptiTool.v4.2.ES.zip?label=Total%20Downloads&style=for-the-badge)
 
 [![MIT License](https://badgen.net/github/LICENSE/OptiStudioXD/OptiTool)](https://opensource.org/licenses/MIT)
-
 
 ## 📥 Downloads
 
@@ -56,5 +60,3 @@ But I will never forget the origin of this idea, thanks to [OptiJuegos](https://
 [![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](#) [![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)](#)
 
 [![Notepad++](https://img.shields.io/badge/Notepad++-90E59A.svg?&logo=notepad%2b%2b&logoColor=black)](#)
-
-actual version is 4.1 lol
