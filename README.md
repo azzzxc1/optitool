@@ -10,13 +10,13 @@
 
 [![MIT License](https://badgen.net/github/LICENSE/OptiStudioXD/OptiTool)](https://opensource.org/licenses/MIT)
 
-## 📥 Downloads
+## Downloads
 
 - [**Download Project OptiTool (zip)**](https://github.com/OptiStudioXD/OptiTool/releases/download/4.1/OptiTool_v4.1.ES.zip)
 - **Download Project OptiTool Setup Installer (Outdated)**
 - [**Linux Editions**](https://goo.su/YCrUsg)
 
-## 🛠️ Installation
+## Installation
 
 ### Installation via .zip
 
@@ -36,13 +36,7 @@
 6. Run `Launcher.cmd`.
 7. Ready to use!
 
-## 📧 Mail
-
-The new OptiStudio electronic mail is:
-
-**optistudio@hotmail.com**
-
-## 🛠️ Usage
+## Usage
 
 The tool has a simple interface, as it is made in `.cmd`. Each button has its respective function, and the script includes guides to help you use it without difficulty.
 
