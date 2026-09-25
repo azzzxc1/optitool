@@ -24,7 +24,8 @@ echo 4 - Additional options
 echo 5 - Tools
 echo 6 - Advanced
 echo 7 - Security
-echo 8 - Exit
+echo 8 - IRMs
+echo 9 - Exit
 echo.
 set /p MM_OP="Option: "
 if "%MM_OP%"=="1" goto RecommendedOpt
@@ -34,7 +35,8 @@ if "%MM_OP%"=="4" goto AdditionalMenu
 if "%MM_OP%"=="5" goto ToolsMenu
 if "%MM_OP%"=="6" goto AdvancedMenu
 if "%MM_OP%"=="7" goto SecurityMenu
-if "%MM_OP%"=="8" goto ExitScript
+if "%MM_OP%"=="8" goto IrmMenu
+if "%MM_OP%"=="9" goto ExitScript
 goto MainMenu
 
 :RecommendedOpt
@@ -209,16 +211,18 @@ goto SecurityMenu
 
 :IrmMenu
 call :ShowHeader "Remote scripts (IRM)"
-echo 1  - WinUtil
+echo 1  - WinUtil (Chris Titus Tech)
 echo 2  - Microsoft Activation Scripts (MAS)
-echo 3  - Win11Debloat
-echo 4  - Back
+echo 3  - Win11Debloat (Raphire)
+echo 4  - Winhance
+echo 5  - Back
 echo.
 set /p IRM_OP="Option: "
 if "%IRM_OP%"=="1" (call :LaunchIRM "WinUtil" "https://christitus.com/win" & goto IrmMenu)
 if "%IRM_OP%"=="2" (call :LaunchIRM "MAS" "https://get.activated.win" & goto IrmMenu)
 if "%IRM_OP%"=="3" (call :LaunchIRM "Win11Debloat" "https://debloat.raphi.re/" & goto IrmMenu)
-if "%IRM_OP%"=="4" goto ToolsMenu
+if "%IRM_OP%"=="4" (call :LaunchIRM "Winhance" "https://get.winhance.net" & goto IrmMenu)
+if "%IRM_OP%"=="5" goto MainMenu
 goto IrmMenu
 
 :ExitScript
