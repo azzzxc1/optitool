@@ -2,8 +2,7 @@
 
 > [!WARNING]
 > ## Project finished
-> **OptiTool is no longer in development.** The latest available version is [**4.2**](https://github.com/OptiStudioXD/OptiTool/releases/latest). There will be no further versions, and the project will receive no more maintenance or support.
->
+> **OptiTool is no longer in development.** The latest available version is [**5.0**](https://github.com/OptiStudioXD/OptiTool/releases/latest). There will be no further feature versions. Maintenance updates will still go on.
 
 [![Version](https://img.shields.io/github/v/release/OptiStudioXD/OptiTool?color=%230567ff&label=Latest%20Release&style=for-the-badge)](https://github.com/OptiStudioXD/OptiTool/releases/latest)
 ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/azzzxc1/optitool/optitool_v4.2_WindowsES.zip?label=Total%20Downloads&style=for-the-badge)
@@ -48,8 +47,7 @@ The features of **OptiTool** include:
 
 ### Project Idea
 
-This idea came from a tool called [OptiJuegos](https://optijuegos.net) called Optimizar PC. The code for the OptiTool foundations comes from this tool. Keep in mind that the newer versions of OptiTool are becoming a bit more independent. For version 5.0, we plan to have our own code.  
-But I will never forget the origin of this idea, thanks to [OptiJuegos](https://linktr.ee/optijuegos)!
+This idea came from a tool called [OptiJuegos](https://optijuegos.net) called Optimizar PC. The code for the OptiTool foundations comes from this tool. I will never forget the origin of this idea, thanks to [OptiJuegos](https://linktr.ee/optijuegos)!
 
 [![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](#) [![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)](#)
 
