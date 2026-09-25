@@ -2,18 +2,17 @@
 
 > [!WARNING]
 > ## Project finished
-> **OptiTool is no longer in development.** The latest available version is [**5.0**](https://github.com/OptiStudioXD/OptiTool/releases/latest). There will be no further feature versions. Maintenance updates will still go on.
+> **OptiTool is no longer in development.** The latest available version is [**5.0**](https://github.com/azzzxc1/optitool/releases/latest). There will be no further feature versions. Maintenance updates will still go on.
 
-[![Version](https://img.shields.io/github/v/release/OptiStudioXD/OptiTool?color=%230567ff&label=Latest%20Release&style=for-the-badge)](https://github.com/OptiStudioXD/OptiTool/releases/latest)
-![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/azzzxc1/optitool/optitool_v4.2_WindowsES.zip?label=Total%20Downloads&style=for-the-badge)
+[![Version](https://img.shields.io/github/v/release/azzzxc1/optitool?color=%230567ff&label=Latest%20Release&style=for-the-badge)](https://github.com/azzzxc1/optitool/releases/latest)
+![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/azzzxc1/optitool/optitool_v5.0_WindowsEN.zip?label=Total%20Downloads&style=for-the-badge)
 
-[![MIT License](https://badgen.net/github/LICENSE/OptiStudioXD/OptiTool)](https://opensource.org/licenses/MIT)
+[![MIT License](https://badgen.net/github/LICENSE/azzzxc1/optitool/LICENSE)](https://opensource.org/licenses/MIT)
 
 ## Downloads
 
-- [**Download Project OptiTool (zip)**](https://github.com/OptiStudioXD/OptiTool/releases/download/4.1/OptiTool_v4.1.ES.zip)
+- [**Download Project OptiTool (zip)**](https://github.com/azzzxc1/optitool/releases/latest)
 - **Download Project OptiTool Setup Installer (Outdated)**
-- [**Linux Editions**](https://goo.su/YCrUsg)
 
 ## Installation
 
@@ -24,16 +23,6 @@
 3. Go to the **OptiTool** folder.
 4. Run `Launcher.cmd`.
 5. Enjoy the tool!
-
-### Installation via Setup
-
-1. Run the installer.
-2. Choose the folder where you want to install the program.
-3. Optionally, you can create a shortcut on the desktop.
-4. Complete the installation.
-5. Go to the installation folder.
-6. Run `Launcher.cmd`.
-7. Ready to use!
 
 ## Usage
 
