@@ -38,6 +38,5 @@ The features of **OptiTool** include:
 
 This idea came from a tool called [OptiJuegos](https://optijuegos.net) called Optimizar PC. The code for the OptiTool foundations comes from this tool. I will never forget the origin of this idea, thanks to [OptiJuegos](https://linktr.ee/optijuegos)!
 
-[![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](#) [![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)](#)
-
-[![Notepad++](https://img.shields.io/badge/Notepad++-90E59A.svg?&logo=notepad%2b%2b&logoColor=black)](#)
+[![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](#)
+CMD
