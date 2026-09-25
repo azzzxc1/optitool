@@ -7,7 +7,7 @@
 [![Version](https://img.shields.io/github/v/release/azzzxc1/optitool?color=%230567ff&label=Latest%20Release&style=for-the-badge)](https://github.com/azzzxc1/optitool/releases/latest)
 ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/azzzxc1/optitool/optitool_v5.0_WindowsEN.zip?label=Total%20Downloads&style=for-the-badge)
 
-[![MIT License](https://badgen.net/github/LICENSE/azzzxc1/optitool/LICENSE)](https://opensource.org/licenses/MIT)
+[![MIT License](https://badgen.net/github/license/azzzxc1/optitool)](https://opensource.org/licenses/MIT)
 
 ## Downloads
 
