@@ -1,0 +1,47 @@
+AutoClicker = https://opautoclicker.com
+
+AutoKeyboard = https://auto-keyboard.com !WARNING!
+               support@auto-keyboard.com
+
+UninstallTool = Thomas Koen
+                https://geekuninstaller.com/about
+
+DriverBooster = IObit Software 
+                https://www.iobit.com/es/driver-booster.php
+				
+Wu10Man = WereDev
+          https://github.com/WereDev/Wu10Man
+          https://weredev.com
+ 
+ADB AppControl = CyberCat
+                 https://adbappcontrol.com/en/
+
+Wireshark = 
+
+CPUZ = CPUID
+       https://www.cpuid.com/softwares/cpu-z.html
+
+GPUZ = TechPOWERUP
+       https://www.techpowerup.com/download/techpowerup-gpu-z/
+
+HWiNFO = Martin Malík
+         https://www.hwinfo.com/
+
+Everything (voidtools) = David Carpenter
+			 https://www.voidtools.com/en-us/
+
+ImageMagick = ImageMagick Studio LLC
+	      https://imagemagick.org/
+
+
+
+
+
+
+
+
+
+
+
+
+

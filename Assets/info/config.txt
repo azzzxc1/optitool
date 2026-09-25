@@ -1,0 +1,4 @@
+color=0A
+disable_logs=0
+confirm_before_actions=1
+default_restore_point=1

@@ -1,0 +1,17 @@
+## Downloaded version: 5.0
+ 
+## OptiCore Info: 
+## OptiBuild: false
+## OptiCore Version: nan
+## OptiKernel Version: nan
+ 
+## Build Info:  
+## Build 5.06625031.1219-A
+## Version: 5.0 Rev A
+## Version Codename: The REAL End (seriously) 
+## Build in: .cmd
+## Kernel: false
+ 
+## Linux Info: 
+## Linux Compatibility: false
+## Linux Build: false

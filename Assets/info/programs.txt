@@ -1,0 +1,2 @@
+# OptiTool recommended-programs installer list
+7-Zip=installers\7zip.exe=/S

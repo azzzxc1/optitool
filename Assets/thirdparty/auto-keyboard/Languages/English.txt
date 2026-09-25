@@ -1,0 +1,183 @@
+//Public
+Public/ApplicationName=Auto-Keyboard | Cracked
+
+//Main window
+MainWindow/Title/Untitled=Untitled
+MainWindow/Menu/File=&File
+MainWindow/Menu/File/New=&New
+MainWindow/Menu/File/Open=&Open...
+MainWindow/Menu/File/Save=&Save...
+MainWindow/Menu/File/Start=&Start...
+MainWindow/Menu/File/Exit=E&xit...
+MainWindow/Menu/Edit=&Edit
+MainWindow/Menu/Edit/Modify=&Modify...
+MainWindow/Menu/Edit/Delete=&Delete
+MainWindow/Menu/Edit/MoveUp=Move &Up
+MainWindow/Menu/Edit/MoveDown=Move &Down
+MainWindow/Menu/Add=&Add
+MainWindow/Menu/Add/Keystroke=&Keystroke...
+MainWindow/Menu/Add/Mouse=&Mouse...
+MainWindow/Menu/Add/Variable=&Variable...
+MainWindow/Menu/Add/Text=&Text...
+MainWindow/Menu/Add/PixelColor=&Pixel color...
+MainWindow/Menu/Language=&Language
+MainWindow/Menu/Language/EditLanguageFile=&Edit language file...
+MainWindow/Menu/Help=&Help
+MainWindow/Menu/Help/HelpTopics=&Help topics
+MainWindow/Menu/Help/About=&About...
+MainWindow/Menu/Help/BuyNow=&Buy now...
+MainWindow/Menu/Help/Register=&Register...
+MainWindow/ToolButton/New=New
+MainWindow/ToolButton/Open=Open
+MainWindow/ToolButton/Save=Save
+MainWindow/ToolButton/Keystroke=Keystroke
+MainWindow/ToolButton/Mouse=Mouse
+MainWindow/ToolButton/Variable=Variable
+MainWindow/ToolButton/Text=Text
+MainWindow/ToolButton/Up=Up
+MainWindow/ToolButton/Down=Down
+MainWindow/ToolButton/Delete=Delete
+MainWindow/ToolButton/Start=Start...
+MainWindow/ListViewTitle/Index=Index
+MainWindow/ListViewTitle/Name=Name
+MainWindow/ListViewTitle/Details=Details
+MainWindow/ListViewTitle/Type=Type
+MainWindow/ListViewTitle/Delay=Delay
+MainWindow/ListViewTitle/Generate=Generate
+MainWindow/ListViewTitle/PixelColor=Pixel color
+MainWindow/StatusBar/RepeatTimes=Repeat:
+MainWindow/Message/Msg1=The file has changed. Do you want to save the changes?
+MainWindow/Message/Msg2=A new version of AutoKeyboard is available, do you want to update?
+
+//Keystroke window
+KeystrokeWindow/Title/Keystroke=Keystroke
+KeystrokeWindow/Label/Keystroke=&Keystroke:
+KeystrokeWindow/Label/Delay=&Delay (in milliseconds):
+KeystrokeWindow/Label/Generate=&Generate:
+KeystrokeWindow/Button/Ok=&Ok
+KeystrokeWindow/Button/Cancel=&Cancel
+
+//Mouse window
+MouseWindow/Title/Mouse=Mouse
+MouseWindow/RadioButton/ClickLeftButton=Press left click
+MouseWindow/RadioButton/ClickMiddleButton=Press middle click
+MouseWindow/RadioButton/ClickRightButton=Press right click
+MouseWindow/RadioButton/DoubleClickLeftButton=Press left click twice
+MouseWindow/RadioButton/DoubleClickMiddleButton=Press middle click twice
+MouseWindow/RadioButton/DoubleClickRightButton=Press right click twice
+MouseWindow/Label/X-Coordinate=&X-Coordinate:
+MouseWindow/Label/Y-Coordinate=&Y-Coordinate:
+MouseWindow/Label/Delay=&Delay (in milliseconds):
+MouseWindow/Label/Generate=&Generate:
+MouseWindow/Button/GetCoordinate=Get coordinates
+MouseWindow/Button/Ok=&Ok
+MouseWindow/Button/Cancel=&Cancel
+
+//Variable window
+VariableWindow/Title/Variable=Variable
+VariableWindow/Label/Value=&Value:
+VariableWindow/Label/Increment=&Increment:
+VariableWindow/Label/MinLength=&Minimum length:
+VariableWindow/RadioButton/Bin=Bin
+VariableWindow/RadioButton/Oct=Oct
+VariableWindow/RadioButton/Dec=Dec
+VariableWindow/RadioButton/Hex=Hex
+VariableWindow/Label/Delay=&Delay (in milliseconds):
+VariableWindow/Label/Generate=&Generate:
+VariableWindow/Button/Ok=&Ok
+VariableWindow/Button/Cancel=&Cancel
+
+//Text window
+TextWindow/Title/Text=Text
+TextWindow/RadioButton/ViaClipboard=Generate text via clipboard
+TextWindow/RadioButton/ViaMessage=Generate text via character message
+TextWindow/RadioButton/Viakeystroke=Generate text via Keystroke (neglect not keyboard character)
+VariableWindow/Label/Delay=&Delay (in milliseconds):
+VariableWindow/Label/Generate=&Generate:
+TextWindow/RadioButton/NoneState=No state
+TextWindow/RadioButton/ReadState=Read state
+TextWindow/RadioButton/ReplaceState=Replace state
+TextWindow/Button/Set=Set...
+TextWindow/Button/Set=Set...
+TextWindow/CheckBox/WordWrap=&Word wrap
+TextWindow/Button/Ok=&Ok
+TextWindow/Button/Cancel=&Cancel
+//--
+TextWindow/ReadSet/Title/Read=Read state
+TextWindow/ReadSet/Label/SpaceMark=&Space mark:
+TextWindow/ReadSet/Button/Add=&Add
+TextWindow/ReadSet/Button/Delete=&Delete
+TextWindow/ReadSet/Button/Clear=C&lear
+TextWindow/ReadSet/Button/Ok=&Ok
+TextWindow/ReadSet/Button/Cancel=&Cancel
+//--
+TextWindow/ReplaceSet/Title/Replace=Replace state
+TextWindow/ReplaceSet/Label/CharToFind=Character to &find:
+TextWindow/ReplaceSet/Label/ReplaceWith=&Replace with:
+TextWindow/ReplaceSet/Label/Delay=Delay (in &milliseconds):
+TextWindow/ReplaceSet/Button/Add=&Add
+TextWindow/ReplaceSet/Button/Delete=&Delete
+TextWindow/ReplaceSet/Button/Clear=C&lear
+TextWindow/ReplaceSet/Button/Ok=&Ok
+TextWindow/ReplaceSet/Button/Cancel=&Cancel
+TextWindow/ReplaceSet/ListView/CharToFind=Character to find
+TextWindow/ReplaceSet/ListView/ReplaceWith=Replace with
+TextWindow/ReplaceSet/ListView/Delay=Delay
+
+//Pixel Color window
+PixelColorWindow/Title/PixelColor=Pixel color
+PixelColorWindow/Label/X-Coordinate=&X-Coordinate:
+PixelColorWindow/Label/Y-Coordinate=&Y-Coordinate:
+PixelColorWindow/Label/ColorType=&Color type:
+PixelColorWindow/Label/ColorValue=Color &value:
+PixelColorWindow/ColorType/All=All
+PixelColorWindow/ColorType/Red=Red
+PixelColorWindow/ColorType/Green=Green
+PixelColorWindow/ColorType/Blue=Blue
+PixelColorWindow/Button/GetPixelColor=&Get pixel color
+PixelColorWindow/Button/Ok=&Ok
+PixelColorWindow/Button/Cancel=&Cancel
+
+//Launch window
+LaunchWindow/Title/Launch=Launch
+LaunchWindow/RadioButton/UsingHotkey=Using a &Hotkey
+LaunchWindow/RadioButton/UsingTimer=Using a &counter
+LaunchWindow/Label/AutomaticHotkey=&Automatic hotkey:
+LaunchWindow/Label/ManualHotkey=&Manual hotkey:
+LaunchWindow/Label/Delay=&Delay (in seconds):
+LaunchWindow/Button/Start=&Start
+LaunchWindow/Button/Cancel=&Cancel
+LaunchWindow/Message/Message1=The automatic hotkey and the group hotkey cannot be the same, select another hotkey
+LaunchWindow/Message/Message2=An error occurred registering the automatic hotkey, select another one.
+LaunchWindow/Message/Message3=An error occurred registering the group hotkey, select another one.
+
+//About window
+AboutWindow/Title/About=About
+AboutWindow/Label/Version=Version 9.0
+AboutWindow/Label/HomePage=HomePage:
+AboutWindow/Label/E-mail=E-mail:
+AboutWindow/Label/Copyright=MIT License
+AboutWindow/Label/AllRightsReserved=No Rights
+AboutWindow/Button/Ok=&Ok
+
+//Registration window
+RegistrationWindow/Title/Registration=Registration
+RegistrationWindow/Label/UserName=&User name:
+RegistrationWindow/Label/RegistrationCode=&Registration code:
+RegistrationWindow/Label/Price=Price:
+RegistrationWindow/Button/Register=&Register now!
+RegistrationWindow/Button/Cancel=&Cancel
+RegistrationWindow/Button/BuyNow=&Buy now
+RegistrationWindow/Hint/PasteUserName=Paste user name
+RegistrationWindow/Hint/PasteRegistrationCode=Paste registration code
+RegistrationWindow/Message/Msg1=Incomplete or incorrect information.
+RegistrationWindow/Message/Msg2=Thank you for your purchase!
+
+//TipWindow
+TipWindow/Label/Thank=Thank you for trying Auto-Keyboard!
+TipWindow/Memo/RegInfo1=This is a fully functional unregistered version for evaluation use only. You have a 15-day trial period. If you wish to use the program after your trial period expires, you must purchase a registration code and register it.
+TipWindow/Memo/RegInfo2=Your trial period has expired. Thank you very much for trying Auto-Keyboard. If you wish to use the auto-keyboard, you must purchase a registration code and register it.
+TipWindow/Label/DaysLeft={*} days left in your trial period.
+TipWindow/Button/BuyNow=&Buy now
+TipWindow/Button/Register=&Register
+TipWindow/Button/Evaluation=&Try it

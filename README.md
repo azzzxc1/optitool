@@ -6,17 +6,17 @@
 >
 
 [![Version](https://img.shields.io/github/v/release/OptiStudioXD/OptiTool?color=%230567ff&label=Latest%20Release&style=for-the-badge)](https://github.com/OptiStudioXD/OptiTool/releases/latest)
-![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/OptiStudioXD/OptiTool/OptiTool.v4.2.ES.zip?label=Total%20Downloads&style=for-the-badge)
+![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/azzzxc1/optitool/optitool_v4.2_WindowsES.zip?label=Total%20Downloads&style=for-the-badge)
 
 [![MIT License](https://badgen.net/github/LICENSE/OptiStudioXD/OptiTool)](https://opensource.org/licenses/MIT)
 
-## 📥 Downloads
+## Downloads
 
 - [**Download Project OptiTool (zip)**](https://github.com/OptiStudioXD/OptiTool/releases/download/4.1/OptiTool_v4.1.ES.zip)
 - **Download Project OptiTool Setup Installer (Outdated)**
 - [**Linux Editions**](https://goo.su/YCrUsg)
 
-## 🛠️ Installation
+## Installation
 
 ### Installation via .zip
 
@@ -36,13 +36,7 @@
 6. Run `Launcher.cmd`.
 7. Ready to use!
 
-## 📧 Mail
-
-The new OptiStudio electronic mail is:
-
-**optistudio@hotmail.com**
-
-## 🛠️ Usage
+## Usage
 
 The tool has a simple interface, as it is made in `.cmd`. Each button has its respective function, and the script includes guides to help you use it without difficulty.
 
@@ -54,8 +48,8 @@ The features of **OptiTool** include:
 
 ### Project Idea
 
-This idea came from a tool called [OptiJuegos](https://optijuegos.github.io) called Optimizar PC. The code for the OptiTool foundations comes from this tool. Keep in mind that the newer versions of OptiTool are becoming a bit more independent. For version 5.0, we plan to have our own code.  
-But I will never forget the origin of this idea, thanks to [OptiJuegos](https://optijuegos.github.io)!
+This idea came from a tool called [OptiJuegos](https://optijuegos.net) called Optimizar PC. The code for the OptiTool foundations comes from this tool. Keep in mind that the newer versions of OptiTool are becoming a bit more independent. For version 5.0, we plan to have our own code.  
+But I will never forget the origin of this idea, thanks to [OptiJuegos](https://linktr.ee/optijuegos)!
 
 [![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](#) [![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)](#)
 

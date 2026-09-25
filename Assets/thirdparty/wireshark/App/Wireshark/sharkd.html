@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.23">
+<title>sharkd(1)</title>
+<link rel="stylesheet" href="./ws.css">
+</head>
+<body class="manpage">
+<div id="header">
+<h1>sharkd(1) Manual Page</h1>
+<h2 id="_name">NAME</h2>
+<div class="sectionbody">
+<p>sharkd - Interactively dump and analyze network traffic using JSON-RPC.</p>
+</div>
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="_synopsis">SYNOPSIS</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><span class="nowrap"><strong>sharkd</strong></span>
+<span class="nowrap">[ <strong>-a</strong>|<strong>--api</strong> &lt;socket&gt; ]</span>
+<span class="nowrap">[ <strong>--foreground</strong> ]</span>
+<span class="nowrap">[ <strong>-C</strong>|<strong>--config-profile</strong> &lt;configuration profile&gt; ]</span></p>
+</div>
+<div class="paragraph">
+<p><span class="nowrap"><strong>sharkd</strong></span>
+<span class="nowrap"><strong>-</strong></span></p>
+</div>
+<div class="paragraph">
+<p><span class="nowrap"><strong>sharkd</strong></span>
+<span class="nowrap"><strong>-h|--help</strong></span></p>
+</div>
+<div class="paragraph">
+<p><span class="nowrap"><strong>sharkd</strong></span>
+<span class="nowrap"><strong>-v|--version</strong></span></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_description">DESCRIPTION</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>Sharkd</strong> is a daemon variant of <strong>Wireshark</strong> that provides a JSON-based API for performing network protocol analysis.
+It uses the same dissection engine as <strong>Wireshark</strong> and <strong>TShark</strong>, enabling programmatic access to packet dissection, filtering, and analysis capabilities.</p>
+</div>
+<div class="paragraph">
+<p><strong>Sharkd</strong> can operate in two modes: <strong>console mode</strong> and <strong>daemon mode</strong>.</p>
+</div>
+<div class="paragraph">
+<p>In console mode, <strong>sharkd</strong> reads reads JSON-RPC requests from standard input and
+writes responses to standard output.  This mode is activated by passing <strong>-</strong> as
+the argument or by running <strong>sharkd</strong> without the <strong>-a</strong> option.</p>
+</div>
+<div class="paragraph">
+<p>In daemon mode, <strong>sharkd</strong> listens on a Unix domain socket or TCP socket for
+incoming connections, forking a new session process for each client.
+This mode is activated by passing the <strong>-a</strong> option with a socket specification.</p>
+</div>
+<div class="paragraph">
+<p>Requests and responses are encoded as JSON objects, one per line.
+See <a href="#_json_rpc_methods">JSON-RPC METHODS</a> below for a complete list of method calls.</p>
+</div>
+<div class="paragraph">
+<p>For full details on the JSON-RPC API, see
+<a href="https://wiki.wireshark.org/Development/sharkd" class="bare">https://wiki.wireshark.org/Development/sharkd</a>.</p>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Warning</div>
+</td>
+<td class="content">
+<strong>Sharkd</strong> should not be exposed to untrusted users.
+Unfiltered access to <strong>sharkd</strong> could potentially result in information disclosure or arbitrary command execution.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_options">OPTIONS</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">-a &lt;socket&gt;, --api &lt;socket&gt;</dt>
+<dd>
+<div class="openblock">
+<div class="content">
+<div class="paragraph">
+<p>Listen on the specified socket for incoming client connections instead of
+reading from the console.  When this option is used, <strong>sharkd</strong> runs as a
+daemon, forking a new session process for each client connection.</p>
+</div>
+<div class="paragraph">
+<p>Supported socket types:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><strong>unix:<em>path</em></strong></dt>
+<dd>
+<p>Listen on a Unix domain socket at <em>path</em>.  For example,
+<strong>unix:/tmp/sharkd.sock</strong>.  On Linux, abstract sockets are supported
+by prefixing the name with <strong>@</strong>, for example <strong>unix:@sharkd</strong>.
+Unix domain sockets are not available on Windows.</p>
+</dd>
+<dt class="hdlist1"><strong>tcp:<em>address</em>:<em>port</em></strong></dt>
+<dd>
+<p>Listen on a TCP socket bound to <em>address</em> on <em>port</em>.  For example,
+<strong>tcp:127.0.0.1:4446</strong>.  TCP sockets are only available on Windows builds
+by default for security reasons.</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>If no <strong>-a</strong> option is provided, or if <strong>sharkd -</strong> is used, <strong>sharkd</strong> will
+accept commands via the console (standard input).</p>
+</div>
+</div>
+</div>
+</dd>
+<dt class="hdlist1">--foreground</dt>
+<dd>
+<p>When running in daemon mode, do not detach from the controlling terminal.
+By default, <strong>sharkd</strong> forks into the background when a socket is specified
+with the <strong>-a</strong> option.</p>
+</dd>
+<dt class="hdlist1">-C &lt;configuration profile&gt;, --config-profile &lt;configuration profile&gt;</dt>
+<dd>
+<p>Start with the specified configuration profile.</p>
+</dd>
+<dt class="hdlist1">-h, --help</dt>
+<dd>
+<p>Print the version number and options and exit.</p>
+</dd>
+<dt class="hdlist1">-v, --version</dt>
+<dd>
+<p>Print the full version information and exit.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_diagnostic_options">DIAGNOSTIC OPTIONS</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">--log-level &lt;level&gt;</dt>
+<dd>
+<p>Set the active log level.
+Supported levels in lowest to highest order are "noisy", "debug", "info", "message", "warning", "critical", and "error".
+Messages at each level and higher will be printed, for example "warning" prints "warning", "critical", and "error" messages and "noisy" prints all messages.
+Levels are case insensitive.</p>
+</dd>
+<dt class="hdlist1">--log-fatal &lt;level&gt;</dt>
+<dd>
+<p>Abort the program if any messages are logged at the specified level or higher.
+For example, "warning" aborts on any "warning", "critical", or "error" messages.</p>
+</dd>
+</dl>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">--log-domains &lt;list&gt;</dt>
+<dd>
+<p>Only print messages for the specified log domains, e.g. "GUI,Epan,sshdump".
+List of domains must be comma-separated. Can be negated with "!" as the first character (inverts the match).</p>
+</dd>
+<dt class="hdlist1">--log-debug &lt;list&gt;</dt>
+<dd>
+<p>Force the specified domains to log at the "debug" level.
+List of domains must be comma-separated. Can be negated with "!" as the first character (inverts the match).</p>
+</dd>
+<dt class="hdlist1">--log-noisy &lt;list&gt;</dt>
+<dd>
+<p>Force the specified domains to log at the "noisy" level.
+List of domains must be comma-separated. Can be negated with "!" as the first character (inverts the match).</p>
+</dd>
+<dt class="hdlist1">--log-fatal-domains &lt;list&gt;</dt>
+<dd>
+<p>Abort the program if any messages are logged for the specified log domains.
+List of domains must be comma-separated.</p>
+</dd>
+<dt class="hdlist1">--log-file &lt;path&gt;</dt>
+<dd>
+<p>Write log messages and stderr output to the specified file.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_json_rpc_methods">JSON-RPC METHODS</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>Sharkd</strong> accepts newline-delimited JSON-RPC requests.
+Each request must include a <strong>jsonrpc</strong> field set to <strong>"2.0"</strong>, a <strong>method</strong> field, and an <strong>id</strong> field.
+The following methods are supported:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><strong>analyse</strong></dt>
+<dd>
+<p>Analyse the loaded capture file and return summary information.</p>
+</dd>
+<dt class="hdlist1"><strong>bye</strong></dt>
+<dd>
+<p>Terminate the session.</p>
+</dd>
+<dt class="hdlist1"><strong>check</strong></dt>
+<dd>
+<p>Check or compile a display filter.</p>
+</dd>
+<dt class="hdlist1"><strong>complete</strong></dt>
+<dd>
+<p>Provide field name completion suggestions.</p>
+</dd>
+<dt class="hdlist1"><strong>download</strong></dt>
+<dd>
+<p>Download captured data or reassembled objects.</p>
+</dd>
+<dt class="hdlist1"><strong>dumpconf</strong></dt>
+<dd>
+<p>Dump current preference values.</p>
+</dd>
+<dt class="hdlist1"><strong>field</strong></dt>
+<dd>
+<p>Get information about a specific display filter field.</p>
+</dd>
+<dt class="hdlist1"><strong>fields</strong></dt>
+<dd>
+<p>List all available display filter fields.</p>
+</dd>
+<dt class="hdlist1"><strong>follow</strong></dt>
+<dd>
+<p>Follow a stream (TCP, UDP, HTTP, etc.).</p>
+</dd>
+<dt class="hdlist1"><strong>frame</strong></dt>
+<dd>
+<p>Get detailed information about a specific frame.</p>
+</dd>
+<dt class="hdlist1"><strong>frames</strong></dt>
+<dd>
+<p>Get a list of frames (packets) from the loaded capture file.</p>
+</dd>
+<dt class="hdlist1"><strong>info</strong></dt>
+<dd>
+<p>Get information about available dissectors, taps, and statistics.</p>
+</dd>
+<dt class="hdlist1"><strong>intervals</strong></dt>
+<dd>
+<p>Get frame interval data for the loaded capture file.</p>
+</dd>
+<dt class="hdlist1"><strong>iograph</strong></dt>
+<dd>
+<p>Get I/O graph data for the loaded capture file.</p>
+</dd>
+<dt class="hdlist1"><strong>load</strong></dt>
+<dd>
+<p>Load a capture file for analysis.</p>
+</dd>
+<dt class="hdlist1"><strong>setcomment</strong></dt>
+<dd>
+<p>Set a comment on a specific frame.</p>
+</dd>
+<dt class="hdlist1"><strong>setconf</strong></dt>
+<dd>
+<p>Set a Wireshark preference value.</p>
+</dd>
+<dt class="hdlist1"><strong>status</strong></dt>
+<dd>
+<p>Get the status of the currently loaded capture file.</p>
+</dd>
+<dt class="hdlist1"><strong>tap</strong></dt>
+<dd>
+<p>Run a tap on the loaded capture file.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_examples">EXAMPLES</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>To run <strong>sharkd</strong> in console mode:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>sharkd -</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>To run <strong>sharkd</strong> as a daemon listening on a Unix domain socket:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>sharkd -a unix:/tmp/sharkd.sock</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>To run <strong>sharkd</strong> as a daemon with a specific configuration profile:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>sharkd -a unix:/tmp/sharkd.sock -C myprofile</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>To keep the daemon in the foreground for debugging:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>sharkd -a unix:/tmp/sharkd.sock --foreground</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>An example console session, loading a file and getting its status:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>$ echo '{"jsonrpc":"2.0","id":1,"method":"load","params":{"file":"/path/to/capture.pcapng"}}' | sharkd -
+$ echo '{"jsonrpc":"2.0","id":2,"method":"status"}' | sharkd -</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_environment_variables">ENVIRONMENT VARIABLES</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">WIRESHARK_CONFIG_DIR</dt>
+<dd>
+<p>This environment variable overrides the location of personal
+configuration files.  On UNIX-compatible systems, such as Linux, macOS,
+\*BSD, Solaris, and AIX, it defaults to <em>$XDG_CONFIG_HOME/wireshark</em>
+(or, if that directory doesn&#8217;t exist but <em>$HOME/.wireshark</em> does
+exist, <em>$HOME/.wireshark</em>); this is typically
+<em>$HOME/.config/wireshark</em>.  On Windows, it defaults to
+<em>%APPDATA%\Wireshark</em> (or, if %APPDATA% isn&#8217;t defined,
+<em>%USERPROFILE%\Application Data\Wireshark</em>).  Available since
+Wireshark 3.0.</p>
+</dd>
+<dt class="hdlist1">WIRESHARK_DEBUG_WMEM_OVERRIDE</dt>
+<dd>
+<p>Setting this environment variable forces the wmem framework to use the
+specified allocator backend for <strong>all</strong> allocations, regardless of which
+backend is normally specified by the code. This is mainly useful to developers
+when testing or debugging. See <em>README.wmem</em> in the source distribution for
+details.</p>
+</dd>
+<dt class="hdlist1">WIRESHARK_RUN_FROM_BUILD_DIRECTORY</dt>
+<dd>
+<p>This environment variable causes the plugins and other data files to be
+loaded from the build directory (where the program was compiled) rather
+than from the standard locations.  It has no effect when the program in
+question is running with root (or setuid) permissions on UNIX-compatible
+systems, such as Linux, macOS, \*BSD, Solaris, and AIX.</p>
+</dd>
+<dt class="hdlist1">WIRESHARK_DATA_DIR</dt>
+<dd>
+<p>This environment variable causes the various data files to be loaded from
+a directory other than the standard locations.  It has no effect when the
+program in question is running with root (or setuid) permissions on
+UNIX-compatible systems.</p>
+</dd>
+<dt class="hdlist1">WIRESHARK_EXTCAP_DIR</dt>
+<dd>
+<p>This environment variable causes the various extcap programs and scripts
+to be run from a directory other than the standard locations.  It has no
+effect when the program in question is running with root (or setuid)
+permissions on UNIX-compatible systems.</p>
+</dd>
+<dt class="hdlist1">WIRESHARK_PLUGIN_DIR</dt>
+<dd>
+<p>This environment variable causes the various plugins to be loaded from
+a directory other than the standard locations.  It has no effect when the
+program in question is running with root (or setuid) permissions on
+UNIX-compatible systems.</p>
+</dd>
+<dt class="hdlist1">ERF_RECORDS_TO_CHECK</dt>
+<dd>
+<p>This environment variable controls the number of ERF records checked when
+deciding if a file really is in the ERF format.  Setting this environment
+variable a number higher than the default (20) would make false positives
+less likely.</p>
+</dd>
+<dt class="hdlist1">IPFIX_RECORDS_TO_CHECK</dt>
+<dd>
+<p>This environment variable controls the number of IPFIX records checked when
+deciding if a file really is in the IPFIX format.  Setting this environment
+variable a number higher than the default (20) would make false positives
+less likely.</p>
+</dd>
+<dt class="hdlist1">WIRESHARK_ABORT_ON_DISSECTOR_BUG</dt>
+<dd>
+<p>If this environment variable is set, <strong>TShark</strong> will call abort(3)
+when a dissector bug is encountered.  abort(3) will cause the program to
+exit abnormally; if you are running <strong>TShark</strong> in a debugger, it
+should halt in the debugger and allow inspection of the process, and, if
+you are not running it in a debugger, it will, on some OSes, assuming
+your environment is configured correctly, generate a core dump file.
+This can be useful to developers attempting to troubleshoot a problem
+with a protocol dissector.</p>
+</dd>
+<dt class="hdlist1">WIRESHARK_ABORT_ON_TOO_MANY_ITEMS</dt>
+<dd>
+<p>If this environment variable is set, <strong>TShark</strong> will call abort(3)
+if a dissector tries to add too many items to a tree (generally this
+is an indication of the dissector not breaking out of a loop soon enough).
+abort(3) will cause the program to exit abnormally; if you are running
+<strong>TShark</strong> in a debugger, it should halt in the debugger and allow
+inspection of the process, and, if you are not running it in a debugger,
+it will, on some OSes, assuming your environment is configured correctly,
+generate a core dump file.  This can be useful to developers attempting to
+troubleshoot a problem with a protocol dissector.</p>
+</dd>
+<dt class="hdlist1">WIRESHARK_LOG_LEVEL</dt>
+<dd>
+<p>This environment variable controls the verbosity of diagnostic messages to
+the console. From less verbose to most verbose levels can be <code>critical</code>,
+<code>warning</code>, <code>message</code>, <code>info</code>, <code>debug</code> or <code>noisy</code>. Levels above the
+current level are also active. Levels <code>critical</code> and <code>error</code> are always
+active.</p>
+</dd>
+<dt class="hdlist1">WIRESHARK_LOG_FATAL</dt>
+<dd>
+<p>Sets the fatal log level. Fatal log levels cause the program to abort.
+This level can be set to <code>Error</code>, <code>critical</code> or <code>warning</code>. <code>Error</code> is
+always fatal and is the default.</p>
+</dd>
+<dt class="hdlist1">WIRESHARK_LOG_DOMAINS</dt>
+<dd>
+<p>This environment variable selects which log domains are active. The filter is
+given as a case-insensitive comma separated list. If set only the included
+domains will be enabled. The default domain is always considered to be enabled.
+Domain filter lists can be preceded by '!' to invert the sense of the match.</p>
+</dd>
+<dt class="hdlist1">WIRESHARK_LOG_DEBUG</dt>
+<dd>
+<p>List of domains with <code>debug</code> log level. This sets the level of the provided
+log domains and takes precedence over the active domains filter. If preceded
+by '!' this disables the <code>debug</code> level instead.</p>
+</dd>
+<dt class="hdlist1">WIRESHARK_LOG_NOISY</dt>
+<dd>
+<p>Same as above but for <code>noisy</code> log level instead.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_see_also">SEE ALSO</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="wireshark-filter.html">wireshark-filter</a>(4), <a href="wireshark.html">wireshark</a>(1), <a href="editcap.html">editcap</a>(1), <a href="https://www.tcpdump.org/manpages/pcap.3pcap.html">pcap</a>(3), <a href="dumpcap.html">dumpcap</a>(1),
+<a href="text2pcap.html">text2pcap</a>(1), <a href="mergecap.html">mergecap</a>(1), <a href="https://www.tcpdump.org/manpages/pcap-filter.7.html">pcap-filter</a>(7) or <a href="https://www.tcpdump.org/manpages/tcpdump.1.html">tcpdump</a>(8)</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_notes">NOTES</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This is the manual page for <strong>Sharkd</strong> 4.6.9.
+<strong>Sharkd</strong> is part of the <strong>Wireshark</strong> distribution.
+The latest version of <strong>Wireshark</strong> can be found at <a href="https://www.wireshark.org" class="bare">https://www.wireshark.org</a>.</p>
+</div>
+<div class="paragraph">
+<p>HTML versions of the Wireshark project man pages are available at
+<a href="https://www.wireshark.org/docs/man-pages" class="bare">https://www.wireshark.org/docs/man-pages</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_authors">AUTHORS</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>Sharkd</strong> was written by Jakub Zawadzki.
+<strong>Sharkd</strong> uses the same packet dissection code that <strong>Wireshark</strong> does, as
+well as using many other modules from <strong>Wireshark</strong>; see the list of authors
+in the <strong>Wireshark</strong> man page for a list of authors of that code.</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
